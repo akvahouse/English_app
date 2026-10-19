@@ -52,7 +52,7 @@ struct GapBankQuestionView: View {
             VStack(alignment: .leading, spacing: 4) {
                 ForEach(sentences.indices, id: \.self) { gi in
                     sentenceRow(gi)
-                        .riseIn(index: gi, step: 0.07, duration: 0.45)
+                        .riseIn(index: gi, duration: 0.45, step: 0.07)
                 }
             }
 
@@ -199,7 +199,7 @@ struct GapBankQuestionView: View {
         let userAnswer = bad.map { String($0 + 1) + ") " + text(gaps[$0]) }.joined(separator: "; ")
         let correct = sentences.indices.map { String($0 + 1) + ") " + answer($0) }.joined(separator: "; ")
         let why: String? = bad.isEmpty ? nil
-            : "Не на своєму місці: " + bad.map { "у реченні " + String($0 + 1) + " потрібне «" + answer($0) + "»" }.joined(separator: "; ")
+            : "Не на своєму місці: " + bad.map { "у реченні \($0 + 1) потрібне «\(answer($0))»" }.joined(separator: "; ")
         finish(bad.isEmpty, userAnswer, correct, why)
     }
 }

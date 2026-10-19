@@ -22,8 +22,9 @@ struct ArtPresimple: View {
             ArtCircle(110, 116, 62, fill: Theme.card, stroke: Theme.line)
             ForEach(0..<12, id: \.self) { i in
                 let a = Double(i) * Double.pi / 6
-                ArtLine(110 + 50 * CGFloat(sin(a)), 116 - 50 * CGFloat(cos(a)),
-                        110 + 56 * CGFloat(sin(a)), 116 - 56 * CGFloat(cos(a)), width: 2.5)
+                let s = CGFloat(sin(a))
+                let c = CGFloat(cos(a))
+                ArtLine(110 + 50 * s, 116 - 50 * c, 110 + 56 * s, 116 - 56 * c, width: 2.5)
             }
             ArtHand(cx: 110, cy: 116, length: 40, width: 3.5, color: Theme.ink, duration: 10)
             ArtHand(cx: 110, cy: 116, length: 24, width: 5, color: Theme.accent, duration: 120)

@@ -39,11 +39,11 @@ struct ConfettiView: View {
                 guard n < Self.frames else { return }
                 for p in particles {
                     // Замкнена форма циклу: vy += .35; x += vx; y += vy; r += vr (n кроків).
-                    let x = size.width / 2 + p.dx + n * p.vx
-                    let y = size.height * 0.35 + n * p.vy + 0.35 * n * (n + 1) / 2
-                    let r = p.r0 + n * p.vr
+                    let x: Double = Double(size.width) / 2 + p.dx + n * p.vx
+                    let y: Double = Double(size.height) * 0.35 + n * p.vy + 0.35 * n * (n + 1) / 2
+                    let r: Double = p.r0 + n * p.vr
                     var c = ctx
-                    c.translateBy(x: x, y: y)
+                    c.translateBy(x: CGFloat(x), y: CGFloat(y))
                     c.rotate(by: .radians(r))
                     let rect = CGRect(x: -p.size / 2, y: -p.size / 3, width: p.size, height: p.size * 0.6)
                     c.fill(Path(rect), with: .color(p.color))

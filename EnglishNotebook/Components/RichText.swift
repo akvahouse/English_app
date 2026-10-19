@@ -32,12 +32,12 @@ enum RichText {
                 run.foregroundColor = Theme.accent
                 run.font = font.weight(.semibold)
             }
-            if style.strike { run.strikethroughStyle = .single }
-            if style.underline { run.underlineStyle = .single }
+            if style.strike { run.strikethroughStyle = Text.LineStyle.single }
+            if style.underline { run.underlineStyle = Text.LineStyle.single }
             if let link = style.link {
                 run.link = link
                 run.foregroundColor = Theme.accent
-                run.underlineStyle = .single
+                run.underlineStyle = Text.LineStyle.single
             }
             result.append(run)
             buffer = ""
