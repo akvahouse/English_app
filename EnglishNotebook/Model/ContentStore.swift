@@ -13,7 +13,7 @@ final class ContentStore {
             fatalError("Content.json не знайдено в бандлі — запустіть tools/export-content.mjs")
         }
         do {
-            let content = try JSONDecoder().decode(Content.self, from: data)
+            let content = try JSONDecoder().decode(AppContent.self, from: data)
             lessons = content.lessons
             ticker = content.ticker
         } catch {

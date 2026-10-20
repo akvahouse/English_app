@@ -2,7 +2,7 @@ import Foundation
 
 // Модель контенту. Джерело — Resources/Content.json, який генерує tools/export-content.mjs із web/js.
 
-struct Content: Codable {
+struct AppContent: Codable {
     var lessons: [Lesson]
     var ticker: [TickerItem]
 }
