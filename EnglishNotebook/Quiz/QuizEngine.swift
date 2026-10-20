@@ -22,6 +22,7 @@ struct QuizFeedback {
 
 /// Логіка тесту — `quiz()`/`show()`/`finish()` із web/js/app.js.
 @Observable
+@MainActor
 final class QuizEngine {
     let lesson: Lesson
     let version: QuizVersion

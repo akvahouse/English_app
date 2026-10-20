@@ -63,7 +63,8 @@ struct QuizView: View {
             .onChange(of: engine.answered) { _, answered in
                 guard answered else { return }
                 // Показати відгук і кнопку «Далі» (на сайті кнопка отримує фокус).
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                Task { @MainActor in
+                    try? await Task.sleep(for: .milliseconds(150))
                     withAnimation(Motion.ease(0.4)) { proxy.scrollTo("next", anchor: .bottom) }
                 }
             }
@@ -107,7 +108,7 @@ struct QuizView: View {
                 .id("next")
             }
         }
-        .card()
+        .cardStyle()
     }
 
     // MARK: - Дії

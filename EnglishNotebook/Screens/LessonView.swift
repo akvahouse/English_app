@@ -23,7 +23,7 @@ struct LessonView: View {
                                 .accessibilityAddTraits(.isHeader)
                             BlocksView(blocks: section.blocks)
                         }
-                        .card(padding: 20)
+                        .cardStyle(padding: 20)
                         // Як nth-child(n+6) на сайті: затримка не росте далі 5-го блоку.
                         .riseIn(index: min(i + 1, 5))
                     }

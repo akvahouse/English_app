@@ -55,7 +55,7 @@ struct LessonCard: View {
                 }
             }
             .multilineTextAlignment(.leading)
-            .card(padding: 20)
+            .cardStyle(padding: 20)
         }
         .buttonStyle(.pressableCard)
     }

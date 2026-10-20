@@ -54,7 +54,8 @@ struct ScoreRing: View {
                 return
             }
             // Подвійний rAF на сайті: даємо кільцю відмалюватись порожнім.
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(50))
                 withAnimation(Motion.ease(1.4)) { progress = target }
                 withAnimation(.linear(duration: 1.3)) { counter = 1 }
             }

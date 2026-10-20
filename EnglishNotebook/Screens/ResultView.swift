@@ -64,7 +64,7 @@ struct ResultView: View {
                 .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)
-        .card()
+        .cardStyle()
     }
 
     private var reviewCard: some View {
@@ -103,7 +103,7 @@ struct ResultView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
-        .card()
+        .cardStyle()
     }
 
     private var actions: some View {
@@ -127,9 +127,11 @@ struct ResultView: View {
     /// Конфеті при ≥ 70% через 0.35 с; прибирається після ~2.5 с (150 кадрів).
     private func scheduleConfetti() {
         guard pct >= 70, !reduceMotion, !showConfetti else { return }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+        Task { @MainActor in
+            try? await Task.sleep(for: .milliseconds(350))
             showConfetti = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.7) { showConfetti = false }
+            try? await Task.sleep(for: .milliseconds(2700))
+            showConfetti = false
         }
     }
 }

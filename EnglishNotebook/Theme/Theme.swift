@@ -117,7 +117,7 @@ struct CardStyle: ViewModifier {
 }
 
 extension View {
-    func card(padding: CGFloat = 20) -> some View { modifier(CardStyle(padding: padding)) }
+    func cardStyle(padding: CGFloat = 20) -> some View { modifier(CardStyle(padding: padding)) }
 
     /// Eyebrow-напис: дрібний, жирний, розріджений, великими літерами.
     func eyebrowStyle(color: Color = Theme.muted) -> some View {

@@ -1,0 +1,62 @@
+name: iOS build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build for iOS Simulator
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          set -euo pipefail
+          # Найновіший Xcode 16.x на раннері
+          XCODE=$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)
+          echo "Using $XCODE"
+          sudo xcode-select -s "$XCODE"
+          xcodebuild -version
+
+      - name: Check project
+        run: xcodebuild -list -project EnglishNotebook.xcodeproj
+
+      - name: Regenerate content (sanity)
+        run: |
+          cd tools && npm ci --no-audit --no-fund 2>/dev/null || npm install --no-audit --no-fund
+          cd .. && node tools/export-content.mjs
+          git diff --stat -- EnglishNotebook/Resources/Content.json
+
+      - name: Build
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project EnglishNotebook.xcodeproj \
+            -scheme EnglishNotebook \
+            -destination 'generic/platform=iOS Simulator' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO \
+            2>&1 | tee build.log | grep -E "error:|warning:|BUILD|Compiling|^\*\*" || true
+          # Статус беремо з логу, а не з grep
+          if grep -q "\*\* BUILD SUCCEEDED \*\*" build.log; then echo "OK"; else echo "BUILD FAILED"; exit 1; fi
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "## Помилки"
+            grep -E "error:" build.log | sort -u || echo "немає"
+            echo
+            echo "## Попередження"
+            grep -E "warning:" build.log | sort -u | head -50 || echo "немає"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log

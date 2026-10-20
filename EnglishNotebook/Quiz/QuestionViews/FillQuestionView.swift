@@ -48,7 +48,8 @@ struct FillQuestionView: View {
         }
         .animation(Motion.ease(0.18), value: focused)
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(500))
                 if result == nil { focused = true }
             }
         }

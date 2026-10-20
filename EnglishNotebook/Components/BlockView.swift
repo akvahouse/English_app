@@ -208,13 +208,13 @@ struct DetailsBlock: View {
 
 struct SourceImagesBlock: View {
     var files: [String]
-    @State private var selected: String?
+    @State private var selected: NoteImage?
 
     var body: some View {
         VStack(spacing: 12) {
             ForEach(files, id: \.self) { file in
                 if let url = ContentStore.shared.noteImageURL(file), let ui = UIImage(contentsOfFile: url.path) {
-                    Button { selected = file } label: {
+                    Button { selected = NoteImage(file: file) } label: {
                         Image(uiImage: ui)
                             .resizable()
                             .scaledToFit()
@@ -229,14 +229,16 @@ struct SourceImagesBlock: View {
                 }
             }
         }
-        .fullScreenCover(item: $selected) { file in
-            ImageViewer(file: file)
+        .fullScreenCover(item: $selected) { note in
+            ImageViewer(file: note.file)
         }
     }
 }
 
-extension String: @retroactive Identifiable {
-    public var id: String { self }
+/// Обрана сторінка конспекту для fullScreenCover(item:).
+struct NoteImage: Identifiable {
+    let file: String
+    var id: String { file }
 }
 
 /// Повноекранний перегляд картинки з масштабуванням.
