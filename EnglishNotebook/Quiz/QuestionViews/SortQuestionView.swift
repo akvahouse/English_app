@@ -164,6 +164,7 @@ struct SortQuestionView: View {
         }
     }
 
+    @discardableResult
     private func handleDrop(_ dropped: [String], bucket: Int?) -> Bool {
         guard !done, let raw = dropped.first, raw.hasPrefix("sort-"),
               let k = Int(raw.dropFirst("sort-".count)),

@@ -205,7 +205,7 @@ struct GapBankQuestionView: View {
 }
 
 /// Горизонтальна лінія по центру рамки (нижня межа пропуску).
-private struct GapUnderline: Shape {
+nonisolated private struct GapUnderline: Shape {
     func path(in rect: CGRect) -> Path {
         var p = Path()
         p.move(to: CGPoint(x: rect.minX, y: rect.midY))

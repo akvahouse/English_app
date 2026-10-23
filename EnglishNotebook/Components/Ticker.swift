@@ -59,17 +59,21 @@ struct Ticker: View {
             // Без автопрокрутки — звичайна горизонтальна прокрутка пальцем.
             ScrollView(.horizontal, showsIndicators: false) { row }
         } else {
-            TimelineView(.animation(paused: touching)) { context in
-                let reference = pausedAt ?? context.date
-                let elapsed = max(reference.timeIntervalSince(start) - pausedTotal, 0)
-                let phase = (elapsed / duration).truncatingRemainder(dividingBy: 1)
-                HStack(spacing: 0) {
-                    row.onGeometryChange(for: CGFloat.self) { $0.size.width } action: { contentWidth = $0 }
-                    row
+            // GeometryReader вимірює реальну доступну ширину — без цього `.frame(maxWidth: .infinity)`
+            // поверх `.fixedSize` не має обмеження зверху, і SwiftUI роздуває ширину всього екрана.
+            GeometryReader { geo in
+                TimelineView(.animation(paused: touching)) { context in
+                    let reference = pausedAt ?? context.date
+                    let elapsed = max(reference.timeIntervalSince(start) - pausedTotal, 0)
+                    let phase = (elapsed / duration).truncatingRemainder(dividingBy: 1)
+                    HStack(spacing: 0) {
+                        row.onGeometryChange(for: CGFloat.self) { $0.size.width } action: { contentWidth = $0 }
+                        row
+                    }
+                    .fixedSize(horizontal: true, vertical: false)
+                    .offset(x: -CGFloat(phase) * contentWidth)
+                    .frame(width: geo.size.width, alignment: .leading)
                 }
-                .fixedSize(horizontal: true, vertical: false)
-                .offset(x: -CGFloat(phase) * contentWidth)
-                .frame(maxWidth: .infinity, alignment: .leading)
             }
             .clipped()
             .simultaneousGesture(

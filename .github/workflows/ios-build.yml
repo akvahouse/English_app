@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build for iOS Simulator
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -15,8 +15,8 @@ jobs:
       - name: Select Xcode
         run: |
           set -euo pipefail
-          # Найновіший Xcode 16.x на раннері
-          XCODE=$(ls -d /Applications/Xcode_16*.app | sort -V | tail -1)
+          # Найновіший Xcode 27.x на раннері (проєкт вимагає SDK iOS 27)
+          XCODE=$(ls -d /Applications/Xcode_27*.app | sort -V | tail -1)
           echo "Using $XCODE"
           sudo xcode-select -s "$XCODE"
           xcodebuild -version

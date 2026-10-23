@@ -247,6 +247,7 @@ struct ImageViewer: View {
     @Environment(\.dismiss) private var dismiss
     @State private var scale: CGFloat = 1
     @State private var lastScale: CGFloat = 1
+    @State private var viewportWidth: CGFloat = 0
 
     var body: some View {
         NavigationStack {
@@ -256,7 +257,7 @@ struct ImageViewer: View {
                         Image(uiImage: ui)
                             .resizable()
                             .scaledToFit()
-                            .frame(width: UIScreen.main.bounds.width * scale)
+                            .frame(width: viewportWidth * scale)
                             .gesture(
                                 MagnifyGesture()
                                     .onChanged { v in scale = min(max(lastScale * v.magnification, 1), 5) }
@@ -266,6 +267,7 @@ struct ImageViewer: View {
                                 withAnimation(Motion.ease(0.3)) { scale = scale > 1 ? 1 : 2.5; lastScale = scale }
                             }
                     }
+                    .onGeometryChange(for: CGFloat.self) { $0.size.width } action: { viewportWidth = $0 }
                     .background(Color.black)
                 } else {
                     Text("Картинку не знайдено").foregroundStyle(.white)
@@ -274,7 +276,7 @@ struct ImageViewer: View {
             .ignoresSafeArea()
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Закрити") { dismiss() }
+                    Button("Закрити", role: .close) { dismiss() }
                 }
             }
             .toolbarColorScheme(.dark, for: .navigationBar)
