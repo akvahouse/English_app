@@ -13,15 +13,24 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Select Xcode
+        id: xcode
         run: |
           set -euo pipefail
-          # Найновіший Xcode 27.x на раннері (проєкт вимагає SDK iOS 27)
-          XCODE=$(ls -d /Applications/Xcode_27*.app | sort -V | tail -1)
+          # Проєкт вимагає SDK iOS 27 (Xcode 27+). Поки GitHub не додав його на раннери,
+          # збірку пропускаємо з попередженням, а не падаємо; з'явиться — увімкнеться сама.
+          XCODE=$(ls -d /Applications/Xcode_2[7-9]*.app /Applications/Xcode_[3-9][0-9]*.app 2>/dev/null | sort -V | tail -1 || true)
+          if [ -z "$XCODE" ]; then
+            echo "::warning title=Збірку пропущено::На раннері немає Xcode 27+ (є: $(ls -d /Applications/Xcode_*.app | xargs -n1 basename | tr '\n' ' '))"
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           echo "Using $XCODE"
           sudo xcode-select -s "$XCODE"
           xcodebuild -version
+          echo "available=true" >> "$GITHUB_OUTPUT"
 
       - name: Check project
+        if: steps.xcode.outputs.available == 'true'
         run: xcodebuild -list -project EnglishNotebook.xcodeproj
 
       - name: Regenerate content (sanity)
@@ -31,6 +40,7 @@ jobs:
           git diff --stat -- EnglishNotebook/Resources/Content.json
 
       - name: Build
+        if: steps.xcode.outputs.available == 'true'
         run: |
           set -o pipefail
           xcodebuild build \
@@ -46,6 +56,10 @@ jobs:
       - name: Summary
         if: always()
         run: |
+          if [ ! -f build.log ]; then
+            echo "Збірку пропущено: на раннері GitHub ще немає Xcode 27 (потрібен SDK iOS 27)." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
           {
             echo "## Помилки"
             grep -E "error:" build.log | sort -u || echo "немає"
@@ -60,3 +74,4 @@ jobs:
         with:
           name: build-log
           path: build.log
+          if-no-files-found: ignore
