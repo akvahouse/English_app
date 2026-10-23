@@ -2,12 +2,16 @@ import Foundation
 import Observation
 
 /// Найкращий результат тесту з уроку (як `english_progress_v1` на сайті).
+/// `attempts` і `last` з'явилися пізніше: у старих записах їх немає, тому вони опціональні.
 struct LessonResult: Codable, Equatable {
     var best: Int
     var total: Int
     var date: Date
+    var attempts: Int?
+    var last: Int?
 
     var percent: Int { total == 0 ? 0 : Int((Double(best) / Double(total) * 100).rounded()) }
+    var attemptCount: Int { attempts ?? 1 }
 }
 
 /// Прогрес користувача. Зберігається в UserDefaults у тих самих ключах і з тією самою семантикою, що й сайт.
@@ -31,14 +35,28 @@ final class ProgressStore {
 
     var doneCount: Int { results.count }
 
-    /// Зберігає результат, лише якщо він не гірший за попередній (score/total >= best/total).
+    /// Найкращий результат оновлюється, лише якщо новий не гірший (score/total >= best/total);
+    /// лічильник спроб і останній бал оновлюються завжди.
     func record(lessonId: String, score: Int, total: Int) {
-        if let prev = results[lessonId], total > 0, prev.total > 0,
+        let prev = results[lessonId]
+        let attempts = (prev?.attemptCount ?? 0) + 1
+        if let prev, total > 0, prev.total > 0,
            Double(score) / Double(total) < Double(prev.best) / Double(prev.total) {
-            return
+            results[lessonId] = LessonResult(best: prev.best, total: prev.total, date: prev.date, attempts: attempts, last: score)
+        } else {
+            results[lessonId] = LessonResult(best: score, total: total, date: Date(), attempts: attempts, last: score)
         }
-        results[lessonId] = LessonResult(best: score, total: total, date: Date())
         write(results, key: Self.resultsKey)
+    }
+
+    /// Сумарно найкращих правильних відповідей і завдань у пройдених тестах.
+    var totalBest: Int { results.values.reduce(0) { $0 + $1.best } }
+    var totalAnswered: Int { results.values.reduce(0) { $0 + $1.total } }
+    var totalAttempts: Int { results.values.reduce(0) { $0 + $1.attemptCount } }
+
+    /// Загальний відсоток правильних відповідей за найкращими спробами.
+    var overallPercent: Int {
+        totalAnswered == 0 ? 0 : Int((Double(totalBest) / Double(totalAnswered) * 100).rounded())
     }
 
     /// Випадкова версія тесту, але не та, що була минулого разу.

@@ -2,8 +2,10 @@ import SwiftUI
 import UIKit
 
 // Кольори сайту (css/style.css, css/fun.css) для світлої й темної теми.
+// nonisolated: SwiftUI може обчислювати динамічні кольори поза головним потоком (асинхронний рендеринг),
+// і перевірка ізоляції MainActor у Swift 6 тоді аварійно зупиняє додаток.
 
-extension Color {
+nonisolated extension Color {
     init(hex: UInt32) {
         self.init(red: Double((hex >> 16) & 0xff) / 255,
                   green: Double((hex >> 8) & 0xff) / 255,
@@ -18,7 +20,7 @@ extension Color {
     }
 }
 
-enum Theme {
+nonisolated enum Theme {
     // Основна палітра
     static let bg = Color(light: 0xf5f7fb, dark: 0x12141b)
     static let card = Color(light: 0xffffff, dark: 0x1b1e28)
@@ -34,6 +36,8 @@ enum Theme {
     static let continueBg = Color(light: 0x193a91, dark: 0x25274a)
     static let continueEyebrow = Color(hex: 0xbdceff)
     static let continueText = Color(hex: 0xd0ddff)
+    static let continueButtonBg = Color(light: 0xffffff, dark: 0x8b86ff)
+    static let continueButtonFg = Color(light: 0x193a91, dark: 0x12141b)
 
     // Акцентні кольори ілюстрацій, прогрес-бару, конфеті
     static let c1 = Color(hex: 0x4f46e5)
@@ -69,6 +73,11 @@ enum Theme {
         case 8: return (Color(light: 0xfff0d9, dark: 0x3a2a10), Color(light: 0xa15c00, dark: 0xf5b95c))
         default: return (accentSoft, accent)
         }
+    }
+
+    /// Колір результату: ≥ 90 % — зелений, < 50 % — бурштиновий, інакше акцент (як кільце на сайті).
+    static func scoreColor(_ percent: Int) -> Color {
+        percent >= 90 ? c3 : percent < 50 ? c2 : accent
     }
 
     static func tagColor(_ c: TagColor?) -> Color {

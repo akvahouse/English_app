@@ -15,9 +15,7 @@ struct ScoreRing: View {
         self.caption = caption
     }
 
-    private var color: Color {
-        percent >= 90 ? Theme.c3 : percent < 50 ? Theme.c2 : Theme.accent
-    }
+    private var color: Color { Theme.scoreColor(percent) }
 
     var body: some View {
         ZStack {

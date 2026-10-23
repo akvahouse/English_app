@@ -11,7 +11,7 @@ enum ArtMetrics {
     static let emojiHalfWidth: CGFloat = 0.6
 }
 
-enum ArtColor {
+nonisolated enum ArtColor {
     /// `.s-desk`: ink, змішаний 55% з card (color-mix), динамічно для світлої/темної теми.
     static let desk = Color(uiColor: UIColor { tc in
         let ink = ArtColor.rgb(UIColor(Theme.ink), tc)

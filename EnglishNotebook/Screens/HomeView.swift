@@ -29,7 +29,7 @@ struct HomeView: View {
                     LazyVStack(spacing: 16) {
                         ForEach(Array(lessons.enumerated()), id: \.element.id) { i, lesson in
                             LessonCard(lesson: lesson, index: i)
-                                .riseIn(index: i, delay: 0.25, duration: 0.6, step: 0.09)
+                                .riseIn(index: min(i, 2), delay: 0.1, duration: 0.4, step: 0.06)
                         }
                     }
 
@@ -53,13 +53,16 @@ struct HomeView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
-                Text("Пройдено тестів: \(progress.doneCount)/\(lessons.count)")
-                    .font(.small.weight(.semibold))
-                    .foregroundStyle(Theme.ink)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 5)
-                    .background(Theme.bg, in: Capsule())
-                    .overlay(Capsule().stroke(Theme.line, lineWidth: 1))
+                Button {
+                    router.openProgress()
+                } label: {
+                    Text("Пройдено тестів: \(progress.doneCount)/\(lessons.count)")
+                        .font(.small.weight(.semibold))
+                        .foregroundStyle(Theme.ink)
+                        .fixedSize()
+                        .padding(.horizontal, 6)
+                }
+                .accessibilityHint("Відкриває екран прогресу")
             }
             ToolbarItem(placement: .topBarTrailing) {
                 LessonsMenu(current: nil)
@@ -114,9 +117,9 @@ struct HomeView: View {
             } label: {
                 Text("Відкрити урок")
                     .font(.button)
-                    .foregroundStyle(Theme.continueBg)
+                    .foregroundStyle(Theme.continueButtonFg)
                     .frame(maxWidth: .infinity, minHeight: 50)
-                    .background(.white, in: RoundedRectangle(cornerRadius: Theme.buttonRadius, style: .continuous))
+                    .background(Theme.continueButtonBg, in: RoundedRectangle(cornerRadius: Theme.buttonRadius, style: .continuous))
             }
             .buttonStyle(.pressableCard)
             .padding(.top, 8)
