@@ -1,12 +1,14 @@
 import SwiftUI
 
-/// Вибір однієї відповіді з варіантів.
-struct MCQuestionView: View {
+/// Вибір однієї відповіді з варіантів. `accessory` — вміст між питанням і варіантами
+/// (звук, сцена, речення з пропуском); отримує обраний варіант, щоб змінитися після відповіді.
+struct MCQuestionView<Accessory: View>: View {
     var prompt: String
     var options: [String]
     var answer: Int
     var no: [String?]?
     var finish: QuestionFinish
+    @ViewBuilder var accessory: (_ chosen: Int?) -> Accessory
 
     @State private var chosen: Int?
     @State private var popTrigger = 0
@@ -15,6 +17,7 @@ struct MCQuestionView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             QuestionPrompt(text: prompt)
+            accessory(chosen)
             VStack(spacing: 10) {
                 ForEach(options.indices, id: \.self) { k in
                     optionButton(k)
@@ -71,5 +74,11 @@ struct MCQuestionView: View {
         }
         let why = no.flatMap { k < $0.count ? $0[k] : nil }
         finish(ok, options[k], options[answer], why)
+    }
+}
+
+extension MCQuestionView where Accessory == EmptyView {
+    init(prompt: String, options: [String], answer: Int, no: [String?]?, finish: @escaping QuestionFinish) {
+        self.init(prompt: prompt, options: options, answer: answer, no: no, finish: finish) { _ in EmptyView() }
     }
 }

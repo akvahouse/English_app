@@ -12553,6 +12553,5593 @@
      ]
     }
    ]
+  },
+  {
+   "id": "questions2",
+   "index": 9,
+   "title": "Questions in Present Simple (part 2)",
+   "short": "Questions · part 2",
+   "subtitle": "Урок 9 · практика питань, follow-up, Which / How many, інтерв'ю",
+   "summary": "Тренуємо питання з be і do/does, додаємо follow-up питання (Why? What exactly? What about you?), Which / How many / What time, складаємо запитання до таблиці й інтерв'ю.",
+   "sections": [
+    {
+     "id": "questions2-0-коротко-про-головне",
+     "title": "Коротко про головне",
+     "blocks": [
+      {
+       "kind": "paragraph",
+       "text": "Формула та сама: <b>(Wh-слово) + допоміжне слово + підмет + решта</b>. Зі звичайними дієсловами — <b>do / does</b> і базова форма (Where does your boss <b>work</b>?), з прикметниками й chunks — <b>am / is / are</b> (What are you <b>tired of</b>?)."
+      },
+      {
+       "kind": "paragraph",
+       "text": "Нове: <b>follow-up питання</b> — питання, що продовжує розмову (Why…? What exactly…? How often…? What about you?), а також <b>Which</b> + іменник, <b>How many</b> + іменник у множині та <b>What time</b>."
+      }
+     ]
+    },
+    {
+     "id": "questions2-1-ілюстрована-лексика",
+     "title": "Ілюстрована лексика",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Натисніть на картку, щоб побачити переклад і приклад."
+      },
+      {
+       "kind": "flipCards",
+       "cards": [
+        {
+         "emoji": "🔍",
+         "en": "follow-up question",
+         "ua": "уточнювальне питання, що продовжує розмову",
+         "example": "Why? Are you on a diet?"
+        },
+        {
+         "emoji": "🙋",
+         "en": "What about you?",
+         "ua": "а ти? — швидке питання у відповідь",
+         "example": "I like tea. What about you?"
+        },
+        {
+         "emoji": "🎯",
+         "en": "What exactly …?",
+         "ua": "що саме …?",
+         "example": "What exactly do you hate about Mondays?"
+        },
+        {
+         "emoji": "🔢",
+         "en": "How many …?",
+         "ua": "скільки (з іменником у множині)",
+         "example": "How many hours a week do you work?"
+        },
+        {
+         "emoji": "🍦",
+         "en": "Which …?",
+         "ua": "який / котрий (з певного набору)",
+         "example": "Which ice-cream do you like?"
+        },
+        {
+         "emoji": "⏰",
+         "en": "What time …?",
+         "ua": "о котрій / котра година",
+         "example": "What time is it?"
+        },
+        {
+         "emoji": "💼",
+         "en": "self-employed",
+         "ua": "працює на себе (фрилансер)",
+         "example": "Why are you self-employed?"
+        },
+        {
+         "emoji": "🏢",
+         "en": "co-founder",
+         "ua": "співзасновник",
+         "example": "Sergey Brin is a co-founder of Google."
+        },
+        {
+         "emoji": "🏅",
+         "en": "literature awards",
+         "ua": "літературні премії",
+         "example": "Stephen King owns more than 110 literature awards."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-2-warm-up-ask-2-questions-about-each-statement",
+     "title": "Warm up: ask 2 questions about each statement",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Для кожного речення поставте два питання, щоразу різного типу."
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "I live in a large flat. → <mark>Is your flat large?</mark> / <mark>Where is your flat located?</mark>",
+        "My boyfriend works in a small company. → <mark>Does your boyfriend work in a small company?</mark> / <mark>How many people work in that company?</mark>",
+        "I'm interested in games. → <mark>Are you interested in games?</mark> / <mark>What games are you interested in?</mark>",
+        "I rarely go out on weekends. → <mark>Do you rarely go out on weekends?</mark> / <mark>How often do you go out on weekends?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-3-choose-the-correct-question",
+     "title": "Choose the correct question",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "A) <s>Is your boss work late?</s> · B) <mark>Does your boss work late?</mark>",
+        "A) <mark>Are you tired of the noise?</mark> · B) <s>Do you tired of the noise?</s>",
+        "A) <s>Where your team works?</s> · B) <mark>Where does your team work?</mark>",
+        "A) <mark>What's Ivan interested in?</mark> · B) <s>What Ivan is interested in?</s>",
+        "A) <s>Does Anna is the boss?</s> · B) <mark>Is Anna the boss?</mark>",
+        "A) <mark>Do your colleagues like early mornings?</mark> · B) <s>Are your colleagues like early mornings?</s>",
+        "A) <mark>How often does she check emails?</mark> · B) <s>How often she checks emails?</s>",
+        "A) <mark>What is she good at?</mark> · B) <s>What does she good at?</s>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-4-put-the-words-in-order",
+     "title": "Put the words in order",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "your / does / where / boss / work → <mark>Where does your boss work?</mark>",
+        "you / are / what / tired / of → <mark>What are you tired of?</mark>",
+        "do / when / finish / you / work → <mark>When do you finish work?</mark>",
+        "interested / is / in / Olga / what → <mark>What is Olga interested in?</mark>",
+        "your colleagues / work / do / on weekends → <mark>Do your colleagues work on weekends?</mark>",
+        "he / good / is / at / drawing → <mark>Is he good at drawing?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-5-one-question-is-correct-fix-the-others",
+     "title": "One question is correct. Fix the others",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "<s>Does he is tired of the noise?</s> → <mark>Is he tired of the noise?</mark>",
+        "<s>Which you do at work?</s> → <mark>What do you do at work?</mark>",
+        "Where does Anna work? ✓ <small>(у нотатках надруковано works — це описка: після does дієслово без -s)</small>",
+        "<s>Why you are late?</s> → <mark>Why are you late?</mark>",
+        "<s>Is Max usually works late?</s> → <mark>Does he usually work late?</mark>",
+        "<s>Who are you responsible for?</s> → <mark>What are you responsible for?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-6-write-the-missing-question-for-each-answer",
+     "title": "Write the missing question for each answer",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Можливі питання для відповідей (підійде й інше правильне питання)."
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "B: Yes, I am. I'm responsible for visual effects. → <mark>Are you responsible for visual effects?</mark>",
+        "B: No, I don't. I never work on Sunday. → <mark>Do you work on Sunday?</mark>",
+        "B: My boss usually works late on Thursday. → <mark>When does your boss usually work late?</mark>",
+        "B: Because I'm interested in new ideas. → <mark>Why do you like your job?</mark>",
+        "B: Yes, she does. She wants to hire one more person. → <mark>Does Anna want to hire one more person?</mark>",
+        "B: I'm tired of writing emails. → <mark>What are you tired of?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-7-add-a-follow-up-question",
+     "title": "Add a follow-up question",
+     "blocks": [
+      {
+       "kind": "chips",
+       "items": [
+        "Why …?",
+        "What exactly …?",
+        "How often …?",
+        "Who …?",
+        "Where …?",
+        "Do you …?",
+        "Does your …?",
+        "Is it …?",
+        "Are you …?",
+        "What about you?"
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Example:</b> I never eat junk food on weekdays. <small>(= unhealthy food)</small> → <mark>Why?</mark> <mark>Are you on a diet?</mark> <mark>What do you usually eat on weekdays?</mark>"
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "I am self-employed. → <mark>Why are you self-employed?</mark> / <mark>Don't you like teamwork?</mark>",
+        "My partner is tired of working late. → <mark>How often does he work late?</mark> / <mark>Does he look for a new job?</mark>",
+        "My friends don't like early mornings. → <mark>What exactly do they hate about early mornings?</mark> / <mark>What part of the day do they prefer?</mark>",
+        "My mum wants to learn something new. → <mark>What direction is she interested in?</mark> / <mark>Where does she see herself in the future?</mark>",
+        "I never work on Mondays. → <mark>Why do you hate working on Mondays?</mark> / <mark>What is your plan for Mondays?</mark>",
+        "We plan to travel soon. → <mark>Why do you plan to travel soon?</mark> / <mark>Which place do you plan to travel to?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-8-ask-questions-to-complete-the-table-about-two-new-colleagues",
+     "title": "Ask questions to complete the table about two new colleagues",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": ""
+        },
+        {
+         "text": "Sam"
+        },
+        {
+         "text": "Mary"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "Team"
+         },
+         {
+          "text": "email team"
+         },
+         {
+          "text": "? → <mark>What team does Mary work in?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "City"
+         },
+         {
+          "text": "? → <mark>Where does Sam live?</mark>"
+         },
+         {
+          "text": "Kyiv"
+         }
+        ],
+        [
+         {
+          "text": "After work"
+         },
+         {
+          "text": "plays the guitar"
+         },
+         {
+          "text": "? → <mark>What does Mary do after work?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "Good at"
+         },
+         {
+          "text": "? → <mark>What is Sam good at?</mark>"
+         },
+         {
+          "text": "drawing"
+         }
+        ],
+        [
+         {
+          "text": "Tired of"
+         },
+         {
+          "text": "answering messages"
+         },
+         {
+          "text": "? → <mark>What is Mary tired of?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "Wants to learn to"
+         },
+         {
+          "text": "? → <mark>What does Sam want to learn?</mark>"
+         },
+         {
+          "text": "play the guitar"
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-9-interview-a-famous-person-5-questions",
+     "title": "Interview a famous person (5 questions!)",
+     "blocks": [
+      {
+       "kind": "pair",
+       "cells": [
+        {
+         "tag": "Stephen King",
+         "tagColor": null,
+         "blocks": [
+          {
+           "kind": "paragraph",
+           "text": "author, owner of more than 110 literature awards"
+          }
+         ]
+        },
+        {
+         "tag": "Sergey Brin",
+         "tagColor": null,
+         "blocks": [
+          {
+           "kind": "paragraph",
+           "text": "co-founder of Google, 4th richest man in the world"
+          }
+         ]
+        },
+        {
+         "tag": "Rihanna",
+         "tagColor": null,
+         "blocks": [
+          {
+           "kind": "paragraph",
+           "text": "singer, owner of “Fenty Beauty”"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "At what age <b>did</b> you understand that you wanted to write literature?",
+        "When <b>can</b> we expect a new book?",
+        "Until what age <b>do</b> you want to write new books?",
+        "<s>Which your book is your favourite?</s> → <mark>Which of your books is your favourite?</mark>"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "questions2-10-which-how-many-how-often-what-time",
+     "title": "Which / How many / How often / What time",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "<b>Which</b> ice-cream do you like?",
+        "<b>How many</b> hours a week do you work?",
+        "<b>How often</b> do you nap?",
+        "<b>What time</b> is it?"
+       ]
+      },
+      {
+       "kind": "hint",
+       "text": "Which + іменник — вибір з відомого набору; How many + іменник у множині — кількість; What time is it? — котра година."
+      }
+     ]
+    },
+    {
+     "id": "questions2-11-speaking",
+     "title": "Speaking",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "Say a fact about yourself and let your partner ask two follow-up questions.",
+        "Interview your partner as a famous person: ask five questions with Which / How many / How often / What time / Why.",
+        "Ask what they are good at, tired of and interested in."
+       ]
+      },
+      {
+       "kind": "hint",
+       "text": "Перевірте себе: після do/does — дієслово без -s, після is/are — прикметник чи chunk, допоміжне слово стоїть перед підметом."
+      }
+     ]
+    },
+    {
+     "id": "questions2-12-оригінальні-матеріали",
+     "title": "Оригінальні матеріали",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Ваші нотатки з уроку."
+      },
+      {
+       "kind": "details",
+       "summary": "Показати сторінки уроку",
+       "blocks": [
+        {
+         "kind": "sourceImages",
+         "files": [
+          "lesson-source-13.webp",
+          "lesson-source-14.webp"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "versions": [
+    {
+     "n": 1,
+     "questions": [
+      {
+       "type": "mc",
+       "q": "Яке питання правильне?",
+       "options": [
+        "Is your boss work late?",
+        "Does your boss work late?",
+        "Do your boss works late?"
+       ],
+       "answer": 1,
+       "why": "Work — звичайне дієслово, тому питання будуємо з does + підмет + базова форма: Does your boss work late? (boss — він, тож does).",
+       "no": [
+        "Is — це форма be, її не можна поєднувати зі звичайним дієсловом work: потрібне does.",
+        null,
+        "Do вживаємо з I/you/we/they; boss — однина (he), тому does, а дієслово після нього без -s: work."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне питання:",
+       "options": [
+        "Do you tired of the noise?",
+        "Are you tired of the noise?",
+        "Does you tired of the noise?"
+       ],
+       "answer": 1,
+       "why": "Tired of — це chunk (прикметник + прийменник), тому з ним потрібне be: Are you tired of the noise?",
+       "no": [
+        "Do ставимо перед звичайним дієсловом; tired — прикметник, а не дієслово, тому потрібне be.",
+        null,
+        "Does вживаємо з he/she/it, а з you потрібне are; до того ж tired — прикметник, тож допоміжне слово тут be."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке питання про команду правильне?",
+       "options": [
+        "Where your team works?",
+        "Where does your team work?",
+        "Where does your team works?"
+       ],
+       "answer": 1,
+       "why": "Питання з Wh-словом і звичайним дієсловом: Where + does + підмет + базова форма: Where does your team work?",
+       "no": [
+        "Допоміжне слово does пропущене: у питанні воно стоїть перед підметом (Where does your team ...?), а -s після підмета не потрібне.",
+        null,
+        "Після does дієслово лишається в базовій формі: work, а не works — does уже показує 3-тю особу."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке питання про Olga правильне?",
+       "options": [
+        "What Olga is interested in?",
+        "What is Olga interested in?",
+        "What does Olga interested in?"
+       ],
+       "answer": 1,
+       "why": "Interested in — chunk з be, тому порядок такий: What + is + Olga + interested in? Прийменник in лишається в кінці.",
+       "no": [
+        "У питанні допоміжне слово стоїть перед підметом: is Olga, а не Olga is.",
+        null,
+        "Does ставимо перед звичайним дієсловом; interested — прикметник, тож потрібне is."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке питання про Anna правильне?",
+       "options": [
+        "Does Anna is the boss?",
+        "Is Anna the boss?",
+        "Do Anna be the boss?"
+       ],
+       "answer": 1,
+       "why": "Після be питання будуємо перестановкою: Anna is the boss → Is Anna the boss? Does тут зайве.",
+       "no": [
+        "Does і is разом не вживаємо: у питанні лише одне допоміжне слово — is.",
+        null,
+        "Be не потребує do: її самої достатньо, а Anna — це she, тому is, а не do."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Which question is correct?",
+       "options": [
+        "Is Max usually works late?",
+        "Does Max usually work late?",
+        "Does Max usually works late?"
+       ],
+       "answer": 1,
+       "why": "Work — звичайне дієслово, тому питання з does: Does Max usually work late? Прислівник usually стоїть перед дієсловом.",
+       "no": [
+        "Is не поєднується з дієсловом works; потрібне does + базова форма work.",
+        null,
+        "Після does дієслово має форму без -s: work. Форма works — помилка."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "How often ___ he look for a new job?",
+       "answers": [
+        "does"
+       ],
+       "why": "Look for — звичайне дієслово, а he — 3-тя особа, тому допоміжне слово does: How often does he look for a new job?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "What ___ you tired of?",
+       "answers": [
+        "are"
+       ],
+       "why": "Tired of — chunk з be, а з you вживаємо are: What are you tired of? Прийменник of лишається в кінці.",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "When",
+        "do",
+        "you",
+        "finish",
+        "work?"
+       ],
+       "answer": "When do you finish work?",
+       "why": "Порядок у питанні: питальне слово + допоміжне слово (do) + підмет + дієслово в базовій формі.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "What",
+        "is",
+        "Olga",
+        "interested",
+        "in?"
+       ],
+       "answer": "What is Olga interested in?",
+       "why": "Питання з be: питальне слово + is + підмет + interested in; прийменник in залишається в кінці питання.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "З'єднайте питання з відповіддю:",
+       "pairs": [
+        {
+         "emoji": "🎬",
+         "left": "Are you responsible for visual effects?",
+         "right": "Yes, I am."
+        },
+        {
+         "emoji": "🌙",
+         "left": "Do you work on Sunday?",
+         "right": "No, I don't."
+        },
+        {
+         "emoji": "📅",
+         "left": "When does your boss usually work late?",
+         "right": "On Thursday."
+        },
+        {
+         "emoji": "🧑‍💼",
+         "left": "Does Anna want to hire one more person?",
+         "right": "Yes, she does."
+        },
+        {
+         "emoji": "✉️",
+         "left": "What are you tired of?",
+         "right": "Writing emails."
+        }
+       ],
+       "why": "Питання з Are → Yes, I am; питання з Do → No, I don't; When → час (On Thursday); Does Anna ...? → Yes, she does; What ... tired of → предмет (writing emails)."
+      },
+      {
+       "type": "sort",
+       "q": "Розсортуйте follow-up питання:",
+       "buckets": [
+        "Wh-питання (Why / What / How often)",
+        "Питання «так / ні»"
+       ],
+       "items": [
+        {
+         "text": "Why are you self-employed?",
+         "bucket": 0
+        },
+        {
+         "text": "How often does he work late?",
+         "bucket": 0
+        },
+        {
+         "text": "What exactly do they hate about early mornings?",
+         "bucket": 0
+        },
+        {
+         "text": "Don't you like teamwork?",
+         "bucket": 1
+        },
+        {
+         "text": "Does he look for a new job?",
+         "bucket": 1
+        },
+        {
+         "text": "Are you on a diet?",
+         "bucket": 1
+        }
+       ],
+       "why": "Wh-питання починаються з питального слова (Why, How often, What exactly) і потребують розгорнутої відповіді. Питання з Do/Does/Are/Is (Don't you ...?, Does he ...?, Are you ...?) відповідаємо Yes або No."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть слово Do / Does / Is / Are:",
+       "bank": [
+        "Do",
+        "Does",
+        "Is",
+        "Are",
+        "Am"
+       ],
+       "sentences": [
+        "___ your partner look for a new job?",
+        "___ you self-employed?",
+        "___ your friends hate early mornings?",
+        "___ your mum interested in learning something new?"
+       ],
+       "answers": [
+        "Does",
+        "Are",
+        "Do",
+        "Is"
+       ],
+       "why": "Look for і hate — звичайні дієслова: Does + your partner (він), Do + your friends (вони). Self-employed та interested in — прикметник і chunk, тому be: Are you, Is your mum.",
+       "no": null
+      },
+      {
+       "type": "mc",
+       "q": "У таблиці про колег: Mary — Kyiv. Як запитати, де живе Sam?",
+       "options": [
+        "Where does Sam live?",
+        "Where Sam lives?",
+        "Where is Sam live?"
+       ],
+       "answer": 0,
+       "why": "Live — звичайне дієслово, тому Where + does + Sam + live? Після does — базова форма без -s.",
+       "no": [
+        null,
+        "Пропущено допоміжне слово does: у питанні воно стоїть перед підметом, а -s після нього не потрібне.",
+        "Is не поєднується зі звичайним дієсловом live; потрібне does."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Sam is tired of answering messages. Як запитати те саме про Mary?",
+       "options": [
+        "What is Mary tired of?",
+        "What does Mary tired of?",
+        "What Mary is tired of?"
+       ],
+       "answer": 0,
+       "why": "Tired of — chunk з be: What + is + Mary + tired of? Прийменник of лишається в кінці.",
+       "no": [
+        null,
+        "Does ставимо зі звичайним дієсловом; tired — прикметник, тому потрібне is.",
+        "Допоміжне слово is має стояти перед підметом: What is Mary ...?, а не What Mary is ...?"
+       ]
+      },
+      {
+       "type": "pic",
+       "q": "What do you do after work? — «I play the guitar.» Яка картинка відповідає цій відповіді?",
+       "options": [
+        {
+         "emoji": "🎸🎶",
+         "text": "Грає на гітарі"
+        },
+        {
+         "emoji": "🏊‍♂️💦",
+         "text": "Плаває в басейні"
+        },
+        {
+         "emoji": "🍳🥘",
+         "text": "Готує вечерю"
+        }
+       ],
+       "answer": 0,
+       "why": "Play the guitar — грати на гітарі, тому відповідає картинка з гітарою.",
+       "no": [
+        null,
+        "Плавання — це swim, а не play the guitar.",
+        "Готувати вечерю — це cook dinner, а не play the guitar."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Ви берете інтерв'ю у письменника. Яке питання про його улюблену книжку правильне?",
+       "options": [
+        "Which of your books is your favourite?",
+        "Which your book is your favourite?",
+        "Which book does your favourite?"
+       ],
+       "answer": 0,
+       "why": "Which + of your books — «яка з ваших книжок»: Which of your books is your favourite? Is стоїть після групи слів з Which.",
+       "no": [
+        null,
+        "Which your book — помилка: після Which потрібне або of your books, або book без your (Which book ...?).",
+        "Does не потрібне: favourite — це прикметник, а не дієслово, тому питання має інший порядок слів."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "questions": [
+      {
+       "type": "mc",
+       "q": "Яке питання правильне?",
+       "options": [
+        "Does your trainer start the class at seven?",
+        "Is your trainer start the class at seven?",
+        "Do your trainer starts the class at seven?"
+       ],
+       "answer": 0,
+       "why": "Start — звичайне дієслово, trainer — він, тому Does + підмет + базова форма: Does your trainer start the class at seven?",
+       "no": [
+        null,
+        "Is — форма be; поєднувати її зі звичайним дієсловом start не можна.",
+        "Trainer — однина, тому does, а не do; після нього дієслово без -s: start."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне питання:",
+       "options": [
+        "Are your neighbours noisy at night?",
+        "Do your neighbours noisy at night?",
+        "Does your neighbours are noisy at night?"
+       ],
+       "answer": 0,
+       "why": "Noisy — прикметник, тому питання з be: Are + your neighbours (вони) + noisy?",
+       "no": [
+        null,
+        "Do ставимо перед звичайним дієсловом, а noisy — прикметник, тому потрібне are.",
+        "У питанні лише одне допоміжне слово: does і are разом не вживаємо; neighbours — множина, тому are."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке питання про автобус правильне?",
+       "options": [
+        "Where does the bus to the airport stop?",
+        "Where the bus to the airport stops?",
+        "Where do the bus to the airport stop?"
+       ],
+       "answer": 0,
+       "why": "Bus — однина (it), тому does: Where + does + the bus to the airport + stop? Дієслово без -s.",
+       "no": [
+        null,
+        "Допоміжне слово does пропущене: у питанні воно стоїть перед підметом.",
+        "Bus — однина, тому does, а не do."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "What ___ Katya afraid of?",
+       "answers": [
+        "is"
+       ],
+       "why": "Afraid of — chunk з be; Katya — одна людина (she), тому is: What is Katya afraid of?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "How often ___ your dog need a walk?",
+       "answers": [
+        "does"
+       ],
+       "why": "Dog — однина (it), а need — звичайне дієслово, тому допоміжне слово does: How often does your dog need a walk?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "Why ___ the students like the new schedule? (негативне питання: «чому їм не подобається»)",
+       "answers": [
+        "don't"
+       ],
+       "why": "У негативному питанні don't стоїть перед підметом: Why don't the students like ...? Students — множина, тому don't, а не doesn't.",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "How",
+        "many",
+        "classes",
+        "do",
+        "you",
+        "have",
+        "on",
+        "Friday?"
+       ],
+       "answer": "How many classes do you have on Friday?",
+       "why": "Порядок у питанні: How many + іменник + допоміжне слово (do) + підмет + дієслово в базовій формі.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "What",
+        "time",
+        "does",
+        "the",
+        "pharmacy",
+        "open?"
+       ],
+       "answer": "What time does the pharmacy open?",
+       "why": "Питання про час: What time + does + підмет + дієслово в базовій формі (open, без -s).",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "sort",
+       "q": "Правильне питання чи помилка?",
+       "buckets": [
+        "Correct",
+        "Mistake"
+       ],
+       "items": [
+        {
+         "text": "Does your cat sleep all day?",
+         "bucket": 0
+        },
+        {
+         "text": "Does your cat sleeps all day?",
+         "bucket": 1
+        },
+        {
+         "text": "Is your cat afraid of dogs?",
+         "bucket": 0
+        },
+        {
+         "text": "Does your cat afraid of dogs?",
+         "bucket": 1
+        },
+        {
+         "text": "Why doesn't he answer calls?",
+         "bucket": 0
+        },
+        {
+         "text": "Why he doesn't answer calls?",
+         "bucket": 1
+        }
+       ],
+       "why": "Після does дієслово лишається в базовій формі (sleep, не sleeps). Afraid of — chunk з be, тому Is, а не Does. У питанні допоміжне слово стоїть перед підметом: Why doesn't he ...?"
+      },
+      {
+       "type": "gapbank",
+       "q": "Яке слово потрібне в кожному питанні?",
+       "bank": [
+        "do",
+        "does",
+        "is",
+        "are",
+        "am"
+       ],
+       "sentences": [
+        "___ your sister good at maths?",
+        "___ I late for class again?",
+        "___ the kids like swimming?",
+        "___ your friend work at a hospital?",
+        "___ the exams easy this year?"
+       ],
+       "answers": [
+        "is",
+        "am",
+        "do",
+        "does",
+        "are"
+       ],
+       "why": "З прикметниками be: is — з sister, am — з I, are — з the exams. Зі звичайними дієсловами do/does: do — the kids (вони), does — your friend (він).",
+       "no": null
+      },
+      {
+       "type": "match",
+       "q": "З'єднайте питання з відповіддю:",
+       "pairs": [
+        {
+         "emoji": "🕗",
+         "left": "What time does the film start?",
+         "right": "At eight."
+        },
+        {
+         "emoji": "📍",
+         "left": "Where does your coach live?",
+         "right": "Near the stadium."
+        },
+        {
+         "emoji": "🧑‍⚕️",
+         "left": "Who is your doctor?",
+         "right": "Dr. Koval."
+        },
+        {
+         "emoji": "💡",
+         "left": "Why does she study German?",
+         "right": "Because she wants to live in Vienna."
+        },
+        {
+         "emoji": "🔢",
+         "left": "How often do you swim?",
+         "right": "Twice a week."
+        }
+       ],
+       "why": "What time — час, Where — місце, Who — людина, Why — причина (because), How often — частота (twice a week)."
+      },
+      {
+       "type": "pic",
+       "q": "How often do you walk the dog? — «Every morning and every evening.» Яка картинка відповідає цій відповіді?",
+       "options": [
+        {
+         "emoji": "🐕🌅🌙",
+         "text": "Двічі на день"
+        },
+        {
+         "emoji": "🐕💤",
+         "text": "Ніколи не гуляє з собакою"
+        },
+        {
+         "emoji": "🐕🎾📅",
+         "text": "Раз на місяць"
+        }
+       ],
+       "answer": 0,
+       "why": "Every morning and every evening — вранці й увечері, тобто двічі на день.",
+       "no": [
+        null,
+        "Ніколи — це never, а в відповіді названо конкретний час щодня.",
+        "Раз на місяць — once a month, а не every morning and every evening."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "questions": [
+      {
+       "type": "mc",
+       "q": "Друг каже: «I rarely watch films.» Яке follow-up питання правильне?",
+       "options": [
+        "How often do you go to the cinema?",
+        "How often you go to the cinema?",
+        "How often are you go to the cinema?"
+       ],
+       "answer": 0,
+       "why": "How often + do + you + дієслово в базовій формі: How often do you go to the cinema? Допоміжне слово стоїть перед підметом.",
+       "no": [
+        null,
+        "Допоміжне слово do пропущене: порядок має бути How often do you go ...?",
+        "Are не поєднується зі звичайним дієсловом go; потрібне do."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "«My brother is afraid of flying.» — Яке follow-up питання правильне?",
+       "options": [
+        "Why is he afraid of flying?",
+        "Why does he afraid of flying?",
+        "Why he is afraid of flying?"
+       ],
+       "answer": 0,
+       "why": "Afraid of — chunk з be, тому Why + is + he + afraid of flying?",
+       "no": [
+        null,
+        "Does ставимо зі звичайним дієсловом, а afraid — прикметник, тому потрібне is.",
+        "Допоміжне слово is має стояти перед підметом: Why is he ...?, а не Why he is ...?"
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "«I don't like pop music.» — Яке follow-up питання правильне?",
+       "options": [
+        "What music do you prefer?",
+        "What music you prefer?",
+        "What music does you prefer?"
+       ],
+       "answer": 0,
+       "why": "What music — питання про предмет: What music + do + you + prefer? Допоміжне слово do з you.",
+       "no": [
+        null,
+        "Допоміжне слово do пропущене: у питанні воно стоїть перед підметом you.",
+        "Does вживаємо з he/she/it, а з you — do."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке follow-up питання відповідають словами «Yes» або «No»?",
+       "options": [
+        "Do you play any instruments?",
+        "What instrument do you play?",
+        "Why do you play the piano?"
+       ],
+       "answer": 0,
+       "why": "Питання з Do/Does/Is/Are на початку — «так / ні». Do you play any instruments? — Yes, I do. / No, I don't.",
+       "no": [
+        null,
+        "What instrument ...? запитує про конкретну річ, відповідь — назва інструмента, а не Yes/No.",
+        "Why ...? запитує про причину, відповідь — з because."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "«My parents live in a village.» — ___ they like it there?",
+       "answers": [
+        "Do"
+       ],
+       "why": "Like — звичайне дієслово, а parents — вони, тому Do: Do they like it there?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "«She is tired of her long commute.» — How long ___ it take her to get to work?",
+       "answers": [
+        "does"
+       ],
+       "why": "Take — звичайне дієслово, а it — 3-тя особа, тому does: How long does it take her to get to work?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "What",
+        "exactly",
+        "do",
+        "you",
+        "hate",
+        "about",
+        "Mondays?"
+       ],
+       "answer": "What exactly do you hate about Mondays?",
+       "why": "Порядок у питанні: What exactly + допоміжне слово (do) + підмет + дієслово в базовій формі (hate) + решта.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "Which",
+        "city",
+        "do",
+        "you",
+        "plan",
+        "to",
+        "visit?"
+       ],
+       "answer": "Which city do you plan to visit?",
+       "why": "Which + іменник + допоміжне слово (do) + підмет + plan to + дієслово: Which city do you plan to visit?",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть питальне слово для follow-up питання:",
+       "bank": [
+        "Why",
+        "What",
+        "How often",
+        "Who",
+        "Where"
+       ],
+       "sentences": [
+        "___ do you travel with? — With my sister.",
+        "___ do you stay when you travel? — In small hotels.",
+        "___ do you go abroad? — Twice a year.",
+        "___ do you like about travelling? — New food.",
+        "___ are you saving money for a trip? — Because I want to see Japan."
+       ],
+       "answers": [
+        "Who",
+        "Where",
+        "How often",
+        "What",
+        "Why"
+       ],
+       "why": "Who — з ким (людина), Where — де (місце), How often — як часто (twice a year), What — що саме (new food), Why — чому (because).",
+       "no": null
+      },
+      {
+       "type": "sort",
+       "q": "Розкладіть follow-up питання за типом:",
+       "buckets": [
+        "Wh-питання",
+        "Питання «так / ні»"
+       ],
+       "items": [
+        {
+         "text": "What exactly do you study?",
+         "bucket": 0
+        },
+        {
+         "text": "Do you like your course?",
+         "bucket": 1
+        },
+        {
+         "text": "How many students are in your group?",
+         "bucket": 0
+        },
+        {
+         "text": "Is your teacher strict?",
+         "bucket": 1
+        },
+        {
+         "text": "Which subject is the hardest?",
+         "bucket": 0
+        },
+        {
+         "text": "Are you good at maths?",
+         "bucket": 1
+        }
+       ],
+       "why": "Wh-питання починаються з питального слова (What, How many, Which) — відповідь розгорнута. Питання з Do/Is/Are — «так / ні»."
+      },
+      {
+       "type": "match",
+       "q": "Поєднайте твердження з follow-up питанням:",
+       "pairs": [
+        {
+         "emoji": "🎻",
+         "left": "I play the violin.",
+         "right": "How long do you practise every day?"
+        },
+        {
+         "emoji": "🌍",
+         "left": "We plan to travel in July.",
+         "right": "Which country do you plan to visit?"
+        },
+        {
+         "emoji": "😴",
+         "left": "My neighbour never sleeps at night.",
+         "right": "Why doesn't he sleep at night?"
+        },
+        {
+         "emoji": "🍳",
+         "left": "My mum is good at cooking.",
+         "right": "What dishes does she cook?"
+        },
+        {
+         "emoji": "📚",
+         "left": "I am interested in history.",
+         "right": "What period are you interested in?"
+        }
+       ],
+       "why": "Follow-up питання продовжує тему: про скрипку — скільки практикуєшся, про подорож — яка країна, про сон — чому не спить, про кулінарію — які страви, про історію — який період."
+      },
+      {
+       "type": "pic",
+       "q": "Which ice-cream do you like? — «Chocolate, please.» Яка картинка відповідає цій відповіді?",
+       "options": [
+        {
+         "emoji": "🍫🍦",
+         "text": "Шоколадне морозиво"
+        },
+        {
+         "emoji": "🍓🍦",
+         "text": "Полуничне морозиво"
+        },
+        {
+         "emoji": "🍋🍦",
+         "text": "Лимонне морозиво"
+        }
+       ],
+       "answer": 0,
+       "why": "Chocolate — шоколад, тому відповідь пасує до шоколадного морозива.",
+       "no": [
+        null,
+        "Полуниця — strawberry, а не chocolate.",
+        "Лимон — lemon, а не chocolate."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "questions": [
+      {
+       "type": "mc",
+       "q": "A: ___? B: Yes, I am. I'm afraid of spiders.",
+       "options": [
+        "Are you afraid of spiders?",
+        "Do you afraid of spiders?",
+        "Is you afraid of spiders?"
+       ],
+       "answer": 0,
+       "why": "Відповідь Yes, I am показує, що питання було з be: Are you afraid of spiders? Afraid of — chunk з be.",
+       "no": [
+        null,
+        "Do ставимо перед звичайним дієсловом, а afraid — прикметник; до того ж відповідь була б Yes, I do.",
+        "З you вживаємо are, а не is: Are you ...?"
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "A: ___? B: No, she doesn't. She never drinks coffee.",
+       "options": [
+        "Does she drink coffee?",
+        "Is she drink coffee?",
+        "Does she drinks coffee?"
+       ],
+       "answer": 0,
+       "why": "Відповідь No, she doesn't повторює допоміжне слово питання: Does she drink coffee?",
+       "no": [
+        null,
+        "Is не поєднується зі звичайним дієсловом drink; до того ж відповідь була б No, she isn't.",
+        "Після does дієслово має форму без -s: drink, а не drinks."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "A: ___? B: At nine o'clock.",
+       "options": [
+        "What time does the lesson start?",
+        "What time is the lesson start?",
+        "What time the lesson starts?"
+       ],
+       "answer": 0,
+       "why": "At nine o'clock — це час, тому питання What time ...? Start — звичайне дієслово, тому does + базова форма.",
+       "no": [
+        null,
+        "Is не поєднується зі звичайним дієсловом start; потрібне does.",
+        "Допоміжне слово does пропущене: у питанні воно стоїть перед підметом (the lesson)."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "A: ___? B: Because I'm tired of the traffic.",
+       "options": [
+        "Why are you tired?",
+        "Where are you tired?",
+        "How often are you tired?"
+       ],
+       "answer": 0,
+       "why": "Відповідь з Because називає причину, а причину запитуємо словом Why: Why are you tired?",
+       "no": [
+        null,
+        "Where запитує про місце (in the office), а Because називає причину.",
+        "How often запитує про частоту (every day), а Because називає причину."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "A: ___ does your brother work? B: In a bank.",
+       "answers": [
+        "Where"
+       ],
+       "why": "In a bank — місце роботи, а про місце запитуємо словом Where: Where does your brother work?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "A: How ___ people work in your office? B: About fifty.",
+       "answers": [
+        "many"
+       ],
+       "why": "About fifty — кількість людей, тому How many + іменник у множині: How many people work in your office?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "A: ___ you good at tennis? B: Yes, I am.",
+       "answers": [
+        "Are"
+       ],
+       "why": "Good at — chunk з be; відповідь Yes, I am показує, що питання було з Are: Are you good at tennis?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "Which",
+        "languages",
+        "does",
+        "she",
+        "speak?"
+       ],
+       "answer": "Which languages does she speak?",
+       "why": "Which + іменник + does + підмет + базова форма: Which languages does she speak? Після does без -s: speak.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "Дані про двох колег. З'єднайте питання з відповіддю:",
+       "pairs": [
+        {
+         "emoji": "🏙️",
+         "left": "Where does Dan live?",
+         "right": "In Lviv."
+        },
+        {
+         "emoji": "🎨",
+         "left": "What is Eva good at?",
+         "right": "Drawing."
+        },
+        {
+         "emoji": "🎹",
+         "left": "What does Dan do after work?",
+         "right": "He plays the piano."
+        },
+        {
+         "emoji": "😩",
+         "left": "What is Eva tired of?",
+         "right": "Answering messages."
+        },
+        {
+         "emoji": "📚",
+         "left": "What does Dan want to learn?",
+         "right": "To speak Spanish."
+        }
+       ],
+       "why": "Live — місце (In Lviv); good at і tired of — chunks з be (Drawing, Answering messages); do after work → що робить; want to learn → що хоче вивчити."
+      },
+      {
+       "type": "sort",
+       "q": "Правильне питання чи помилка? (інтерв'ю з музикантом)",
+       "buckets": [
+        "Correct",
+        "Mistake"
+       ],
+       "items": [
+        {
+         "text": "Where do you get your ideas?",
+         "bucket": 0
+        },
+        {
+         "text": "Where you get your ideas?",
+         "bucket": 1
+        },
+        {
+         "text": "How many songs does she write a year?",
+         "bucket": 0
+        },
+        {
+         "text": "How many songs she writes a year?",
+         "bucket": 1
+        },
+        {
+         "text": "Which song is your favourite?",
+         "bucket": 0
+        },
+        {
+         "text": "Which your song is your favourite?",
+         "bucket": 1
+        }
+       ],
+       "why": "У питанні допоміжне слово стоїть перед підметом: Where do you ...?, How many songs does she ...? Після Which потрібен іменник без your: Which song is your favourite?"
+      },
+      {
+       "type": "gapbank",
+       "q": "Яке слово потрібне в питанні до музиканта?",
+       "bank": [
+        "do",
+        "does",
+        "is",
+        "are",
+        "can"
+       ],
+       "sentences": [
+        "When ___ we expect your new album?",
+        "Where ___ you get your ideas?",
+        "What ___ your favourite song?",
+        "How often ___ the band practise?",
+        "Why ___ you proud of the last album?"
+       ],
+       "answers": [
+        "can",
+        "do",
+        "is",
+        "does",
+        "are"
+       ],
+       "why": "Can — коли питаємо про можливість (When can we expect ...?). Do — з you і звичайним дієсловом; is — з be (your favourite song); does — the band (однина) + практикує; are — з you і прикметником proud.",
+       "no": null
+      },
+      {
+       "type": "pic",
+       "q": "Where do you spend the weekend? — «At the beach.» Яка картинка відповідає цій відповіді?",
+       "options": [
+        {
+         "emoji": "🏖️🌊",
+         "text": "На пляжі"
+        },
+        {
+         "emoji": "🏢💼",
+         "text": "В офісі"
+        },
+        {
+         "emoji": "🏔️🥾",
+         "text": "У горах"
+        }
+       ],
+       "answer": 0,
+       "why": "Beach — пляж, тому відповідь на Where do you spend the weekend? пасує до картинки з пляжем.",
+       "no": [
+        null,
+        "Офіс — office, а не beach.",
+        "Гори — mountains, а не beach."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "questions": [
+      {
+       "type": "mc",
+       "q": "Оберіть правильне питання про Sofia:",
+       "options": [
+        "Is Sofia interested in photography?",
+        "Does Sofia interested in photography?",
+        "Does Sofia is interested in photography?"
+       ],
+       "answer": 0,
+       "why": "Interested in — chunk з be, Sofia — вона, тому Is Sofia interested in ...?",
+       "no": [
+        null,
+        "Does ставимо перед звичайним дієсловом; interested — прикметник, тому потрібне is.",
+        "У питанні лише одне допоміжне слово: does і is разом не вживаємо."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Does your teacher give a lot of homework? Яка коротка відповідь «ні» правильна?",
+       "options": [
+        "No, she doesn't.",
+        "No, she isn't.",
+        "No, she don't."
+       ],
+       "answer": 0,
+       "why": "Коротка відповідь повторює допоміжне слово питання: Does ...? — No, she doesn't.",
+       "no": [
+        null,
+        "Isn't — відповідь на питання з be (Is she ...?), а питання почалося з Does.",
+        "З she потрібне doesn't, а не don't: don't вживаємо з I, you, we, they."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "___ do you meet your photography club? — On Saturdays.",
+       "options": [
+        "When",
+        "Where",
+        "Why"
+       ],
+       "answer": 0,
+       "why": "On Saturdays — час, а про час запитуємо словом When: When do you meet your photography club?",
+       "no": [
+        null,
+        "Where запитує про місце (in the park), а On Saturdays — не місце.",
+        "Why запитує про причину і потребує відповіді з because."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "___ is your favourite teacher? — Mr Bondar.",
+       "options": [
+        "Who",
+        "What",
+        "Where"
+       ],
+       "answer": 0,
+       "why": "Mr Bondar — це людина, а про людину запитуємо словом Who: Who is your favourite teacher?",
+       "no": [
+        null,
+        "What запитує про предмет чи дію, а відповідь — ім'я людини.",
+        "Where запитує про місце, а Mr Bondar — не місце."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "Are your parents proud of you? — Yes, they ___.",
+       "answers": [
+        "are"
+       ],
+       "why": "Коротка відповідь повторює допоміжне слово питання: питання з Are, тому Yes, they are.",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "fill",
+       "q": "What ___ the café serve for breakfast?",
+       "answers": [
+        "does"
+       ],
+       "why": "Café — однина (it), а serve — звичайне дієслово, тому допоміжне слово does: What does the café serve for breakfast?",
+       "no": "Ця відповідь не підходить: перевірте форму слова й правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "How",
+        "often",
+        "does",
+        "he",
+        "visit",
+        "his",
+        "grandparents?"
+       ],
+       "answer": "How often does he visit his grandparents?",
+       "why": "Порядок у питанні: How often + does + підмет + дієслово в базовій формі (visit, без -s) + решта.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "order",
+       "words": [
+        "Is",
+        "your",
+        "sister",
+        "afraid",
+        "of",
+        "dogs?"
+       ],
+       "answer": "Is your sister afraid of dogs?",
+       "why": "Питання з be: Is + підмет + chunk (afraid of dogs). Does тут не потрібне.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "sort",
+       "q": "Яке допоміжне слово потрібне в цих питаннях?",
+       "buckets": [
+        "Питання з be (is / are)",
+        "Питання з do / does"
+       ],
+       "items": [
+        {
+         "text": "Is he good at chess?",
+         "bucket": 0
+        },
+        {
+         "text": "Are they tired of homework?",
+         "bucket": 0
+        },
+        {
+         "text": "Is your brother proud of his team?",
+         "bucket": 0
+        },
+        {
+         "text": "Does he play chess every day?",
+         "bucket": 1
+        },
+        {
+         "text": "Do they walk to school?",
+         "bucket": 1
+        },
+        {
+         "text": "Does your brother like football?",
+         "bucket": 1
+        }
+       ],
+       "why": "Be потрібне з прикметниками й chunks (good at, tired of, proud of). Do/does — зі звичайними дієсловами (play, walk, like)."
+      },
+      {
+       "type": "match",
+       "q": "З'єднайте питання з відповіддю:",
+       "pairs": [
+        {
+         "emoji": "⚽",
+         "left": "Where does your brother play football?",
+         "right": "In the park."
+        },
+        {
+         "emoji": "🕘",
+         "left": "When does the film start?",
+         "right": "At nine."
+        },
+        {
+         "emoji": "👩‍🏫",
+         "left": "Who is your teacher?",
+         "right": "Ms Hrytsenko."
+        },
+        {
+         "emoji": "🍕",
+         "left": "What does she eat for lunch?",
+         "right": "Pizza."
+        },
+        {
+         "emoji": "🚲",
+         "left": "How often do you cycle?",
+         "right": "Every weekend."
+        }
+       ],
+       "why": "Where — місце (in the park), When — час (at nine), Who — людина, What — предмет (pizza), How often — частота (every weekend)."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть слово Do / Does / Is / Are / Am:",
+       "bank": [
+        "Do",
+        "Does",
+        "Is",
+        "Are",
+        "Am"
+       ],
+       "sentences": [
+        "___ your friends like loud music?",
+        "___ the café open on Sunday?",
+        "___ Ben practise the piano every day?",
+        "___ you ready for the test?",
+        "___ I late?"
+       ],
+       "answers": [
+        "Do",
+        "Is",
+        "Does",
+        "Are",
+        "Am"
+       ],
+       "why": "Зі звичайними дієсловами: Do + your friends (вони), Does + Ben (він). З прикметниками be: Is + the café (однина), Are + you, Am + I.",
+       "no": null
+      },
+      {
+       "type": "pic",
+       "q": "Where does your sister study? — «At university.» Яка картинка відповідає цій відповіді?",
+       "options": [
+        {
+         "emoji": "🎓🏛️",
+         "text": "В університеті"
+        },
+        {
+         "emoji": "🍳🥘",
+         "text": "У кухні"
+        },
+        {
+         "emoji": "✈️🧳",
+         "text": "В аеропорту"
+        }
+       ],
+       "answer": 0,
+       "why": "University — університет, тому відповідь на Where does your sister study? пасує до картинки з випускною шапочкою й будівлею.",
+       "no": [
+        null,
+        "Кухня — kitchen, а не university.",
+        "Аеропорт — airport, а не university."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "visual",
+   "index": 10,
+   "title": "Picture & Sound Lab",
+   "short": "Picture lab",
+   "subtitle": "Квізи з анімованими картинками та озвучкою",
+   "summary": "Слухайте речення й обирайте картинку, дивіться на сцену й обирайте слово чи речення. Усе на ті помилки, які ми знайшли в ваших уроках; правильне речення звучить після кожної відповіді.",
+   "sections": [
+    {
+     "id": "visual-0-як-це-працює",
+     "title": "Як це працює",
+     "blocks": [
+      {
+       "kind": "paragraph",
+       "text": "Це тренажер, де помилки, які повторюються у ваших уроках (прийменники, be, do / does, артиклі, much / many), відпрацьовуються через <b>картинку + звук</b>. Тест має три типи вправ:"
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "<b>Почути й обрати картинку</b> — голос читає речення, ви обираєте анімовану сцену, яка йому відповідає.",
+        "<b>Сцена + пропуск</b> — дивитесь на сцену й обираєте слово для пропуску (прийменник, допоміжне слово, much / many, a / an…).",
+        "<b>Сцена + речення</b> — обираєте речення, яке правильно описує сцену. У хибних реченнях ваші типові помилки."
+       ]
+      },
+      {
+       "kind": "hint",
+       "text": "Після кожної відповіді правильне речення звучить ще раз. Повторюйте його вголос — так воно запам'ятовується краще, ніж просто читання. Речення озвучують різні голоси (жіночі й чоловічі, американські й британські), щоб вухо звикало до різної вимови."
+      }
+     ]
+    },
+    {
+     "id": "visual-1-ілюстрована-лексика",
+     "title": "Ілюстрована лексика",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Натисніть на картку, щоб побачити переклад і приклад."
+      },
+      {
+       "kind": "flipCards",
+       "cards": [
+        {
+         "emoji": "😩",
+         "en": "tired of",
+         "ua": "втомлений від",
+         "example": "I'm tired of emails."
+        },
+        {
+         "emoji": "😨",
+         "en": "afraid of",
+         "ua": "боятися (чогось)",
+         "example": "She is afraid of dogs."
+        },
+        {
+         "emoji": "🎯",
+         "en": "good at",
+         "ua": "добре вміти",
+         "example": "He is good at drawing."
+        },
+        {
+         "emoji": "🏆",
+         "en": "proud of",
+         "ua": "пишатися",
+         "example": "I'm proud of my team."
+        },
+        {
+         "emoji": "🤔",
+         "en": "interested in",
+         "ua": "цікавитися",
+         "example": "We are interested in AI art."
+        },
+        {
+         "emoji": "😟",
+         "en": "worried about",
+         "ua": "хвилюватися про",
+         "example": "I'm worried about the exam."
+        },
+        {
+         "emoji": "🛡️",
+         "en": "responsible for",
+         "ua": "відповідальний за",
+         "example": "Max is responsible for the server."
+        },
+        {
+         "emoji": "🧑‍💼",
+         "en": "in charge of",
+         "ua": "керувати, відповідати за",
+         "example": "Anna is in charge of the budget."
+        },
+        {
+         "emoji": "🪜",
+         "en": "hard for me",
+         "ua": "складно для мене",
+         "example": "It is hard for me."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "visual-2-шпаргалка-вирази-з-прийменниками",
+     "title": "Шпаргалка: вирази з прийменниками",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": ""
+        },
+        {
+         "text": "Вираз"
+        },
+        {
+         "text": "Приклад"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "😩✉️"
+         },
+         {
+          "text": "<b>tired of</b>"
+         },
+         {
+          "text": "I'm tired of emails."
+         }
+        ],
+        [
+         {
+          "text": "😨🐕"
+         },
+         {
+          "text": "<b>afraid of</b>"
+         },
+         {
+          "text": "She is afraid of dogs."
+         }
+        ],
+        [
+         {
+          "text": "🎯🎨"
+         },
+         {
+          "text": "<b>good at</b>"
+         },
+         {
+          "text": "He is good at drawing."
+         }
+        ],
+        [
+         {
+          "text": "🏆👥"
+         },
+         {
+          "text": "<b>proud of</b>"
+         },
+         {
+          "text": "I'm proud of my team."
+         }
+        ],
+        [
+         {
+          "text": "🤔🖼️"
+         },
+         {
+          "text": "<b>interested in</b>"
+         },
+         {
+          "text": "We are interested in AI art."
+         }
+        ],
+        [
+         {
+          "text": "😟📝"
+         },
+         {
+          "text": "<b>worried about</b>"
+         },
+         {
+          "text": "I'm worried about the exam."
+         }
+        ],
+        [
+         {
+          "text": "🛡️🖥️"
+         },
+         {
+          "text": "<b>responsible for</b>"
+         },
+         {
+          "text": "Max is responsible for the server."
+         }
+        ],
+        [
+         {
+          "text": "🧑‍💼💰"
+         },
+         {
+          "text": "<b>in charge of</b>"
+         },
+         {
+          "text": "Anna is in charge of the budget."
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Прийом:</b> вчіть прийменник разом зі словом, як одну цеглинку: <b>tired of</b>, <b>good at</b>, <b>responsible for</b>. І не забувайте <b>be</b> перед ними: I <b>am</b> tired of…, he <b>is</b> good at…"
+      }
+     ]
+    },
+    {
+     "id": "visual-3-шпаргалка-ваші-найчастіші-помилки",
+     "title": "Шпаргалка: ваші найчастіші помилки",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "<b>do / does + базова форма:</b> Does he <mark>work</mark> late? (не <s>works</s>)",
+        "<b>Коротка відповідь повторює допоміжне слово:</b> Do you…? — Yes, I <mark>do</mark>. Are you…? — Yes, I <mark>am</mark>.",
+        "<b>Be перед прикметником:</b> I <mark>am</mark> busy. (не <s>I busy</s>)",
+        "<b>Артикль:</b> I have <mark>a</mark> problem. Many / much: <mark>many</mark> apples, <mark>much</mark> water.",
+        "<b>Минуле:</b> yesterday, ago → Past Simple: I <mark>studied</mark> it two years ago."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "visual-4-спробуйте-голосом",
+     "title": "Спробуйте голосом",
+     "blocks": [
+      {
+       "kind": "numbered",
+       "items": [
+        "Подивіться на сцену й скажіть вголос, що в ній відбувається.",
+        "Слухайте запис і повторюйте за ним: спочатку нормально, потім повільно (кнопка 🐢).",
+        "Якщо відповіли неправильно — прочитайте пояснення й промовте правильне речення двічі."
+       ]
+      }
+     ]
+    }
+   ],
+   "versions": [
+    {
+     "n": 1,
+     "questions": [
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "He is afraid of spiders.",
+       "audio": "269c21ea",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😍 🕷️",
+         "text": "обожнює павуків"
+        },
+        {
+         "emoji": "😴 🛏️",
+         "text": "міцно спить"
+        },
+        {
+         "emoji": "😨 🕷️",
+         "text": "павук поряд"
+        }
+       ],
+       "answer": 2,
+       "why": "Afraid of означає «боятися чогось»: після afraid завжди стоїть прийменник of. Тому підходить сцена зі страхом перед павуком.",
+       "no": [
+        "Тут людина радіє павукам, а в реченні сказано afraid of, тобто «боїться», а не «любить».",
+        "На цій картинці людина спить, а в реченні немає жодного слова про сон: є is afraid of spiders.",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🧑‍💻 🌙 😩",
+       "sentence": "My friend always ___ late at night.",
+       "say": "My friend always works late at night.",
+       "audio": "a122fe77",
+       "audioSlow": false,
+       "options": [
+        "work",
+        "works",
+        "working"
+       ],
+       "answer": 1,
+       "why": "Підмет my friend означає he/she, тому в Present Simple дієслово отримує закінчення -s: works. Слово always показує звичку, а не дію прямо зараз.",
+       "no": [
+        "Work без -s підходить лише до I, you, we, they; my friend — це одна особа (he/she), тож потрібне works.",
+        null,
+        "Форма working (-ing) без is/are не є дієсловом у реченні, а always показує звичку, тому потрібне просте works."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "She is worried about her exam.",
+       "audio": "5e4be32a",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😰 📝",
+         "text": "іспит на столі"
+        },
+        {
+         "emoji": "🥳 🎂",
+         "text": "святкує день народження"
+        },
+        {
+         "emoji": "🤒 🌡️",
+         "text": "хворіє"
+        }
+       ],
+       "answer": 0,
+       "why": "Worried about означає «хвилюватися через щось»: після worried стоїть прийменник about. Тут це хвилювання перед іспитом.",
+       "no": [
+        null,
+        "На цій картинці свято, а worried about означає хвилювання, а не радість.",
+        "Тут людина хворіє, а в реченні хвилювання через іспит (worried about her exam), про хворобу нічого не сказано."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "😰 ❓",
+       "sentence": "How often ___ she feel nervous?",
+       "say": "How often does she feel nervous?",
+       "audio": "1116f51f",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "do",
+        "does"
+       ],
+       "answer": 2,
+       "why": "У питанні з how often перед підметом потрібне допоміжне слово: з she це does, і тоді основне дієслово без -s: does she feel.",
+       "no": [
+        "Is ставимо перед прикметником або з -ing, а тут є дієслово feel, тому is не підходить: потрібне does.",
+        "Do вживаємо лише з I, you, we, they; з she в питанні потрібне does.",
+        null
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "😌 🏅",
+       "say": "He is proud of his medal.",
+       "audio": "a6903e88",
+       "audioSlow": false,
+       "options": [
+        "He proud of his medal.",
+        "He is proud of his medal.",
+        "He does proud of his medal."
+       ],
+       "answer": 1,
+       "why": "Proud — це прикметник, а перед прикметником потрібне дієслово be: he is proud of. Прийменник після proud — of.",
+       "no": [
+        "Тут бракує дієслова is: перед прикметником proud завжди потрібне be, інакше речення неповне.",
+        null,
+        "Does ставимо перед дієсловом дії, а proud — не дія, а стан, тому потрібне is, а не does."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "My brother doesn't like loud music.",
+       "audio": "49180941",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😍 🎸 🔊",
+         "text": "рок на повну"
+        },
+        {
+         "emoji": "😖 🔊 🎸",
+         "text": "затуляє вуха"
+        },
+        {
+         "emoji": "🥱 📖",
+         "text": "нудна книжка"
+        }
+       ],
+       "answer": 1,
+       "why": "Doesn't like означає «не любить»: заперечення з дієсловом дії будуємо через doesn't, а після нього дієслово без -s. Тож підходить сцена, де людині не подобається гучна музика.",
+       "no": [
+        "На цій картинці людині гучна музика подобається, а в реченні є заперечення doesn't like.",
+        null,
+        "Тут людина читає й нудьгує, а в реченні мова про гучну музику, яка не подобається."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "😩 📚 📚 📚",
+       "sentence": "I have too ___ homework.",
+       "say": "I have too much homework.",
+       "audio": "8e4950b1",
+       "audioSlow": false,
+       "options": [
+        "a",
+        "much",
+        "many",
+        "an"
+       ],
+       "answer": 1,
+       "why": "Homework — незлічуваний іменник, тому з ним вживаємо much (too much homework), а не many. Артикль a тут також не ставимо.",
+       "no": [
+        "A (як і an) використовується перед злічуваним іменником в однині, а homework — незлічуваний, тож too a homework сказати не можна.",
+        null,
+        "Many вживаємо з злічуваними іменниками у множині (many books), а homework — незлічуваний, потрібне much.",
+        "An стоїть лише перед злічуваним іменником в однині, а homework — незлічуваний, тому тут потрібне much."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🧑 🐕 😄",
+       "sentence": "Are you afraid of dogs? No, I ___.",
+       "say": "Are you afraid of dogs? No, I am not.",
+       "audio": "18e10ae7",
+       "audioSlow": false,
+       "options": [
+        "am not",
+        "don't",
+        "aren't",
+        "doesn't"
+       ],
+       "answer": 0,
+       "why": "Коротка відповідь повторює допоміжне слово з питання: на Are you…? відповідаємо з am (No, I am not). З I форма aren't не існує.",
+       "no": [
+        null,
+        "Don't повторює do, а в питанні було Are you…?, тож і відповідь має бути з be: No, I am not.",
+        "З підметом I форма aren't не вживається: з I потрібне am (I am not).",
+        "Doesn't стоїть лише з he/she/it, а в питанні було Are, тому тут потрібне am not."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👧 📚 ✏️ 🌙",
+       "say": "She does her homework every evening.",
+       "audio": "88277790",
+       "audioSlow": false,
+       "options": [
+        "She makes her homework every evening.",
+        "She do her homework every evening.",
+        "She does her homework every evening.",
+        "She does her homeworks every evening."
+       ],
+       "answer": 2,
+       "why": "З homework вживаємо дієслово do (do homework), а не make. З she дієслово має -s: does. Слово homework незлічуване, тому без -s.",
+       "no": [
+        "З homework вживаємо do, а не make: make означає створювати щось нове, а завдання «виконують» (do).",
+        "З she (одна особа) потрібне does, а do вживається лише з I, you, we, they.",
+        null,
+        "Homework — незлічуваний іменник і не має форми множини, тому homeworks неправильно."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "My dad is bad at cooking.",
+       "audio": "2616a0a4",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🛒 🧺",
+         "text": "іде по продукти"
+        },
+        {
+         "emoji": "😋 🍳 ✨",
+         "text": "смачна вечеря"
+        },
+        {
+         "emoji": "👨 😵 🔥 🍳",
+         "text": "підгоріла страва"
+        }
+       ],
+       "answer": 2,
+       "why": "Bad at означає «погано вміти щось робити»: з bad і good вживаємо прийменник at, а після нього дієслово з -ing (bad at cooking). Тут батько спалив страву.",
+       "no": [
+        "На цій картинці людина йде в магазин, а в реченні мова про те, що тато погано готує (bad at cooking).",
+        "Тут вечеря виходить смачною, а в реченні bad at cooking, тобто готувати погано, а не добре.",
+        null
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "📅 ⬅️ 😢 🌧️",
+       "say": "Yesterday she felt very sad.",
+       "audio": "1625d6e8",
+       "audioSlow": false,
+       "options": [
+        "Yesterday she felt very sad.",
+        "Yesterday she feels very sad.",
+        "Yesterday she is very sad."
+       ],
+       "answer": 0,
+       "why": "Слово yesterday означає минулий час, тому потрібне Past Simple: felt (feel має неправильну форму минулого часу). Стрілка в сцені теж вказує на минуле.",
+       "no": [
+        null,
+        "Feels — це теперішній час, а з yesterday вживаємо Past Simple (felt).",
+        "Is — теперішній час, а yesterday вимагає минулого: was або felt, тож is не підходить."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👦 🤒 ❓",
+       "say": "How does your brother feel today?",
+       "audio": "0556cd55",
+       "audioSlow": false,
+       "options": [
+        "How your brother feels today?",
+        "How does your brother feels today?",
+        "How does your brother feel today?",
+        "How is your brother feels today?"
+       ],
+       "answer": 2,
+       "why": "У питанні з How перед підметом ставимо does, а основне дієслово без -s: How does your brother feel? Порядок слів: питальне слово, does, підмет, дієслово.",
+       "no": [
+        "Бракує допоміжного слова does: у питанні з дієсловом feel перед підметом your brother потрібне does.",
+        "Після does дієслово стоїть без -s (feel), бо -s уже є в does; так не можна казати feels.",
+        null,
+        "Is не вживається разом із дієсловом дії feel: потрібне does, а не is, і feel без -s."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "questions": [
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "He is tired of long meetings.",
+       "audio": "8aeb9635",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😍 👥 🗓️",
+         "text": "радий зустрічі"
+        },
+        {
+         "emoji": "😩 👥 ⏰ 🗓️",
+         "text": "втомився від зборів"
+        },
+        {
+         "emoji": "😴 🛏️",
+         "text": "спить"
+        },
+        {
+         "emoji": "😨 📞",
+         "text": "боїться дзвінка"
+        }
+       ],
+       "answer": 1,
+       "why": "Tired of — стале сполучення: після tired вживаємо прийменник of. Тут чути tired of long meetings: людина втомилася від довгих зборів.",
+       "no": [
+        "Ця картинка показує радість від зустрічі, а в реченні чути tired of — «втомився від».",
+        null,
+        "Спить людина в ліжку, а в реченні йдеться про довгі збори, від яких він втомився.",
+        "Страх перед дзвінком — це afraid of, а в реченні tired of long meetings."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "My manager doesn't usually answer emails.",
+       "audio": "9ab1f332",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "👩‍💼 ✉️ ✅ ⌨️",
+         "text": "відповідає на листи"
+        },
+        {
+         "emoji": "👩‍💼 📞 🗣️",
+         "text": "говорить телефоном"
+        },
+        {
+         "emoji": "👩‍💼 ✉️ 🚫 😴",
+         "text": "не відповідає на листи"
+        }
+       ],
+       "answer": 2,
+       "why": "Із дієсловом дії (answer) заперечення будуємо через doesn't, а не isn't: doesn't answer. Саме слово doesn't у реченні вказує, що менеджер листів не відписує.",
+       "no": [
+        "На цій картинці менеджер відповідає на листи, а в реченні чути doesn't — тобто не відповідає.",
+        "Розмова телефоном не згадується: у реченні говориться про листи, на які менеджер не відповідає.",
+        null
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "She is in charge of hiring new people.",
+       "audio": "cac83add",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "👩‍💼 📋 🤝 🧑‍💻",
+         "text": "приймає людей на роботу"
+        },
+        {
+         "emoji": "👩‍💼 📋 🔥 🧑‍💻",
+         "text": "звільняє людину"
+        },
+        {
+         "emoji": "👩‍💼 ☕ 💬",
+         "text": "п'є каву з колегою"
+        }
+       ],
+       "answer": 0,
+       "why": "In charge of означає «відповідає за / керує чимось», після of дієслово стоїть у формі -ing: in charge of hiring. Hiring — це наймання нових працівників.",
+       "no": [
+        null,
+        "Звільнення — це firing, а в реченні чути hiring — наймання.",
+        "Кава з колегою не має стосунку до речення: чути in charge of hiring new people — наймання на роботу."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "We don't have much time before the deadline.",
+       "audio": "393c9345",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😌 🛋️ 🕰️ 🕰️",
+         "text": "багато вільного часу"
+        },
+        {
+         "emoji": "🎉 🥳 🎂",
+         "text": "святкування"
+        },
+        {
+         "emoji": "😴 🌙",
+         "text": "нічний сон"
+        },
+        {
+         "emoji": "😰 ⏳ ⏰ 📅",
+         "text": "мало часу до терміну"
+        }
+       ],
+       "answer": 3,
+       "why": "Time — незлічуваний іменник, тому в запереченні вживаємо much: don't have much time. Це означає, що часу мало, а до deadline (кінцевого терміну) лишилося небагато.",
+       "no": [
+        "Людина має багато часу, а в реченні чути don't have much time — часу бракує.",
+        "Свято не пов'язане з реченням: чути deadline — кінцевий термін, і що часу мало.",
+        "Сон не згадується в реченні: говориться про брак часу перед терміном.",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "👨‍💼 🌙 💻",
+       "sentence": "Does your boss work late? — Yes, he ___.",
+       "say": "Does your boss work late? — Yes, he does.",
+       "audio": "319e1d5f",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "do",
+        "does"
+       ],
+       "answer": 2,
+       "why": "У короткій відповіді повторюємо допоміжне слово з питання: на «Does your boss...?» відповідаємо «Yes, he does». Boss — це he, тому does.",
+       "no": [
+        "Is не можна, бо у питанні було Does, а не Is: у короткій відповіді ми повторюємо допоміжне слово з питання (does).",
+        "Do вживаємо лише з I, you, we, they, а тут he, тому потрібне does.",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🧑‍💻 🌐 ✅",
+       "sentence": "I ___ responsible for the new website.",
+       "say": "I am responsible for the new website.",
+       "audio": "b69218fd",
+       "audioSlow": false,
+       "options": [
+        "am",
+        "do",
+        "does"
+       ],
+       "answer": 0,
+       "why": "Responsible — прикметник, тому перед ним потрібне дієслово be: з I це am. Do і does ставимо тільки перед дієсловом дії.",
+       "no": [
+        null,
+        "Do — допоміжне дієслово для дій, а responsible — прикметник, після нього потрібне be (I am).",
+        "Does вживається лише з he/she/it і перед дієсловом дії, а тут підмет I і прикметник responsible, тож потрібне am."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "😵 🖨️ 📄",
+       "sentence": "Our new colleague is hopeless ___ using the printer.",
+       "say": "Our new colleague is hopeless at using the printer.",
+       "audio": "878c596b",
+       "audioSlow": false,
+       "options": [
+        "in",
+        "at",
+        "of"
+       ],
+       "answer": 1,
+       "why": "Після good, bad, hopeless вживаємо прийменник at: hopeless at (безнадійний у чомусь). Після at дієслово має форму -ing: hopeless at using.",
+       "no": [
+        "Hopeless in — типова помилка під впливом української «в»: правильний вираз hopeless at, прийменник in тут не вживається.",
+        null,
+        "Of стоїть після tired, afraid, proud, а з hopeless потрібен at: hopeless at using the printer."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🤔 📅 ⏰ ❓",
+       "sentence": "What ___ the word deadline mean?",
+       "say": "What does the word deadline mean?",
+       "audio": "2d80f4a9",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "does",
+        "means"
+       ],
+       "answer": 1,
+       "why": "У питанні з what і дієсловом mean потрібне допоміжне does перед підметом (the word deadline), а основне дієслово без -s: What does it mean? Не «What means...».",
+       "no": [
+        "Is потрібне, коли немає дієслова дії, а тут є дієслово mean, тож будуємо питання з does: What does the word mean?",
+        null,
+        "Means — це форма з -s без допоміжного слова: у питанні перед підметом потрібне does, а mean без -s (What does ... mean?)."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👩‍💼 ✉️ 🌅 ☕",
+       "say": "She checks emails every morning.",
+       "audio": "8df6d09a",
+       "audioSlow": false,
+       "options": [
+        "She check emails every morning.",
+        "She do check emails every morning.",
+        "She checks emails every morning.",
+        "She is checks emails every morning."
+       ],
+       "answer": 2,
+       "why": "З підметом she (he, it) дієслово в Present Simple отримує -s: She checks. Допоміжне is тут не потрібне, бо check — дієслово дії.",
+       "no": [
+        "Після she дієслово має -s: потрібне checks, а не check.",
+        "Do check не поєднується з she (потрібне does), і в стверджені допоміжне слово зайве: She checks.",
+        null,
+        "Is і checks разом стояти не можуть: це два дієслова підряд, потрібне лише She checks."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "📅 ⬅️ 🤝 🧑‍🎨",
+       "say": "We hired a new designer two weeks ago.",
+       "audio": "7eb6d995",
+       "audioSlow": false,
+       "options": [
+        "We hire a new designer two weeks ago.",
+        "We hired a new designer two weeks ago.",
+        "We are hiring a new designer two weeks ago."
+       ],
+       "answer": 1,
+       "why": "Слова two weeks ago вказують на минуле, тому дієслово стоїть у Past Simple: hired. Present Simple та Present Continuous з ago не вживаються.",
+       "no": [
+        "Hire — це теперішній час, а ago вимагає Past Simple: hired.",
+        null,
+        "Are hiring — теперішній тривалий час, а ago показує завершену дію в минулому: потрібне hired."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "📄 👍 ⬆️ 📄 👎",
+       "say": "This plan is better than the old plan.",
+       "audio": "2638e634",
+       "audioSlow": false,
+       "options": [
+        "This plan is more good than the old plan.",
+        "This plan is better than the old plan.",
+        "This plan is more better than the old plan."
+       ],
+       "answer": 1,
+       "why": "Порівняльний ступінь від good — better (не more good). Більше more не додаємо: better вже означає «кращий».",
+       "no": [
+        "Прикметник good має особливу форму better, а не more good.",
+        null,
+        "Better уже є порівняльним ступенем, тому more перед ним зайве."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🏢 👥 👥 💻",
+       "say": "Many people work in our office.",
+       "audio": "f74029f1",
+       "audioSlow": false,
+       "options": [
+        "Many people works in our office.",
+        "Many people is work in our office.",
+        "Many people work in our office.",
+        "Many people does work in our office."
+       ],
+       "answer": 2,
+       "why": "Many people — це множина (вони), тому дієслово без -s: people work. Допоміжні is і does тут не потрібні.",
+       "no": [
+        "Після many people дієслово не має -s: -s ставимо лише для he, she, it.",
+        "Is і work разом — це два дієслова підряд, а потрібне просто work.",
+        null,
+        "Does вживається лише з he/she/it, а people — множина, тому в стверджені просто work."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "questions": [
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "My dad is afraid of spiders.",
+       "audio": "0c47146e",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😍 🐶",
+         "text": "тато любить собак"
+        },
+        {
+         "emoji": "😨 🕷️",
+         "text": "тато боїться павуків"
+        },
+        {
+         "emoji": "😴 🛏️",
+         "text": "тато спить"
+        }
+       ],
+       "answer": 1,
+       "why": "Afraid of — стале сполучення «боятися чогось»: afraid + of + іменник. Слово spiders означає павуків, тому підходить сцена зі страхом.",
+       "no": [
+        "Тут чути afraid of spiders, а не love dogs: слова dogs у реченні немає, а afraid означає «боїться», а не «любить».",
+        null,
+        "У реченні немає ні sleeping, ні bed: afraid of spiders — це страх перед павуками, а не сон."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👩 🍎 🌅",
+       "say": "She eats an apple for breakfast.",
+       "audio": "27034171",
+       "audioSlow": false,
+       "options": [
+        "She eats apple for breakfast.",
+        "She eat an apple for breakfast.",
+        "She eats an apple for breakfast.",
+        "She eats a apple for breakfast."
+       ],
+       "answer": 2,
+       "why": "На картинці одне яблуко, тож потрібен неозначений артикль; перед голосним звуком — an: an apple. З she дієслово має -s: eats.",
+       "no": [
+        "Apple — злічуваний іменник в однині, тому без артикля його вживати не можна: потрібне an apple.",
+        "З she (одна особа) дієслово в Present Simple отримує -s: she eats, а не she eat.",
+        null,
+        "Перед словом apple, яке починається з голосного звуку, ставимо an, а не a: an apple."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "My brother doesn't like fish.",
+       "audio": "215d0bb2",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🎣 🐟",
+         "text": "брат ловить рибу"
+        },
+        {
+         "emoji": "😋 🐟",
+         "text": "брат їсть рибу з радістю"
+        },
+        {
+         "emoji": "🤢 🐟",
+         "text": "брату рибу не хочеться"
+        }
+       ],
+       "answer": 2,
+       "why": "Заперечення з дієсловом дії like будуємо через doesn't (he/she/it) + дієслово без -s: doesn't like. Слухайте doesn't — воно змінює значення на протилежне.",
+       "no": [
+        "Рибалка не підходить: у реченні немає слова fishing або catch, а є doesn't like — «не любить».",
+        "Така сцена показує, що брат любить рибу, а в реченні є doesn't, тобто «не любить».",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🍝 🍝 🍝 😩",
+       "sentence": "I am tired ___ eating pasta every day.",
+       "say": "I am tired of eating pasta every day.",
+       "audio": "f6e16baf",
+       "audioSlow": false,
+       "options": [
+        "in",
+        "of",
+        "from"
+       ],
+       "answer": 1,
+       "why": "Tired of — стале сполучення «втомився від чогось», після прийменника of дієслово має форму -ing: tired of eating.",
+       "no": [
+        "Після tired не вживаємо in: правильне сполучення — tired of, воно виражає «набридло, втомився від».",
+        null,
+        "Tired from інколи кажуть про втому після роботи, але сполучення «набридло щодня їсти одне й те саме» — tired of."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🤔 🍞 🔌 ❓",
+       "say": "How does this toaster work?",
+       "audio": "94f84d80",
+       "audioSlow": false,
+       "options": [
+        "How does this toaster work?",
+        "How works this toaster?",
+        "How does this toaster works?",
+        "How this toaster does work?"
+       ],
+       "answer": 0,
+       "why": "У питанні з How потрібне допоміжне does перед підметом, а основне дієслово залишається без -s: How does this toaster work?",
+       "no": [
+        null,
+        "Без does питання не будується: порядок має бути how + does + підмет + дієслово, а не how + дієслово + підмет.",
+        "Після does дієслово стоїть без -s, бо -s уже є в does: does ... work, а не works.",
+        "Does ставимо перед підметом this toaster, а не після нього: How does this toaster work?"
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "👩‍🍳 🍲 📅",
+       "sentence": "Does your mum cook every day? — Yes, she ___.",
+       "say": "Does your mum cook every day? — Yes, she does.",
+       "audio": "5b58ff24",
+       "audioSlow": false,
+       "options": [
+        "does",
+        "is",
+        "do"
+       ],
+       "answer": 0,
+       "why": "Коротка відповідь повторює допоміжне слово питання: на Does she…? відповідаємо Yes, she does.",
+       "no": [
+        null,
+        "Is — це форма дієслова be, а питання починається з Does; коротка відповідь має повторити саме does.",
+        "Do вживаємо з I, you, we, they; з she (одна особа) потрібне does."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "We painted the kitchen two days ago.",
+       "audio": "0f3e9b05",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "📅 ⬅️ 🎨 🍳",
+         "text": "фарбування кухні — вже було"
+        },
+        {
+         "emoji": "📅 ➡️ 🎨 🍳",
+         "text": "фарбування кухні — буде"
+        },
+        {
+         "emoji": "🛒 🍳",
+         "text": "покупки для кухні"
+        }
+       ],
+       "answer": 0,
+       "why": "Слово ago вказує на минулий час, тому дієслово стоїть у Past Simple: painted. Стрілка назад на календарі показує, що це вже сталося.",
+       "no": [
+        null,
+        "Така сцена показує майбутнє, а в реченні є ago («тому») і painted — дія вже відбулася.",
+        "У реченні немає слів buy або shop: ми розфарбовували кухню (painted), а не купували речі."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🥛 ❄️ 😕",
+       "sentence": "There isn't ___ milk in the fridge.",
+       "say": "There isn't much milk in the fridge.",
+       "audio": "687dfcad",
+       "audioSlow": false,
+       "options": [
+        "many",
+        "a",
+        "much",
+        "an"
+       ],
+       "answer": 2,
+       "why": "Milk — незлічуваний іменник (рідина), тому в заперечному реченні вживаємо much: There isn't much milk.",
+       "no": [
+        "Many вживаємо лише зі злічуваними іменниками у множині (many apples); milk незлічуваний.",
+        "Milk незлічуваний і не має форми «одне молоко», тому артикль a тут не ставимо.",
+        null,
+        "Артикль an стоїть перед злічуваним іменником в однині, а milk — незлічуваний; до того ж milk не починається з голосного звуку."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "👨 🥞 ☀️",
+       "sentence": "How often ___ your dad cook breakfast?",
+       "say": "How often does your dad cook breakfast?",
+       "audio": "07a24a8a",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "do",
+        "does"
+       ],
+       "answer": 2,
+       "why": "Your dad — це he, тому в питанні потрібне does, а cook залишається без -s: How often does your dad cook?",
+       "no": [
+        "Is не поєднується з дієсловом дії cook: у питанні про звичку використовуємо do/does.",
+        "Do вживаємо з I, you, we, they; your dad — одна особа, тому потрібне does.",
+        null
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👦 📚 ✏️ 🍽️",
+       "say": "My son does his homework after dinner.",
+       "audio": "14ecc46a",
+       "audioSlow": false,
+       "options": [
+        "My son makes his homework after dinner.",
+        "My son does his homework after dinner.",
+        "My son do his homework after dinner.",
+        "My son is does his homework after dinner."
+       ],
+       "answer": 1,
+       "why": "Homework в англійській вживається з дієсловом do: do homework. З he/she/it додаємо -s: does.",
+       "no": [
+        "Homework поєднується з do, а не з make: make вживаємо у make a mistake, make a cake.",
+        null,
+        "З my son (he) потрібне does, а не do: -s ми додаємо до do.",
+        "Does — вже є дієсловом дії, is тут зайве: не можна ставити is і does разом."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👩 🌱 🪴 🤩",
+       "say": "My wife is interested in gardening.",
+       "audio": "ef0b5039",
+       "audioSlow": false,
+       "options": [
+        "My wife interested in gardening.",
+        "My wife is interested on gardening.",
+        "My wife does interested in gardening.",
+        "My wife is interested in gardening."
+       ],
+       "answer": 3,
+       "why": "Interested — прикметник, тому перед ним потрібне be (is), а після нього — прийменник in: is interested in.",
+       "no": [
+        "Без is речення неповне: перед прикметником interested потрібне дієслово be.",
+        "Після interested вживаємо in, а не on: interested in gardening.",
+        "Does не ставимо перед прикметником: interested — не дія, тому потрібне is.",
+        null
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "Our flat is very small.",
+       "audio": "6c0a7d33",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🏰 🌳",
+         "text": "величезний замок"
+        },
+        {
+         "emoji": "🧹 🏠",
+         "text": "прибирання вдома"
+        },
+        {
+         "emoji": "🏠 🐜",
+         "text": "крихітна квартира"
+        }
+       ],
+       "answer": 2,
+       "why": "Is — дієслово be між підметом і прикметником: our flat is very small. Small означає «маленька», а very підсилює.",
+       "no": [
+        "Це великий замок, а в реченні сказано small — «маленька».",
+        "У реченні немає слова clean або tidy: ми кажемо про розмір квартири (small), а не про прибирання.",
+        null
+       ]
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "questions": [
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "She is afraid of flying.",
+       "audio": "63393b90",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🚆 😍",
+         "text": "любить потяги"
+        },
+        {
+         "emoji": "🚌 😴",
+         "text": "спить у дорозі"
+        },
+        {
+         "emoji": "✈️ 😨",
+         "text": "страх у літаку"
+        },
+        {
+         "emoji": "🧳 🏠",
+         "text": "збирає валізу"
+        }
+       ],
+       "answer": 2,
+       "why": "Afraid of + -ing означає «боятися чогось робити»: afraid of flying — боятися літати. Тому підходить сцена зі страхом перед літаком.",
+       "no": [
+        "Ця сцена про любов до потягів, а в реченні йдеться про страх (afraid), а не про задоволення.",
+        "Ця сцена про сон у транспорті; слово afraid означає страх, а не втому.",
+        null,
+        "Зібрана валіза — це підготовка до поїздки, але речення не про збори, а про страх польоту."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🚌 ✈️ ✅",
+       "sentence": "Does this bus go to the airport? — Yes, it ___.",
+       "say": "Does this bus go to the airport? — Yes, it does.",
+       "audio": "b09ffaa3",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "does",
+        "do"
+       ],
+       "answer": 1,
+       "why": "У короткій відповіді повторюємо допоміжне слово з питання: питання з Does — відповідь «Yes, it does».",
+       "no": [
+        "Is використовується, коли питання починається з Is (to be), а тут питання з Does.",
+        null,
+        "Do вживаємо лише з I, you, we, they; з it потрібне does."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🚇 ⚙️ ❓",
+       "say": "How does the metro work?",
+       "audio": "0e5185be",
+       "audioSlow": false,
+       "options": [
+        "How the metro does work?",
+        "How works the metro?",
+        "How does the metro work?",
+        "How does the metro works?"
+       ],
+       "answer": 2,
+       "why": "У питанні з how після питального слова ставимо does, потім підмет, і основне дієслово без -s: How does the metro work?",
+       "no": [
+        "Does стоїть не на місці: допоміжне дієслово має йти одразу після how, перед підметом.",
+        "Тут немає допоміжного does; у питанні дієслово work не ставиться перед підметом.",
+        null,
+        "Після does основне дієслово без -s: the metro work, а не works; -s уже є в does."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "He doesn't like rainy weather.",
+       "audio": "682a0778",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🌧️ 😍",
+         "text": "радіє дощу"
+        },
+        {
+         "emoji": "☀️ 😎",
+         "text": "сонячний день"
+        },
+        {
+         "emoji": "🌧️ 😒",
+         "text": "дощ псує настрій"
+        },
+        {
+         "emoji": "❄️ ⛄",
+         "text": "випав сніг"
+        }
+       ],
+       "answer": 2,
+       "why": "Doesn't like — заперечення Present Simple з he/she/it: doesn't + дієслово без -s. Він не любить дощову погоду, тому підходить сумний персонаж під дощем.",
+       "no": [
+        "Тут дощ радує людину, а doesn't like означає «не любить».",
+        "Сонячна погода — не дощова (rainy), а в реченні йдеться саме про дощ.",
+        null,
+        "Сніг — це не rainy weather, тож сцена не відповідає слову rainy."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "😰 ⛈️ ✈️",
+       "sentence": "We ___ worried about the storm.",
+       "say": "We are worried about the storm.",
+       "audio": "19437e52",
+       "audioSlow": false,
+       "options": [
+        "do",
+        "are",
+        "is"
+       ],
+       "answer": 1,
+       "why": "Worried — прикметник, тому перед ним потрібне be. З we вживаємо are: We are worried about the storm.",
+       "no": [
+        "Do не ставимо перед прикметником worried; потрібне дієслово be.",
+        null,
+        "Is — форма для he/she/it, а підмет we потребує are."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🧑‍🎓 📚 ✏️ 🚌",
+       "say": "I do my homework on the bus.",
+       "audio": "3ee54287",
+       "audioSlow": false,
+       "options": [
+        "I make my homework on the bus.",
+        "I do my homework on the bus.",
+        "I does my homework on the bus."
+       ],
+       "answer": 1,
+       "why": "Homework вживається з дієсловом do (do homework), а не make; з I дієслово do без -es.",
+       "no": [
+        "Make не поєднується зі словом homework; кажемо do homework.",
+        null,
+        "Does вживаємо лише з he/she/it, а з I потрібне do."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "We arrived in Paris two days ago.",
+       "audio": "1a5dc666",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "📅 ➡️ 🛬 🗼",
+         "text": "прилетимо згодом"
+        },
+        {
+         "emoji": "🗼 📸",
+         "text": "фотографує вежу"
+        },
+        {
+         "emoji": "📅 ⬅️ 🛬 🗼",
+         "text": "прилетіли раніше"
+        },
+        {
+         "emoji": "🛫 🏠",
+         "text": "летять додому"
+        }
+       ],
+       "answer": 2,
+       "why": "Слово ago показує минуле, тому дієслово стоїть у Past Simple: arrived (not arrive). Стрілка назад по календарю означає подію в минулому.",
+       "no": [
+        "Стрілка вперед показує майбутнє, а ago завжди вказує на минуле.",
+        "Фотографування вежі не передає, що хтось приїхав кілька днів тому.",
+        null,
+        "Політ додому — це від'їзд, а в реченні люди прибули (arrived) до Парижа."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🚗 🚗 🚗 🚗 🚗",
+       "sentence": "There are too ___ cars in the city centre.",
+       "say": "There are too many cars in the city centre.",
+       "audio": "69eda037",
+       "audioSlow": false,
+       "options": [
+        "much",
+        "many",
+        "a"
+       ],
+       "answer": 1,
+       "why": "Cars — злічуваний іменник у множині, тому з ним вживаємо many. Much — тільки для незлічуваних (water, traffic).",
+       "no": [
+        "Much не вживається зі злічуваними іменниками в множині: не too much cars.",
+        null,
+        "Артикль a ставиться перед іменником в однині, а cars — множина."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "The teacher checks our homework every day.",
+       "audio": "73bfc3f6",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🧑‍🎓 😩 📝",
+         "text": "учень пише"
+        },
+        {
+         "emoji": "🏫 🔔",
+         "text": "дзвінок"
+        },
+        {
+         "emoji": "🧑‍🏫 📝 ✅",
+         "text": "перевіряє роботи"
+        },
+        {
+         "emoji": "🧑‍🏫 🛌",
+         "text": "вчитель спить"
+        }
+       ],
+       "answer": 2,
+       "why": "З he/she/it (the teacher) у Present Simple дієслово має -s: checks. Вчитель перевіряє зошити — це сцена з вчителем і галочкою.",
+       "no": [
+        "Тут пише сам учень, а в реченні дію виконує вчитель (the teacher checks).",
+        "Дзвінок не показує, що хтось перевіряє домашнє завдання.",
+        null,
+        "Сон не має зв'язку з перевіркою домашніх завдань."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🧑‍🏫 🗺️ 🏆",
+       "sentence": "My brother is good ___ reading maps.",
+       "say": "My brother is good at reading maps.",
+       "audio": "cb64c6de",
+       "audioSlow": false,
+       "options": [
+        "of",
+        "in",
+        "for",
+        "at"
+       ],
+       "answer": 3,
+       "why": "Після good вживаємо at: good at + -ing — бути добрим у чомусь (good at reading maps).",
+       "no": [
+        "Of вживаємо в виразах на кшталт afraid of, tired of, але не після good.",
+        "In після good не використовується; кажемо good at, а не good in.",
+        "For вживаємо в responsible for, hard for, а good вимагає at.",
+        null
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🚆 🎫 💸 😱",
+       "say": "The train tickets are very expensive.",
+       "audio": "e732ed3c",
+       "audioSlow": false,
+       "options": [
+        "The train tickets very expensive.",
+        "The train tickets is very expensive.",
+        "The train tickets are very expensive.",
+        "The train tickets do very expensive."
+       ],
+       "answer": 2,
+       "why": "Expensive — прикметник, тому потрібне be; tickets — множина, тож are: The train tickets are very expensive.",
+       "no": [
+        "У реченні немає дієслова be, а перед прикметником expensive воно обов'язкове.",
+        "Tickets — множина, тому потрібне are, а не is.",
+        null,
+        "Do не ставимо перед прикметником; потрібне be, а не do."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👩 🏠 ➡️ 🚉",
+       "say": "My sister lives near the station.",
+       "audio": "6b7a0f0b",
+       "audioSlow": false,
+       "options": [
+        "My sister live near the station.",
+        "My sister lives near the station.",
+        "My sister is live near the station.",
+        "My sister does lives near the station."
+       ],
+       "answer": 1,
+       "why": "З my sister (she) у ствердженні Present Simple дієслово має -s: lives. Додаткові is і does не потрібні.",
+       "no": [
+        "З she (my sister) дієслово має отримати -s: lives, а не live.",
+        null,
+        "Is не ставимо перед дієсловом дії live; воно змінюється саме: lives.",
+        "У ствердженні does не потрібне; дієслово просто lives."
+       ]
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "questions": [
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "Ben is hopeless at online games.",
+       "audio": "29b79ed8",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "🏆 🎮 😎",
+         "text": "чемпіон гри"
+        },
+        {
+         "emoji": "😍 🎮 ❤️",
+         "text": "обожнює ігри"
+        },
+        {
+         "emoji": "😖 🎮 💀 💀",
+         "text": "постійно програє"
+        }
+       ],
+       "answer": 2,
+       "why": "Hopeless at означає «безнадійний у чомусь, дуже поганий у цьому»: після hopeless (як і після good/bad) вживаємо at. Тому Бен постійно програє.",
+       "no": [
+        "Чемпіон — це good at або great at; hopeless at означає зовсім протилежне: Бен нічого не вміє в іграх.",
+        "Love або like — це «любити»; у реченні немає love, є hopeless at — «безнадійний у іграх».",
+        null
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "I am tired of spam emails.",
+       "audio": "32765487",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "😩 📧 📧 📧 🗑️",
+         "text": "набридли листи"
+        },
+        {
+         "emoji": "😍 📧 💌",
+         "text": "радіє листам"
+        },
+        {
+         "emoji": "😴 🛏️",
+         "text": "хоче спати"
+        }
+       ],
+       "answer": 0,
+       "why": "Tired of + іменник означає «втомився від чогось, набридло». Після tired вживаємо of, а spam emails — це причина втоми.",
+       "no": [
+        null,
+        "Радіти листам — happy about; у реченні tired of spam emails, а не щось приємне.",
+        "Хотіти спати — просто tired або sleepy, без of; tired of + що саме означає «набридло»: тут спам-листи."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "She doesn't answer unknown numbers.",
+       "audio": "eb26043b",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "📞 ❓ 😊",
+         "text": "бере слухавку"
+        },
+        {
+         "emoji": "📞 ❓ 🚫",
+         "text": "не бере слухавку"
+        },
+        {
+         "emoji": "📞 ❓ 😡",
+         "text": "кричить у слухавку"
+        }
+       ],
+       "answer": 1,
+       "why": "Заперечення з дієсловом дії: she + doesn't + основне дієслово без -s (doesn't answer). Саме doesn't змінює зміст: вона не відповідає.",
+       "no": [
+        "Answers без doesn't означало б, що вона відповідає; у реченні є doesn't — тобто вона не відповідає на незнайомі номери.",
+        null,
+        "Про крик у реченні нічого немає: doesn't answer — «не відповідає», вона просто не бере слухавку."
+       ]
+      },
+      {
+       "type": "hearpic",
+       "q": "Послухайте речення й оберіть картинку, яка йому відповідає:",
+       "say": "There are many photos on my phone.",
+       "audio": "8e98b298",
+       "audioSlow": true,
+       "options": [
+        {
+         "emoji": "📱 📷",
+         "text": "одне фото"
+        },
+        {
+         "emoji": "📱 🔋 ⚠️",
+         "text": "сів акумулятор"
+        },
+        {
+         "emoji": "📱 📷 📷 📷 📷",
+         "text": "багато фото"
+        }
+       ],
+       "answer": 2,
+       "why": "Many вживаємо зі злічуваними іменниками в множині: many photos. Одне фото було б a photo, і тоді не було б many.",
+       "no": [
+        "Одне фото — a photo (is, не are); many photos — це багато фото.",
+        "Про акумулятор у реченні нічого немає: many photos означає багато фото на телефоні.",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "👩‍💻 🌐 ✅",
+       "sentence": "Anna is responsible ___ the website.",
+       "say": "Anna is responsible for the website.",
+       "audio": "cb6c8b76",
+       "audioSlow": false,
+       "options": [
+        "of",
+        "for",
+        "in",
+        "at"
+       ],
+       "answer": 1,
+       "why": "Після responsible вживаємо прийменник for: responsible for + що саме. Вираз із of — це in charge of.",
+       "no": [
+        "Of стоїть у виразі in charge of, але після responsible потрібен for: responsible for the website.",
+        null,
+        "In не поєднується з responsible; це стале сполучення з for.",
+        "At вживаємо після good/bad/hopeless (good at), а не після responsible."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "👧 🎮 👍",
+       "sentence": "Does she play online games? — Yes, she ___.",
+       "say": "Does she play online games? — Yes, she does.",
+       "audio": "41cd8aa7",
+       "audioSlow": false,
+       "options": [
+        "is",
+        "do",
+        "does"
+       ],
+       "answer": 2,
+       "why": "Коротка відповідь повторює допоміжне слово питання: Does she ...? — Yes, she does. З she (he, it) вживаємо does.",
+       "no": [
+        "Is повторює to be (Is she...?), а в питанні було Does she play, тому відповідь з does, а не is.",
+        "Do вживаємо з I/you/we/they; з she потрібне does.",
+        null
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "🔑 ❓ 😵 ⬅️ 📅",
+       "sentence": "I ___ my password two days ago.",
+       "say": "I forgot my password two days ago.",
+       "audio": "f34e6236",
+       "audioSlow": false,
+       "options": [
+        "forgot",
+        "forget",
+        "forgets",
+        "am forgetting"
+       ],
+       "answer": 0,
+       "why": "Слово ago («тому») вказує на минуле, тому потрібен Past Simple: forgot — минула форма неправильного дієслова forget.",
+       "no": [
+        null,
+        "Forget — теперішній час; з two days ago потрібен Past Simple: forgot.",
+        "Forgets — форма теперішнього часу для he/she/it, і з I вона взагалі не вживається.",
+        "Am forgetting — це Present Continuous, а ago вимагає Past Simple: forgot."
+       ]
+      },
+      {
+       "type": "scenegap",
+       "q": "Подивіться на сцену й оберіть слово для пропуску:",
+       "scene": "📱 💾 ❌",
+       "sentence": "There is not ___ space on my phone.",
+       "say": "There is not much space on my phone.",
+       "audio": "7add7722",
+       "audioSlow": false,
+       "options": [
+        "many",
+        "an",
+        "much"
+       ],
+       "answer": 2,
+       "why": "Space (місце) — незлічуваний іменник, тому з ним вживаємо much, а не many: not much space.",
+       "no": [
+        "Many вживаємо зі злічуваними іменниками в множині (many photos); space тут незлічуваний, тому потрібен much.",
+        "An ставимо лише перед злічуваним іменником в однині, що починається з голосного звуку; space — незлічуваний, тому an не підходить.",
+        null
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👨 😰 🔄 💻",
+       "say": "He is worried about the update.",
+       "audio": "99075da5",
+       "audioSlow": false,
+       "options": [
+        "He very worried about the update.",
+        "He is worry about the update.",
+        "He is worried about the update.",
+        "He does worried about the update."
+       ],
+       "answer": 2,
+       "why": "Worried — прикметник, тому перед ним потрібне дієслово to be: he is worried about.",
+       "no": [
+        "Без is речення не має дієслова: worried — прикметник, потрібно he is worried.",
+        "Worry — іменник або дієслово, а після is потрібен прикметник worried.",
+        null,
+        "Does не ставимо перед прикметником: з прикметником worried вживаємо тільки to be (is)."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "🤔 ❓ ⚙️ 🤖",
+       "say": "How does this robot work?",
+       "audio": "5ef3c2f0",
+       "audioSlow": false,
+       "options": [
+        "How does this robot work?",
+        "How works this robot?",
+        "How does this robot works?",
+        "How this robot does work?"
+       ],
+       "answer": 0,
+       "why": "У питанні з дієсловом дії порядок такий: питальне слово + does + підмет + дієслово без -s (How does this robot work?).",
+       "no": [
+        null,
+        "Без does порядок слів неправильний: у питаннях з work потрібне допоміжне does перед підметом.",
+        "Після does дієслово стоїть без -s: -s уже міститься у does, тому works тут зайве.",
+        "Does має стояти перед підметом this robot, а не після нього."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👨 📧 🌅 ☕",
+       "say": "Tom checks his email every morning.",
+       "audio": "7b0b7bcf",
+       "audioSlow": false,
+       "options": [
+        "Tom check his email every morning.",
+        "Tom checks his email every morning.",
+        "Tom is checks his email every morning.",
+        "Tom does checks his email every morning."
+       ],
+       "answer": 1,
+       "why": "У Present Simple з he/she/it (Tom = he) до дієслова додаємо -s: checks. Допоміжні is/does у ствердженні не потрібні.",
+       "no": [
+        "З Tom (he) дієслово має закінчення -s: checks, а не check.",
+        null,
+        "Is і checks разом не вживаємо: у реченні вже є дієслово дії checks, тому is зайве.",
+        "Does використовуємо в питаннях і запереченнях, а в ствердженні воно зайве: просто Tom checks."
+       ]
+      },
+      {
+       "type": "scenesay",
+       "q": "Яке речення описує цю сцену?",
+       "scene": "👦 💻 📚 ✏️",
+       "say": "He does his homework on a laptop.",
+       "audio": "92b5f7ad",
+       "audioSlow": false,
+       "options": [
+        "He makes his homework on a laptop.",
+        "He do his homework on a laptop.",
+        "He does his homework in a laptop.",
+        "He does his homework on a laptop."
+       ],
+       "answer": 3,
+       "why": "Homework (домашнє завдання) вживається з do: do homework. Ноутбук — це «on a laptop», а не «in».",
+       "no": [
+        "Make означає «створювати, виробляти»; домашнє завдання виконують: do homework, а не make homework.",
+        "З he дієслово do має форму does: he does his homework.",
+        "Кажемо on a laptop (на ноутбуці), а не in a laptop, бо ноутбук тут пристрій, на якому працюють.",
+        null
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mistakes",
+   "index": 11,
+   "title": "My Mistakes Lab",
+   "short": "My mistakes",
+   "subtitle": "Тренажер ваших типових помилок · вправи зі звуком",
+   "summary": "Вправи на помилки, які повторюються у ваших записах уроків 5–9: допоміжні слова, короткі відповіді, прийменники, be, порядок слів у питаннях, артиклі. У тестах є вправи зі звуком.",
+   "sections": [
+    {
+     "id": "mistakes-0-як-це-працює",
+     "title": "Як це працює",
+     "blocks": [
+      {
+       "kind": "paragraph",
+       "text": "Я розшифрував записи ваших занять (уроки 5–9) і знайшов <b>146 місць</b>, де повторюються схожі помилки. Нижче вони розкладені на 9 груп — від найчастіших до найрідших. Усі приклади — ваші власні фрази з уроків, поруч правильний варіант і коротке правило."
+      },
+      {
+       "kind": "hint",
+       "text": "Розшифровка автоматична, тож окремі фрази могли бути записані трохи інакше, ніж ви їх сказали. Для тренування це не заважає: правила працюють для всіх схожих речень."
+      },
+      {
+       "kind": "numbered",
+       "items": [
+        "Перегляньте групи помилок нижче (кожна — таблиця «було → стало»).",
+        "Пройдіть тест: у ньому <b>5 звукових вправ</b> — «Слухати й обрати», «Питання → коротка відповідь» і диктант. Кнопка 🔊 читає речення вголос, 🐢 — повільніше. Голоси різні (чоловічі й жіночі, американські й британські).",
+        "Кожна відповідь має пояснення, чому саме так. Повторюйте вголос — це допомагає краще, ніж просто читати."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mistakes-1-ілюстрована-лексика",
+     "title": "Ілюстрована лексика",
+     "blocks": [
+      {
+       "kind": "hint",
+       "text": "Натисніть на картку, щоб побачити переклад і приклад."
+      },
+      {
+       "kind": "flipCards",
+       "cards": [
+        {
+         "emoji": "🅰️",
+         "en": "Does he work?",
+         "ua": "після does дієслово без -s",
+         "example": "Does he work late?"
+        },
+        {
+         "emoji": "🔁",
+         "en": "Do you…? — Yes, I do.",
+         "ua": "перше слово питання = останнє слово відповіді",
+         "example": "Are you busy? — Yes, I am."
+        },
+        {
+         "emoji": "😩",
+         "en": "tired of",
+         "ua": "втомлений від (не tired in)",
+         "example": "I'm tired of emails."
+        },
+        {
+         "emoji": "🛡️",
+         "en": "responsible for",
+         "ua": "відповідальний за (не of)",
+         "example": "She is responsible for hiring."
+        },
+        {
+         "emoji": "🎯",
+         "en": "good at",
+         "ua": "гарний у (чомусь)",
+         "example": "He is good at drawing."
+        },
+        {
+         "emoji": "🧩",
+         "en": "I am busy",
+         "ua": "прикметнику потрібне be",
+         "example": "I am busy this week."
+        },
+        {
+         "emoji": "📖",
+         "en": "a problem",
+         "ua": "перед злічуваним однини потрібен a",
+         "example": "I have a problem with that."
+        },
+        {
+         "emoji": "🧮",
+         "en": "much / many",
+         "ua": "much — незлічуване, many — злічуване",
+         "example": "much electricity, many people"
+        },
+        {
+         "emoji": "🛠️",
+         "en": "do / make",
+         "ua": "do homework, make a mistake",
+         "example": "I do homework. I make mistakes."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mistakes-2-ваш-рейтинг-помилок",
+     "title": "Ваш рейтинг помилок",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Група"
+        },
+        {
+         "text": "Скільки разів"
+        },
+        {
+         "text": "Типовий приклад"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "1. do / does і дієслово без -s"
+         },
+         {
+          "text": "<b>31</b>"
+         },
+         {
+          "text": "<s>Does he works late?</s>"
+         }
+        ],
+        [
+         {
+          "text": "2. Підбір слів і сполучень"
+         },
+         {
+          "text": "<b>25</b>"
+         },
+         {
+          "text": "<s>make homework</s> → do homework"
+         }
+        ],
+        [
+         {
+          "text": "3. Прийменники"
+         },
+         {
+          "text": "<b>18</b>"
+         },
+         {
+          "text": "<s>tired in</s> → tired of"
+         }
+        ],
+        [
+         {
+          "text": "4. Артиклі, множина, much / many"
+         },
+         {
+          "text": "<b>16</b>"
+         },
+         {
+          "text": "<s>I have problem</s> → a problem"
+         }
+        ],
+        [
+         {
+          "text": "5. Короткі відповіді Yes / No"
+         },
+         {
+          "text": "<b>16</b>"
+         },
+         {
+          "text": "<s>Do you…? — Yes, I am.</s>"
+         }
+        ],
+        [
+         {
+          "text": "6. Порядок слів у питанні"
+         },
+         {
+          "text": "<b>13</b>"
+         },
+         {
+          "text": "<s>What means dish?</s>"
+         }
+        ],
+        [
+         {
+          "text": "7. Пропущене be"
+         },
+         {
+          "text": "<b>11</b>"
+         },
+         {
+          "text": "<s>I responsible for…</s>"
+         }
+        ],
+        [
+         {
+          "text": "8. Час: минулий чи теперішній"
+         },
+         {
+          "text": "<b>9</b>"
+         },
+         {
+          "text": "<s>I study 20 years ago</s>"
+         }
+        ],
+        [
+         {
+          "text": "9. Заперечення"
+         },
+         {
+          "text": "<b>7</b>"
+         },
+         {
+          "text": "<s>she isn't usually answer</s>"
+         }
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mistakes-3-1-do-does-і-дієслово-без-s",
+     "title": "1 · do / does і дієслово без -s",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>Does he works late?</s>"
+         },
+         {
+          "text": "<mark>Does he work late?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Do your boss check your work?</s>"
+         },
+         {
+          "text": "<mark>Does your boss check your work?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>How often does I go to the office?</s>"
+         },
+         {
+          "text": "<mark>How often do I go to the office?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I wants to move.</s>"
+         },
+         {
+          "text": "<mark>I want to move.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I never tries.</s>"
+         },
+         {
+          "text": "<mark>I never try.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Why do you are late?</s>"
+         },
+         {
+          "text": "<mark>Why are you late?</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> закінчення <b>-s</b> лише для he / she / it і лише <b>один раз</b>: або в допоміжному does (Does he work?), або на дієслові (He works). Після do / does дієслово завжди базове. З I, you, we, they — тільки do."
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Прийом:</b> do / does і be (am / is / are) ніколи не стоять разом в одному питанні."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-4-2-підбір-слів-і-сполучень",
+     "title": "2 · Підбір слів і сполучень",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>a more good idea</s>"
+         },
+         {
+          "text": "<mark>a better idea</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>my most (dish)</s>"
+         },
+         {
+          "text": "<mark>my favourite dish</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>How do you do at work?</s>"
+         },
+         {
+          "text": "<mark>What do you do at work?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I make homework.</s>"
+         },
+         {
+          "text": "<mark>I do homework.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I have the same mistake.</s>"
+         },
+         {
+          "text": "<mark>I make the same mistake.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>tired of work late</s>"
+         },
+         {
+          "text": "<mark>tired of working late</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I even don't remember.</s>"
+         },
+         {
+          "text": "<mark>I don't even remember.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>grammatics</s>"
+         },
+         {
+          "text": "<mark>grammar</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> <b>do</b> — домашка, роботу, вправи; <b>make</b> — помилки, презентації, рішення. Після прийменника (of, at, in) дієслово має форму -ing. Good → better (не more good)."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-5-3-прийменники",
+     "title": "3 · Прийменники",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>tired in / tired from</s>"
+         },
+         {
+          "text": "<mark>tired of</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>responsible of</s>"
+         },
+         {
+          "text": "<mark>responsible for</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>good in cooking / hopeless in</s>"
+         },
+         {
+          "text": "<mark>good at cooking / hopeless at</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>it's hard to me</s>"
+         },
+         {
+          "text": "<mark>it's hard for me</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>English in a high level</s>"
+         },
+         {
+          "text": "<mark>English at a high level</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I have on five o'clock meeting</s>"
+         },
+         {
+          "text": "<mark>I have a meeting at five o'clock</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>do something in your phone</s>"
+         },
+         {
+          "text": "<mark>do something on your phone</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "chips",
+       "items": [
+        "tired of",
+        "responsible for",
+        "good / bad / hopeless at",
+        "interested in",
+        "worried about",
+        "afraid of",
+        "proud of",
+        "in charge of"
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Прийом:</b> вчіть прийменник разом зі словом, як одне ціле: <b>tired of</b>, а не просто «tired»."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-6-4-артиклі-множина-much-many",
+     "title": "4 · Артиклі, множина, much / many",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>I have problem with that.</s>"
+         },
+         {
+          "text": "<mark>I have a problem with that.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I want to know answer.</s>"
+         },
+         {
+          "text": "<mark>I want to know the answer.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I make presentation.</s>"
+         },
+         {
+          "text": "<mark>I make a presentation.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I have many responsibility.</s>"
+         },
+         {
+          "text": "<mark>I have many responsibilities.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>many electricity</s>"
+         },
+         {
+          "text": "<mark>much electricity</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>I don't have office.</s>"
+         },
+         {
+          "text": "<mark>I don't have an office.</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> перед злічуваним іменником в однині потрібен <b>a / an</b> (або the, якщо ми знаємо який саме). <b>Many</b> + злічуване множина (many people), <b>much</b> + незлічуване (much water, much electricity)."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-7-5-короткі-відповіді-yes-no",
+     "title": "5 · Короткі відповіді Yes / No",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>Do you work on Sunday? — Yes, I am.</s>"
+         },
+         {
+          "text": "<mark>Yes, I do.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Are you busy? — No, I don't.</s>"
+         },
+         {
+          "text": "<mark>No, I'm not.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Does she work late? — Yes, she is.</s>"
+         },
+         {
+          "text": "<mark>Yes, she does.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Do they like it? — Yes, they does.</s>"
+         },
+         {
+          "text": "<mark>Yes, they do.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Is it big? — No, is not.</s>"
+         },
+         {
+          "text": "<mark>No, it isn't.</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> перше слово питання = останнє слово відповіді: <b>Do</b> you…? — Yes, I <b>do</b>. <b>Are</b> you…? — No, I'm <b>not</b>. <b>Does</b> she…? — Yes, she <b>does</b>. Не пропускайте підмет: No, <b>it</b> isn't."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-8-6-порядок-слів-у-питанні",
+     "title": "6 · Порядок слів у питанні",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>What means dish?</s>"
+         },
+         {
+          "text": "<mark>What does “dish” mean?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>How work my player?</s>"
+         },
+         {
+          "text": "<mark>How does my player work?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>What is interested Olga in?</s>"
+         },
+         {
+          "text": "<mark>What is Olga interested in?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Why you give your money?</s>"
+         },
+         {
+          "text": "<mark>Why do you give your money?</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>What exactly he don't like?</s>"
+         },
+         {
+          "text": "<mark>What exactly doesn't he like?</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Формула:</b> (Wh-слово) + <b>допоміжне слово</b> + підмет + дієслово. Допоміжне слово завжди стоїть <b>перед підметом</b>; у звичайних дієсловах без нього не обійтися."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-9-7-пропущене-be",
+     "title": "7 · Пропущене be",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>I responsible for visual effects.</s>"
+         },
+         {
+          "text": "<mark>I am responsible for visual effects.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Yes, I busy this week.</s>"
+         },
+         {
+          "text": "<mark>Yes, I am busy this week.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>We worried about this.</s>"
+         },
+         {
+          "text": "<mark>We are worried about this.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>He bad at drawing.</s>"
+         },
+         {
+          "text": "<mark>He is bad at drawing.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Do your flat large?</s>"
+         },
+         {
+          "text": "<mark>Is your flat large?</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> прикметник або chunk (busy, tired of, responsible for) завжди потребує <b>am / is / are</b>. В українській «я зайнятий» — без дієслова, а в англійській обов'язково <b>I'm busy</b>."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-10-8-час-минулий-чи-теперішній",
+     "title": "8 · Час: минулий чи теперішній",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>I study it more than 20 years ago.</s>"
+         },
+         {
+          "text": "<mark>I studied it more than 20 years ago.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Two weeks ago I speak with an American.</s>"
+         },
+         {
+          "text": "<mark>Two weeks ago I spoke with an American.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>He understand my bad English.</s>"
+         },
+         {
+          "text": "<mark>He understood my bad English.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Tom is paying the bills on the first of the month.</s>"
+         },
+         {
+          "text": "<mark>Tom pays the bills on the first of the month.</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> слова <b>ago, yesterday, last week</b> вимагають Past Simple (studied, spoke, understood). Звичка чи регулярна дія — Present Simple (Tom pays)."
+      }
+     ]
+    },
+    {
+     "id": "mistakes-11-9-заперечення",
+     "title": "9 · Заперечення",
+     "blocks": [
+      {
+       "kind": "table",
+       "header": [
+        {
+         "text": "Як було"
+        },
+        {
+         "text": "Як правильно"
+        }
+       ],
+       "rows": [
+        [
+         {
+          "text": "<s>She isn't usually answer emails.</s>"
+         },
+         {
+          "text": "<mark>She doesn't usually answer emails.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>You don't responsible for the budget.</s>"
+         },
+         {
+          "text": "<mark>You aren't responsible for the budget.</mark>"
+         }
+        ],
+        [
+         {
+          "text": "<s>Aren't like loud music.</s>"
+         },
+         {
+          "text": "<mark>Don't like loud music.</mark>"
+         }
+        ]
+       ]
+      },
+      {
+       "kind": "paragraph",
+       "text": "<b>Правило:</b> з дієсловом — <b>do / does + not</b> (doesn't answer, don't like); з прикметником чи chunk — <b>be + not</b> (aren't responsible). Не змішуйте їх."
+      }
+     ]
+    }
+   ],
+   "versions": [
+    {
+     "n": 1,
+     "questions": [
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "I am responsible for the budget.",
+       "audio": "9c5ff6a7",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "I am responsible of the budget.",
+        "I responsible for the budget.",
+        "I am responsible for the budget."
+       ],
+       "answer": 2,
+       "why": "Responsible — це прикметник, тому потрібне be (I am), а прийменник після нього — for. Слухайте: am на початку і for перед the budget.",
+       "no": [
+        "Responsible of — помилка: з responsible вживаємо for (responsible for), а of стоїть у виразі in charge of.",
+        "У цьому реченні немає am: responsible — прикметник, і перед ним потрібне дієслово be (I am responsible).",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "Does he work late on Fridays?",
+       "audio": "d275e276",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "Does he works late on Fridays?",
+        "Does he work late on Fridays?",
+        "Do he work late on Fridays?"
+       ],
+       "answer": 1,
+       "why": "З he вживаємо does, а після does основне дієслово стоїть без -s: does he work. Слухайте: does на початку і work без закінчення.",
+       "no": [
+        "Does he works — зайве -s: -s уже міститься в does, тому після нього дієслово без закінчення (work).",
+        null,
+        "Do he — помилка: з he/she/it потрібне does, а do вживаємо з I/you/we/they."
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Does she live in Kyiv?",
+       "audio": "47d3f553",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "Yes, she is.",
+        "Yes, she does.",
+        "Yes, she do."
+       ],
+       "answer": 1,
+       "why": "Коротка відповідь повторює допоміжне слово з питання: Does she...? — Yes, she does. Слухайте перше слово питання.",
+       "no": [
+        "Yes, she is — помилка: питання починається з does (live — дієслово дії), тому і відповідь з does, а не з is.",
+        null,
+        "Yes, she do — з she потрібне does, а do вживаємо лише з I/you/we/they."
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Are you interested in sport?",
+       "audio": "ef59136f",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "No, I don't.",
+        "No, I aren't.",
+        "No, I'm not."
+       ],
+       "answer": 2,
+       "why": "Питання починається з are (interested — прикметник), тому відповідаємо з be: No, I'm not. З I форма be — am: I'm not.",
+       "no": [
+        "No, I don't — помилка: питання починається з are, тому в короткій відповіді не можна використовувати don't.",
+        "No, I aren't — така форма не існує: з I вживаємо am, тому правильно I'm not.",
+        null
+       ]
+      },
+      {
+       "type": "dictate",
+       "q": "Послухайте й впишіть речення, яке ви чуєте:",
+       "say": "I do my homework after dinner.",
+       "audio": "52ea10ad",
+       "audioSlow": true,
+       "answers": [
+        "I do my homework after dinner."
+       ],
+       "why": "Homework вживається з дієсловом do: do homework, а не make. Слухайте дієслово do і слово homework."
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне питання:",
+       "options": [
+        "How many people works in your company?",
+        "How many people work in your company?",
+        "How many people does work in your company?"
+       ],
+       "answer": 1,
+       "why": "People — це множина (вони), тому дієслово без -s: people work. Закінчення -s потрібне лише з he/she/it.",
+       "no": [
+        "People — множина, тому works з -s тут неправильне: потрібне work.",
+        null,
+        "Does тут зайве: у питанні з How many people... підмет people стоїть перед дієсловом, а does разом з work створює подвійне дієслово."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке речення звучить природно?",
+       "options": [
+        "I often have the same mistake in this exercise.",
+        "I often make the same mistake in this exercise.",
+        "I often do the same mistake in this exercise."
+       ],
+       "answer": 1,
+       "why": "Помилки не «мають» і не «виконують», а роблять: make a mistake. Це стале словосполучення, його потрібно вчити разом.",
+       "no": [
+        "Have a mistake — калька з української; англійською кажемо make a mistake.",
+        null,
+        "Do a mistake — неправильне словосполучення: do вживаємо з homework, work, exercises, а з mistake — лише make."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть речення про минуле:",
+       "options": [
+        "Two weeks ago I speak with a tourist in Lviv.",
+        "Two weeks ago I spoke with a tourist in Lviv.",
+        "Two weeks ago I am speaking with a tourist in Lviv."
+       ],
+       "answer": 1,
+       "why": "Слово ago вказує на минулий час, тому потрібен Past Simple: speak — spoke.",
+       "no": [
+        "Speak — це Present Simple, а з two weeks ago потрібен Past Simple (spoke).",
+        null,
+        "Am speaking — це теперішній тривалий час, який не поєднується з two weeks ago; потрібне spoke."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "I'm hopeless ___ cooking.",
+       "answers": [
+        "at"
+       ],
+       "why": "Після hopeless (як і після good, bad, terrible) вживаємо прийменник at: hopeless at cooking.",
+       "no": "Після hopeless потрібен прийменник at (hopeless at), а in і інші прийменники тут не підходять."
+      },
+      {
+       "type": "fill",
+       "q": "How ___ electricity do you use at home?",
+       "answers": [
+        "much"
+       ],
+       "why": "Electricity — незлічуваний іменник, тому питаємо How much, а не How many.",
+       "no": "З незлічуваним іменником electricity вживаємо much; many — лише зі злічуваними іменниками у множині."
+      },
+      {
+       "type": "order",
+       "words": [
+        "How",
+        "does",
+        "my",
+        "new",
+        "player",
+        "work?"
+       ],
+       "answer": "How does my new player work?",
+       "why": "У питанні з How потрібне does перед підметом, а основне дієслово стоїть без -s: How does my player work?",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "З’єднайте питання з правильною короткою відповіддю:",
+       "pairs": [
+        {
+         "emoji": "☕",
+         "left": "Do you like tea?",
+         "right": "Yes, I do."
+        },
+        {
+         "emoji": "😴",
+         "left": "Are you tired?",
+         "right": "No, I'm not."
+        },
+        {
+         "emoji": "♟️",
+         "left": "Does he play chess?",
+         "right": "Yes, he does."
+        },
+        {
+         "emoji": "🏠",
+         "left": "Do they live here?",
+         "right": "No, they don't."
+        },
+        {
+         "emoji": "🌧️",
+         "left": "Is it cold today?",
+         "right": "Yes, it is."
+        }
+       ],
+       "why": "Коротка відповідь повторює допоміжне слово з питання: do — do, does — does, are — am/are, is — is."
+      },
+      {
+       "type": "sort",
+       "q": "Яке слово потрібне на початку питання?",
+       "buckets": [
+        "Is / Are",
+        "Do / Does"
+       ],
+       "items": [
+        {
+         "text": "___ your flat large?",
+         "bucket": 0
+        },
+        {
+         "text": "___ you late for work?",
+         "bucket": 0
+        },
+        {
+         "text": "___ he work late?",
+         "bucket": 1
+        },
+        {
+         "text": "___ your boss check emails?",
+         "bucket": 1
+        },
+        {
+         "text": "___ they worried about the exam?",
+         "bucket": 0
+        },
+        {
+         "text": "___ she play tennis?",
+         "bucket": 1
+        }
+       ],
+       "why": "Якщо в питанні є дієслово дії (work, check, play), потрібне do/does. Якщо є прикметник (large, late, worried), потрібне is/are."
+      },
+      {
+       "type": "gapbank",
+       "q": "Заповніть пропуски у запереченнях:",
+       "bank": [
+        "isn't",
+        "doesn't",
+        "aren't",
+        "don't"
+       ],
+       "sentences": [
+        "My sister ___ eat meat.",
+        "You ___ responsible for the budget.",
+        "I ___ like loud music.",
+        "Our flat ___ large."
+       ],
+       "answers": [
+        "doesn't",
+        "aren't",
+        "don't",
+        "isn't"
+       ],
+       "why": "З дієсловом дії заперечення будуємо через do/does + not (don't з I, doesn't з she). З прикметником — через be + not (aren't з you, isn't з flat).",
+       "no": null
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "questions": [
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "Our team is in charge of the new website.",
+       "audio": "84c2effa",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "Our team is in charge for the new website.",
+        "Our team is in charge of the new website.",
+        "Our team is in charge at the new website."
+       ],
+       "answer": 1,
+       "why": "Вираз in charge завжди вживається з прийменником of: in charge of something. Слухайте слово після charge — це of.",
+       "no": [
+        "Responsible for — з for, але in charge — окремий вираз, який вимагає of; for після in charge не вживається.",
+        null,
+        "Після in charge прийменник at не вживається: це стале сполучення in charge of."
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "Our manager always checks the reports.",
+       "audio": "3527162e",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "Our manager always check the reports.",
+        "Our manager is always checks the reports.",
+        "Our manager always checks the reports."
+       ],
+       "answer": 2,
+       "why": "Our manager = he/she, тому дієслово Present Simple має -s: checks. Слухайте закінчення -s і відсутність is перед always.",
+       "no": [
+        "Our manager — це one person (він/вона), тому потрібне check з -s: checks.",
+        "Не можна ставити is разом із дієсловом дії: або is + прикметник, або одне дієслово checks.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Do your colleagues work on weekends?",
+       "audio": "a270c5a4",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "Yes, they does.",
+        "Yes, they are.",
+        "Yes, they do."
+       ],
+       "answer": 2,
+       "why": "Коротка відповідь повторює допоміжне слово з питання: Do ... ? — Yes, they do. З they вживаємо do.",
+       "no": [
+        "Does вживаємо лише з he/she/it; з they потрібне do.",
+        "Питання починається з Do, а не з Are, тому і відповідь має бути з do, а не з are.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Is Anna good at writing reports?",
+       "audio": "6d41fb65",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "No, she doesn't.",
+        "No, she isn't.",
+        "No, is not."
+       ],
+       "answer": 1,
+       "why": "Питання починається з Is, тому коротка відповідь теж з is: No, she isn't. Good — прикметник, тут потрібне be.",
+       "no": [
+        "Doesn't відповідає на питання з Does, а питання починається з Is.",
+        null,
+        "У короткій відповіді обов'язково потрібен підмет: No, she isn't, а не No, is not."
+       ]
+      },
+      {
+       "type": "dictate",
+       "q": "Послухайте й впишіть речення, яке ви чуєте:",
+       "say": "How often does she check her emails?",
+       "audio": "1483709d",
+       "audioSlow": true,
+       "answers": [
+        "How often does she check her emails?",
+        "How often does she check her email?"
+       ],
+       "why": "Після does дієслово стоїть без -s: does she check. Слухайте how often does, а потім check без закінчення."
+      },
+      {
+       "type": "mc",
+       "q": "Новий колега питає про вашу роботу. Яке питання про ваші обов'язки правильне?",
+       "options": [
+        "How do you do at work?",
+        "What do you do at work?",
+        "What does you do at work?"
+       ],
+       "answer": 1,
+       "why": "Про роботу й обов'язки питаємо What do you do? Питання How do you do? — це привітання, а не питання про роботу.",
+       "no": [
+        "How do you do? означає «приємно познайомитися», а не «чим ви займаєтесь»; про обов'язки питаємо what.",
+        null,
+        "Does вживаємо лише з he/she/it; з you потрібне do: What do you do?"
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне речення про втому від довгих змін.",
+       "options": [
+        "I am tired in working late every day.",
+        "I am tired of work late every day.",
+        "I am tired of working late every day."
+       ],
+       "answer": 2,
+       "why": "Tired of — стале сполучення, а після прийменника дієслово має форму -ing: tired of working.",
+       "no": [
+        "З tired вживаємо прийменник of, а in тут не підходить; tired in — помилка.",
+        "Після прийменника of дієслово стоїть у формі -ing: of working, а не of work.",
+        null
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Ви не знаєте слово «deadline». Яке питання про його значення правильне?",
+       "options": [
+        "What does 'deadline' mean?",
+        "What means 'deadline'?",
+        "What does 'deadline' means?"
+       ],
+       "answer": 0,
+       "why": "У питанні з дієсловом mean потрібне does перед підметом, а mean стоїть без -s: What does 'deadline' mean?",
+       "no": [
+        null,
+        "Без does порядок слів неправильний; в англійському питанні не можна ставити дієслово прямо після what.",
+        "Після does дієслово стоїть без -s, бо -s уже є в does: does ... mean."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть пропущене слово: How ___ electricity does our server room use?",
+       "answers": [
+        "much"
+       ],
+       "why": "Electricity — незлічуваний іменник, тому з ним вживаємо much, а не many: How much electricity?",
+       "no": "З незлічуваним іменником electricity потрібне much; many вживаємо лише зі злічуваними іменниками у множині."
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть дієслово в потрібній формі: Two weeks ago I ___ (speak) with a client from Canada.",
+       "answers": [
+        "spoke"
+       ],
+       "why": "Слово ago вказує на минуле, тому потрібен Past Simple: speak — spoke.",
+       "no": "Зі словом ago потрібен Past Simple. Неправильне дієслово speak у минулому має форму spoke."
+      },
+      {
+       "type": "order",
+       "words": [
+        "Does",
+        "your",
+        "boss",
+        "work",
+        "late",
+        "on",
+        "Fridays?"
+       ],
+       "answer": "Does your boss work late on Fridays?",
+       "why": "Питання з дією (work) будуємо через does: Does + підмет + дієслово без -s. Late on Fridays стоїть після дієслова.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "Поєднайте слово з правильним прийменником і закінченням фрази:",
+       "pairs": [
+        {
+         "emoji": "💰",
+         "left": "responsible",
+         "right": "for the budget"
+        },
+        {
+         "emoji": "👥",
+         "left": "in charge",
+         "right": "of the sales team"
+        },
+        {
+         "emoji": "📉",
+         "left": "bad",
+         "right": "at writing reports"
+        },
+        {
+         "emoji": "📅",
+         "left": "worried",
+         "right": "about the deadline"
+        },
+        {
+         "emoji": "💻",
+         "left": "interested",
+         "right": "in the new software"
+        }
+       ],
+       "why": "Прийменники вчимо разом зі словом: responsible for, in charge of, bad at, worried about, interested in."
+      },
+      {
+       "type": "sort",
+       "q": "Розподіліть питання за словом, яким вони починаються: Is / Are чи Do / Does.",
+       "buckets": [
+        "Is / Are",
+        "Do / Does"
+       ],
+       "items": [
+        {
+         "text": "___ your boss in charge of the budget?",
+         "bucket": 0
+        },
+        {
+         "text": "___ the clients happy with the price?",
+         "bucket": 0
+        },
+        {
+         "text": "___ the new printer broken?",
+         "bucket": 0
+        },
+        {
+         "text": "___ your colleagues work from home?",
+         "bucket": 1
+        },
+        {
+         "text": "___ Anna write reports every week?",
+         "bucket": 1
+        },
+        {
+         "text": "___ they start work at nine?",
+         "bucket": 1
+        }
+       ],
+       "why": "Якщо в питанні є дія (work, write, start), потрібне do/does. Якщо є прикметник або стан (in charge, happy, broken), потрібне is/are."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть заперечення з банку слів для кожного речення:",
+       "bank": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "aren't",
+        "am not"
+       ],
+       "sentences": [
+        "I ___ like loud meetings, so I use headphones.",
+        "Our boss ___ answer emails after six o'clock.",
+        "The printer ___ broken. It works well.",
+        "You ___ responsible for sales, so please ask Tom.",
+        "I ___ interested in the old software."
+       ],
+       "answers": [
+        "don't",
+        "doesn't",
+        "isn't",
+        "aren't",
+        "am not"
+       ],
+       "why": "З дієсловом дії: don't (I, you, we, they) і doesn't (he, she, it). З прикметником або сталим сполученням: am not, isn't, aren't.",
+       "no": null
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "questions": [
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "My brother is good at cooking.",
+       "audio": "ce797fc1",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "My brother good at cooking.",
+        "My brother is good at cooking.",
+        "My brother is good in cooking."
+       ],
+       "answer": 1,
+       "why": "Перед good at потрібне дієслово to be (is), а після good вживаємо прийменник at. Слухайте: є слово «is» і чути «at».",
+       "no": [
+        "Тут бракує дієслова is: good — прикметник, тому з ним потрібне be (he is good). Слухайте, чи є «is» після brother.",
+        null,
+        "Після good вживаємо прийменник at, а не in: good at cooking. Слухайте останнє слово перед cooking."
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "I have a problem with my washing machine.",
+       "audio": "20ee18a6",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "I have problem with my washing machine.",
+        "I have a problem for my washing machine.",
+        "I have a problem with my washing machine."
+       ],
+       "answer": 2,
+       "why": "Problem — злічуваний іменник в однині, тому перед ним потрібен артикль a; а «проблема з чимось» — a problem with. Слухайте «a» перед problem і «with» після нього.",
+       "no": [
+        "Тут немає артикля: problem в однині потребує a (a problem). Слухайте, чи звучить «a» між have і problem.",
+        "Після problem кажемо with, а не for: a problem with my washing machine. Слухайте слово після problem.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Does your neighbour play the guitar?",
+       "audio": "43d0d14e",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "Yes, he is.",
+        "Yes, he do.",
+        "Yes, he does."
+       ],
+       "answer": 2,
+       "why": "Коротка відповідь повторює допоміжне слово з питання: на Does ...? відповідаємо Yes, he does. Слухайте перше слово питання — does.",
+       "no": [
+        "Питання починається з does, а не з is, тому відповідь з is не підходить: Yes, he does.",
+        "З he/she/it після Yes вживаємо does, а do — лише з I/you/we/they: Yes, he does.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Are you interested in gardening?",
+       "audio": "dc27fd18",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "No, I don't.",
+        "No, I'm not.",
+        "No, I aren't."
+       ],
+       "answer": 1,
+       "why": "Питання починається з are (to be), тому й коротка відповідь з be: No, I'm not. Слухайте перше слово питання — are.",
+       "no": [
+        "Don't — це допоміжне слово для дій, а питання починається з are; відповідь має повторити be: No, I'm not.",
+        null,
+        "З I форма to be — лише am (I'm not); форми «I aren't» не існує."
+       ]
+      },
+      {
+       "type": "dictate",
+       "q": "Послухайте й впишіть речення, яке ви чуєте:",
+       "say": "My sister doesn't like loud music at home.",
+       "audio": "6d838799",
+       "audioSlow": true,
+       "answers": [
+        "My sister doesn't like loud music at home.",
+        "My sister does not like loud music at home."
+       ],
+       "why": "Like — дієслово дії, тому заперечення з he/she/it будуємо через doesn't (does not) + дієслово без -s. Слухайте «doesn't like»."
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне питання про сусіда по кімнаті:",
+       "options": [
+        "Do your roommate cook dinner every day?",
+        "Does your roommate cooks dinner every day?",
+        "Does your roommate cook dinner every day?",
+        "Is your roommate cook dinner every day?"
+       ],
+       "answer": 2,
+       "why": "Your roommate — одна людина (he/she), тому питання починаємо з does, а дієслово після does стоїть без -s: cook.",
+       "no": [
+        "Do вживаємо з I/you/we/they, а roommate — одна людина (he/she), тому потрібне does.",
+        "Після does закінчення -s вже є в самому does, тому cooks зайве: does ... cook.",
+        null,
+        "Is з дієсловом дії cook не вживається: для дій питання будуємо через do/does, а is — лише з прикметниками й іменниками."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне речення про догляд за садом:",
+       "options": [
+        "My dad is responsible of the garden.",
+        "My dad is responsible for the garden.",
+        "My dad is responsible in the garden."
+       ],
+       "answer": 1,
+       "why": "Responsible — стале сполучення з прийменником for: responsible for the garden (of вживаємо в in charge of).",
+       "no": [
+        "Responsible of — типова помилка: після responsible потрібне for; of вживається у виразі in charge of.",
+        null,
+        "In у значенні «відповідає за» не підходить: з responsible вживаємо тільки for."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке речення про хобі звучить природно?",
+       "options": [
+        "Painting is my more good hobby.",
+        "Painting is my most hobby.",
+        "Painting is my favorite hobby."
+       ],
+       "answer": 2,
+       "why": "Для слова «улюблений» в англійській є окреме слово favorite: my favorite hobby.",
+       "no": [
+        "More good неправильне: порівняльний ступінь від good — better, а «улюблений» взагалі передаємо словом favorite.",
+        "Most не означає «улюблений»: my most hobby не існує, потрібне favorite.",
+        null
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть дієслово cook у потрібній формі: I am tired of ___ dinner every day.",
+       "answers": [
+        "cooking"
+       ],
+       "why": "Після прийменника (tired of) дієслово має форму -ing: tired of cooking.",
+       "no": "Після прийменника of потрібна форма -ing (cooking), а не інфінітив чи форма з -s."
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть дієслово buy у минулому часі: Two weeks ago I ___ a new sofa for my flat.",
+       "answers": [
+        "bought"
+       ],
+       "why": "Слово ago вказує на минуле, тому потрібен Past Simple. Buy — неправильне дієслово: buy — bought.",
+       "no": "З ago потрібен Past Simple: форма bought, а не buy чи buyed."
+      },
+      {
+       "type": "order",
+       "words": [
+        "How",
+        "does",
+        "my",
+        "new",
+        "coffee",
+        "machine",
+        "work?"
+       ],
+       "answer": "How does my new coffee machine work?",
+       "why": "У питанні з Wh-словом спочатку стоїть питальне слово, потім does, потім підмет, а дієслово — без -s: How does my machine work?",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "З’єднайте початок речення з правильним закінченням (прийменники!):",
+       "pairs": [
+        {
+         "emoji": "🎂",
+         "left": "Mum is good",
+         "right": "at baking cakes"
+        },
+        {
+         "emoji": "🧽",
+         "left": "I am tired",
+         "right": "of washing windows"
+        },
+        {
+         "emoji": "🌱",
+         "left": "Dad is responsible",
+         "right": "for the garden"
+        },
+        {
+         "emoji": "💸",
+         "left": "We are worried",
+         "right": "about the rent"
+        },
+        {
+         "emoji": "🪜",
+         "left": "The stairs are hard",
+         "right": "for me to climb"
+        }
+       ],
+       "why": "Прийменники треба вчити разом зі словом: good at, tired of, responsible for, worried about, hard for."
+      },
+      {
+       "type": "sort",
+       "q": "Яким словом починається питання? Розподіліть частини речень:",
+       "buckets": [
+        "Do",
+        "Does",
+        "Is"
+       ],
+       "items": [
+        {
+         "text": "you like our new flat?",
+         "bucket": 0
+        },
+        {
+         "text": "my parents have a garden?",
+         "bucket": 0
+        },
+        {
+         "text": "your cat sleep on the sofa?",
+         "bucket": 1
+        },
+        {
+         "text": "she cook at home?",
+         "bucket": 1
+        },
+        {
+         "text": "your flat big?",
+         "bucket": 2
+        },
+        {
+         "text": "the kitchen clean?",
+         "bucket": 2
+        }
+       ],
+       "why": "Do — з I/you/we/they, does — з he/she/it, коли є дієслово дії; is — коли дії немає (big, clean — прикметники)."
+      },
+      {
+       "type": "gapbank",
+       "q": "Заповніть пропуски словами з банку (a, an, the, much, many):",
+       "bank": [
+        "a",
+        "an",
+        "the",
+        "much",
+        "many"
+       ],
+       "sentences": [
+        "We don't have ___ furniture in the new flat.",
+        "I have ___ old guitar in my room.",
+        "There are too ___ books on my shelf.",
+        "Our flat is on ___ second floor.",
+        "I need ___ lamp for my desk."
+       ],
+       "answers": [
+        "much",
+        "an",
+        "many",
+        "the",
+        "a"
+       ],
+       "why": "Much — з незлічуваними (furniture), many — з множиною (books); an — перед голосним звуком (old), the — для єдиного відомого поверху, a — перед приголосним (lamp).",
+       "no": null
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "questions": [
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "She is tired of waiting for the bus.",
+       "audio": "513a027b",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "She is tired in waiting for the bus.",
+        "She tired of waiting for the bus.",
+        "She is tired of waiting for the bus."
+       ],
+       "answer": 2,
+       "why": "Стале сполучення — be tired of, а після прийменника дієслово має -ing (waiting). Слухайте прийменник of і слово is перед tired.",
+       "no": [
+        "Після tired вживаємо of, а не in; на слух чути in замість of.",
+        "Без is речення неповне: після She потрібне be (is), бо tired — прикметник. Слухайте is перед tired.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "Our guide knows the city very well.",
+       "audio": "91c71581",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "Our guide know the city very well.",
+        "Our guide knows city very well.",
+        "Our guide knows the city very well."
+       ],
+       "answer": 2,
+       "why": "З Our guide (he/she) дієслово у Present Simple має -s: knows, а перед city потрібен артикль the. Слухайте закінчення -s і слово the.",
+       "no": [
+        "Our guide — це він/вона, тому дієслово має -s: knows, а не know.",
+        "Перед city бракує артикля the (конкретне місто, про яке йдеться). Слухайте слово the перед city.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Does the museum open on Monday?",
+       "audio": "71c7368d",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "Yes, it is.",
+        "Yes, it does.",
+        "Yes, it do."
+       ],
+       "answer": 1,
+       "why": "У короткій відповіді повторюємо допоміжне слово з питання: Does ...? — Yes, it does. Слухайте на початку питання слово Does.",
+       "no": [
+        "Is — допоміжне слово для be, а питання починається з Does, тому відповідь має бути does.",
+        null,
+        "З it (він/вона/воно) потрібне does, а не do: Yes, it does."
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Are you afraid of flying?",
+       "audio": "491110f6",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "No, I don't.",
+        "No, I'm not.",
+        "No, I not."
+       ],
+       "answer": 1,
+       "why": "Питання починається з Are, тож у короткій відповіді повторюємо be: No, I'm not. Do/don't — для дієслів, а afraid — прикметник.",
+       "no": [
+        "Don't повторює do, а в питанні було Are; з прикметником afraid відповідаємо через be.",
+        null,
+        "У короткій запереченій відповіді потрібне I'm not (be + not); просто I not — так не кажуть."
+       ]
+      },
+      {
+       "type": "dictate",
+       "q": "Послухайте й впишіть речення, яке ви чуєте:",
+       "say": "My brother doesn't like long flights.",
+       "audio": "0af87cbb",
+       "audioSlow": true,
+       "answers": [
+        "My brother doesn't like long flights.",
+        "My brother does not like long flights."
+       ],
+       "why": "З My brother (he) у запереченні вживаємо doesn't (does not) + дієслово без -s: like. Слухайте doesn't і те, що після нього немає -s."
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне речення про домашнє завдання:",
+       "options": [
+        "I usually make my homework on the bus.",
+        "I usually do my homework on the bus.",
+        "I usually does my homework on the bus."
+       ],
+       "answer": 1,
+       "why": "Homework поєднується з дієсловом do: do homework (а make — для презентацій, помилок, планів). З I дієслово не має -s.",
+       "no": [
+        "Make homework — неправильне словосполучення; у цьому виразі потрібне do.",
+        null,
+        "Does вживаємо лише з he/she/it, а з I потрібне do."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Яке питання про автобус складене правильно?",
+       "options": [
+        "Where the bus to the airport stops?",
+        "Where stops the bus to the airport?",
+        "Where does the bus to the airport stop?"
+       ],
+       "answer": 2,
+       "why": "У питанні зі словом Where у Present Simple потрібне do/does перед підметом, а дієслово — без -s: Where does the bus stop?",
+       "no": [
+        "Без does порядок слів як у ствердженні; у питанні треба поставити does перед підметом (the bus) і прибрати -s.",
+        "Дієслово не ставимо перед підметом: потрібне допоміжне слово does, а stop лишається в основній формі.",
+        null
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть речення без пропущеного дієслова be:",
+       "options": [
+        "My friends are worried about the exam tomorrow.",
+        "My friends worried about the exam tomorrow.",
+        "My friends do worried about the exam tomorrow."
+       ],
+       "answer": 0,
+       "why": "Worried — прикметник, тому перед ним потрібне be (are): be worried about. Без are речення звучить як минулий час.",
+       "no": [
+        null,
+        "Без are речення неповне: worried — прикметник, і перед ним потрібне be.",
+        "Do вживають з дієсловами, а worried тут прикметник — потрібне are."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть go у правильній формі: Last summer we ___ to Lviv by train.",
+       "answers": [
+        "went"
+       ],
+       "why": "Last summer — минулий час, тому вживаємо Past Simple. Go — неправильне дієслово, його форма went.",
+       "no": "З Last summer потрібен Past Simple: went."
+      },
+      {
+       "type": "fill",
+       "q": "Впишіть much або many: There are too ___ tourists in the city in August.",
+       "answers": [
+        "many"
+       ],
+       "why": "Tourists — злічуваний іменник у множині, тому вживаємо many (much — для незлічуваних, як traffic).",
+       "no": "Tourists можна порахувати, тому тут many, а не much."
+      },
+      {
+       "type": "order",
+       "words": [
+        "She",
+        "doesn't",
+        "usually",
+        "take",
+        "the",
+        "bus",
+        "to",
+        "school."
+       ],
+       "answer": "She doesn't usually take the bus to school.",
+       "why": "У запереченні Present Simple з She вживаємо doesn't + дієслово без -s; usually стоїть між doesn't і take.",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "З'єднайте початок речення із закінченням:",
+       "pairs": [
+        {
+         "emoji": "✈️",
+         "left": "I am afraid",
+         "right": "of flying"
+        },
+        {
+         "emoji": "🗣️",
+         "left": "She is good",
+         "right": "at languages"
+        },
+        {
+         "emoji": "👥",
+         "left": "He is responsible",
+         "right": "for the group"
+        },
+        {
+         "emoji": "🏰",
+         "left": "We are interested",
+         "right": "in old castles"
+        },
+        {
+         "emoji": "📝",
+         "left": "The test is hard",
+         "right": "for me"
+        }
+       ],
+       "why": "Ці прикметники мають постійні прийменники: afraid of, good at, responsible for, interested in, hard for."
+      },
+      {
+       "type": "sort",
+       "q": "Розсортуйте часові слова: Present Simple чи Past Simple?",
+       "buckets": [
+        "Present Simple (звичка)",
+        "Past Simple (минуле)"
+       ],
+       "items": [
+        {
+         "text": "every morning",
+         "bucket": 0
+        },
+        {
+         "text": "yesterday",
+         "bucket": 1
+        },
+        {
+         "text": "two days ago",
+         "bucket": 1
+        },
+        {
+         "text": "usually",
+         "bucket": 0
+        },
+        {
+         "text": "last week",
+         "bucket": 1
+        },
+        {
+         "text": "often",
+         "bucket": 0
+        }
+       ],
+       "why": "Every morning, usually, often — слова звички (Present Simple); yesterday, ago, last week вказують на минуле (Past Simple)."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть слово з рамки для кожного речення:",
+       "bank": [
+        "do",
+        "does",
+        "doesn't",
+        "is",
+        "are"
+       ],
+       "sentences": [
+        "___ your teacher give a lot of homework?",
+        "How often ___ you travel by train?",
+        "My brother ___ like flying.",
+        "Our school ___ near the park.",
+        "My parents ___ interested in hiking."
+       ],
+       "answers": [
+        "does",
+        "do",
+        "doesn't",
+        "is",
+        "are"
+       ],
+       "why": "З he/she/it — does/doesn't, з you — do, а перед прикметником або місцем вживаємо be: is з однині, are з множиною.",
+       "no": null
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "questions": [
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "Max is responsible for the server.",
+       "audio": "2602a29c",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "Max is responsible of the server.",
+        "Max is responsible in the server.",
+        "Max is responsible for the server."
+       ],
+       "answer": 2,
+       "why": "Після responsible вживаємо прийменник for: responsible for something. Слухайте слово після responsible: воно звучить як for.",
+       "no": [
+        "Responsible of — типова помилка: of вживається у виразі in charge of, а responsible завжди з for.",
+        "Responsible in — неправильне сполучення; після responsible потрібне for, а не in.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте речення й оберіть те, що ви почули:",
+       "say": "My laptop never works without internet.",
+       "audio": "905d8a44",
+       "audioSlow": true,
+       "reply": false,
+       "options": [
+        "My laptop is never works without internet.",
+        "My laptop never work without internet.",
+        "My laptop never works without internet."
+       ],
+       "answer": 2,
+       "why": "З my laptop (it) дієслово в Present Simple має закінчення -s: never works. Слухайте кінець слова works і відсутність is перед ним.",
+       "no": [
+        "Не можна ставити is разом із дієсловом дії works: або is + прикметник, або одне дієслово works.",
+        "Laptop — це one thing (it), тому дієслово потребує -s: works, а не work.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Do your friends play online games?",
+       "audio": "e412644d",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "Yes, they are.",
+        "Yes, they does.",
+        "Yes, they do."
+       ],
+       "answer": 2,
+       "why": "Коротка відповідь повторює допоміжне слово з питання: Do ... ? — Yes, they do. Слухайте перше слово питання: do.",
+       "no": [
+        "Are у відповіді не пасує: питання починається з do, а не з are.",
+        "З they вживаємо do; does — лише з he, she, it.",
+        null
+       ]
+      },
+      {
+       "type": "listen",
+       "q": "Послухайте питання й оберіть правильну коротку відповідь:",
+       "say": "Is your new phone fast?",
+       "audio": "4b20ab05",
+       "audioSlow": true,
+       "reply": true,
+       "options": [
+        "No, it doesn't.",
+        "No, it isn't.",
+        "No, is not."
+       ],
+       "answer": 1,
+       "why": "Питання починається з is, тож відповідь теж з is: No, it isn't. Fast — прикметник, тому do/does тут не потрібне.",
+       "no": [
+        "Doesn't не пасує: питання з is (не з does), а fast — не дія.",
+        null,
+        "У короткій відповіді обов'язковий підмет: No, it isn't (або No, it is not), а не No, is not."
+       ]
+      },
+      {
+       "type": "dictate",
+       "q": "Послухайте й впишіть речення, яке ви чуєте:",
+       "say": "She doesn't read messages at night.",
+       "audio": "964204cc",
+       "audioSlow": true,
+       "answers": [
+        "She doesn't read messages at night.",
+        "She does not read messages at night."
+       ],
+       "why": "Заперечення в Present Simple з she будуємо через doesn't (does not) + дієслово без -s: doesn't read. Слухайте doesn't перед read."
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть правильне запитання про додаток:",
+       "options": [
+        "How often does this app updates?",
+        "How often does this app update?",
+        "How often is this app update?"
+       ],
+       "answer": 1,
+       "why": "Після does дієслово стоїть без -s: does this app update. Питання з how often у Present Simple будуємо через do/does.",
+       "no": [
+        "Після does дієслово без -s: -s уже є в does, тому updates зайве.",
+        null,
+        "Is вживаємо з прикметником або -ing, а update — дія; для питання про дію потрібне does."
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Як правильно сказати про повільне завантаження?",
+       "options": [
+        "I'm tired of wait for slow downloads.",
+        "I'm tired of to wait for slow downloads.",
+        "I'm tired of waiting for slow downloads."
+       ],
+       "answer": 2,
+       "why": "Tired of — стале сполучення, а після прийменника of дієслово має форму -ing: tired of waiting.",
+       "no": [
+        "Після прийменника of дієслово має форму -ing, а не початкову: of waiting, а не of wait.",
+        "Після прийменника of не ставимо to + дієслово; потрібна форма -ing: tired of waiting.",
+        null
+       ]
+      },
+      {
+       "type": "mc",
+       "q": "Оберіть речення, у якому правильно вжито артикль:",
+       "options": [
+        "I want to make a presentation with AI.",
+        "I want to make presentation with AI.",
+        "I want to make a presentations with AI."
+       ],
+       "answer": 0,
+       "why": "Presentation — злічуваний іменник в однині, тому перед ним потрібен артикль a: a presentation.",
+       "no": [
+        null,
+        "Перед злічуваним іменником в однині обов'язковий артикль a; без нього речення неправильне.",
+        "Артикль a ставимо лише з однинною формою; presentations — множина, тож a тут зайве."
+       ]
+      },
+      {
+       "type": "fill",
+       "q": "Everybody can ___ a mistake when they type fast.",
+       "answers": [
+        "make"
+       ],
+       "why": "Помилки роблять, а не мають чи виконують: make a mistake — стале словосполучення.",
+       "no": "Тут потрібне дієслово, яке з mistake утворює сталий вираз: make a mistake (не have і не do)."
+      },
+      {
+       "type": "fill",
+       "q": "Yesterday my friend ___ (send) me a funny video.",
+       "answers": [
+        "sent"
+       ],
+       "why": "Слово yesterday вказує на минуле, тому потрібен Past Simple. Send — неправильне дієслово: send — sent.",
+       "no": "З yesterday потрібен Past Simple. Форма send належить до теперішнього часу; правильна форма — sent."
+      },
+      {
+       "type": "order",
+       "words": [
+        "What",
+        "does",
+        "this",
+        "error",
+        "message",
+        "mean?"
+       ],
+       "answer": "What does this error message mean?",
+       "why": "У питанні з what і дієсловом mean потрібне does перед підметом, а mean стоїть без -s: What does this error message mean?",
+       "no": "Порядок слів неправильний. Перевірте правило нижче."
+      },
+      {
+       "type": "match",
+       "q": "З'єднайте початок речення з правильним закінченням:",
+       "pairs": [
+        {
+         "emoji": "😴",
+         "left": "I am tired",
+         "right": "of slow Wi-Fi"
+        },
+        {
+         "emoji": "🛠️",
+         "left": "He is responsible",
+         "right": "for the company website"
+        },
+        {
+         "emoji": "😟",
+         "left": "We are worried",
+         "right": "about losing my files"
+        },
+        {
+         "emoji": "✏️",
+         "left": "She is bad",
+         "right": "at drawing on a tablet"
+        },
+        {
+         "emoji": "🎨",
+         "left": "They are interested",
+         "right": "in AI art"
+        }
+       ],
+       "why": "Прийменники треба вчити разом зі словом: tired of, responsible for, worried about, bad at, interested in."
+      },
+      {
+       "type": "sort",
+       "q": "Розподіліть слова: яке з ними потрібне для заперечення — I'm not чи I don't?",
+       "buckets": [
+        "I'm not …",
+        "I don't …"
+       ],
+       "items": [
+        {
+         "text": "tired",
+         "bucket": 0
+        },
+        {
+         "text": "responsible",
+         "bucket": 0
+        },
+        {
+         "text": "afraid",
+         "bucket": 0
+        },
+        {
+         "text": "interested",
+         "bucket": 0
+        },
+        {
+         "text": "download",
+         "bucket": 1
+        },
+        {
+         "text": "use",
+         "bucket": 1
+        },
+        {
+         "text": "need",
+         "bucket": 1
+        },
+        {
+         "text": "like",
+         "bucket": 1
+        }
+       ],
+       "why": "З прикметниками (tired, responsible, afraid, interested) заперечення будуємо через be: I'm not. З дієсловами дії (download, use, need, like) — через don't."
+      },
+      {
+       "type": "gapbank",
+       "q": "Оберіть слово з банку для кожного речення:",
+       "bank": [
+        "much",
+        "many",
+        "a",
+        "an"
+       ],
+       "sentences": [
+        "Our server doesn't use ___ electricity.",
+        "There are too ___ ads on this website.",
+        "She has ___ idea for a new app.",
+        "He wants to buy ___ new keyboard."
+       ],
+       "answers": [
+        "much",
+        "many",
+        "an",
+        "a"
+       ],
+       "why": "Much вживаємо з незлічуваними іменниками (electricity), many — з множиною (ads). Перед голосним звуком — an (an idea), перед приголосним — a (a new keyboard).",
+       "no": null
+      }
+     ]
+    }
+   ]
   }
  ],
  "ticker": [
@@ -12920,6 +18507,126 @@
    "en": "give money away",
    "ua": "роздавати гроші",
    "emoji": "🎁"
+  },
+  {
+   "en": "follow-up question",
+   "ua": "уточнювальне питання, що продовжує розмову",
+   "emoji": "🔍"
+  },
+  {
+   "en": "What about you?",
+   "ua": "а ти? — швидке питання у відповідь",
+   "emoji": "🙋"
+  },
+  {
+   "en": "What exactly…?",
+   "ua": "що саме…?",
+   "emoji": "🎯"
+  },
+  {
+   "en": "How many hours a week…?",
+   "ua": "скільки годин на тиждень…?",
+   "emoji": "🔢"
+  },
+  {
+   "en": "Which ice-cream do you like?",
+   "ua": "Which + іменник: вибір з відомого набору",
+   "emoji": "🍦"
+  },
+  {
+   "en": "What time is it?",
+   "ua": "котра година?",
+   "emoji": "⏰"
+  },
+  {
+   "en": "self-employed",
+   "ua": "працює на себе",
+   "emoji": "💼"
+  },
+  {
+   "en": "co-founder",
+   "ua": "співзасновник",
+   "emoji": "🏢"
+  },
+  {
+   "en": "literature awards",
+   "ua": "літературні премії",
+   "emoji": "🏅"
+  },
+  {
+   "en": "tired of (not tired in)",
+   "ua": "прийменник of",
+   "emoji": "😩"
+  },
+  {
+   "en": "responsible for",
+   "ua": "відповідальний за",
+   "emoji": "🛡️"
+  },
+  {
+   "en": "good at",
+   "ua": "гарний у…",
+   "emoji": "🎯"
+  },
+  {
+   "en": "I am busy",
+   "ua": "не «I busy» — потрібне am",
+   "emoji": "🧩"
+  },
+  {
+   "en": "Does he work?",
+   "ua": "після does — без -s",
+   "emoji": "❓"
+  },
+  {
+   "en": "What does it mean?",
+   "ua": "не «What means it?»",
+   "emoji": "💡"
+  },
+  {
+   "en": "do homework",
+   "ua": "робити домашку — do, не make",
+   "emoji": "📚"
+  },
+  {
+   "en": "make a mistake",
+   "ua": "робити помилку — make",
+   "emoji": "✏️"
+  },
+  {
+   "en": "a better idea",
+   "ua": "не «more good idea»",
+   "emoji": "🌟"
+  },
+  {
+   "en": "afraid of",
+   "ua": "боятися…",
+   "emoji": "😨"
+  },
+  {
+   "en": "proud of",
+   "ua": "пишатися…",
+   "emoji": "🏆"
+  },
+  {
+   "en": "worried about",
+   "ua": "хвилюватися про…",
+   "emoji": "😟"
+  },
+  {
+   "en": "hard for me",
+   "ua": "складно для мене",
+   "emoji": "🪜"
+  },
+  {
+   "en": "in charge of",
+   "ua": "керувати…",
+   "emoji": "🧑‍💼"
+  },
+  {
+   "en": "interested in",
+   "ua": "цікавитися…",
+   "emoji": "🤔"
   },
   {
    "en": "a habit / routine",

@@ -120,8 +120,15 @@ struct ResultView: View {
     // MARK: - Допоміжне
 
     private func title(of question: Question) -> String {
-        if case .order = question { return "Складіть речення" }
-        return question.prompt
+        switch question {
+        case .order: return "Складіть речення"
+        // Для звукових завдань загальна інструкція нічого не каже — показуємо саме речення / сцену.
+        case .listen(_, let s, _, _, _, _, _), .dictate(_, let s, _, _), .hearpic(_, let s, _, _, _, _):
+            return "🔊 " + s.say
+        case .scenegap(_, let scene, let sentence, _, _, _, _, _): return scene + "  " + sentence
+        case .scenesay(let q, let scene, _, _, _, _, _): return scene + "  " + q
+        default: return question.prompt
+        }
     }
 
     /// Конфеті при ≥ 70% через 0.35 с; прибирається після ~2.5 с (150 кадрів).

@@ -15,6 +15,9 @@ struct LessonArt: View {
         case "beordo": ArtCanvas(label: "BE or DO?") { ArtBeOrDo() }
         case "negatives": ArtCanvas(label: "Yes / No: короткі відповіді") { ArtNegatives() }
         case "questions": ArtCanvas(label: "Where does your boss work?") { ArtQuestions() }
+        case "questions2": ArtCanvas(label: "Follow-up питання") { ArtQuestions2() }
+        case "visual": ArtCanvas(label: "Картинки й звук") { ArtVisual() }
+        case "mistakes": ArtCanvas(label: "Мої помилки") { ArtMistakes() }
         default: ArtCanvas(label: "Співбесіда") { ArtTrial() }
         }
     }

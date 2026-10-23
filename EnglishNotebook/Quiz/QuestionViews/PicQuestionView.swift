@@ -1,12 +1,15 @@
 import SwiftUI
 
-/// Вибір картинки: сітка 2×N карток з емодзі.
-struct PicQuestionView: View {
+/// Вибір картинки: сітка 2×N карток з емодзі. `animated` — емодзі як анімована сцена (hearpic);
+/// `accessory` — вміст між питанням і картками (кнопки звуку).
+struct PicQuestionView<Accessory: View>: View {
     var prompt: String
     var options: [PicOption]
     var answer: Int
     var no: [String?]?
+    var animated = false
     var finish: QuestionFinish
+    @ViewBuilder var accessory: () -> Accessory
 
     @State private var chosen: Int?
     @State private var popTrigger = 0
@@ -17,6 +20,7 @@ struct PicQuestionView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             QuestionPrompt(text: prompt)
+            accessory()
             LazyVGrid(columns: columns, spacing: 14) {
                 ForEach(options.indices, id: \.self) { k in
                     picButton(k)
@@ -38,9 +42,14 @@ struct PicQuestionView: View {
             choose(k)
         } label: {
             VStack(spacing: 8) {
-                Text(option.emoji)
-                    .font(.system(size: 56))
-                    .accessibilityHidden(true)
+                if animated {
+                    SceneView(scene: option.emoji, size: 38)
+                        .frame(minHeight: 56)
+                } else {
+                    Text(option.emoji)
+                        .font(.system(size: 56))
+                        .accessibilityHidden(true)
+                }
                 HStack(spacing: 4) {
                     if st == .ok {
                         Image(systemName: "checkmark.circle.fill").foregroundStyle(Theme.ok)
@@ -83,4 +92,10 @@ struct PicQuestionView: View {
     }
 
     private func opt(_ k: Int) -> PicOption { options[min(max(k, 0), options.count - 1)] }
+}
+
+extension PicQuestionView where Accessory == EmptyView {
+    init(prompt: String, options: [PicOption], answer: Int, no: [String?]?, finish: @escaping QuestionFinish) {
+        self.init(prompt: prompt, options: options, answer: answer, no: no, finish: finish) { EmptyView() }
+    }
 }

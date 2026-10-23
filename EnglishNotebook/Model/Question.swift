@@ -1,6 +1,15 @@
 import Foundation
 
-// 7 типів завдань — 1:1 із сайтом (mc, fill, order, pic, match, sort, gapbank).
+// 12 типів завдань — 1:1 із сайтом: mc, fill, order, pic, match, sort, gapbank
+// і звукові/сценові listen, dictate, hearpic, scenegap, scenesay.
+
+/// Озвучка речення: `audio` — ключ mp3 у Resources/Audio (`<audio>.mp3`, `<audio>-slow.mp3`);
+/// без нього додаток читає `say` системним голосом.
+struct QuestionSound: Codable, Hashable {
+    var say: String
+    var audio: String?
+    var audioSlow: Bool?
+}
 
 struct PicOption: Codable, Hashable {
     var emoji: String
@@ -26,6 +35,12 @@ enum Question: Codable, Identifiable {
     case match(q: String, pairs: [MatchPair], why: String?)
     case sort(q: String, buckets: [String], items: [SortItem], why: String?)
     case gapbank(q: String, bank: [String], sentences: [String], answers: [String], why: String?, no: String?)
+    /// `reply` — звучить питання, а варіанти — короткі відповіді на нього.
+    case listen(q: String, sound: QuestionSound, reply: Bool, options: [String], answer: Int, why: String?, no: [String?]?)
+    case dictate(q: String, sound: QuestionSound, answers: [String], why: String?)
+    case hearpic(q: String, sound: QuestionSound, options: [PicOption], answer: Int, why: String?, no: [String?]?)
+    case scenegap(q: String, scene: String, sentence: String, sound: QuestionSound, options: [String], answer: Int, why: String?, no: [String?]?)
+    case scenesay(q: String, scene: String, sound: QuestionSound, options: [String], answer: Int, why: String?, no: [String?]?)
 
     var typeName: String {
         switch self {
@@ -36,6 +51,11 @@ enum Question: Codable, Identifiable {
         case .match: return "match"
         case .sort: return "sort"
         case .gapbank: return "gapbank"
+        case .listen: return "listen"
+        case .dictate: return "dictate"
+        case .hearpic: return "hearpic"
+        case .scenegap: return "scenegap"
+        case .scenesay: return "scenesay"
         }
     }
 
@@ -43,7 +63,9 @@ enum Question: Codable, Identifiable {
     var prompt: String {
         switch self {
         case .mc(let q, _, _, _, _), .pic(let q, _, _, _, _), .match(let q, _, _),
-             .sort(let q, _, _, _), .gapbank(let q, _, _, _, _, _), .fill(let q, _, _, _):
+             .sort(let q, _, _, _), .gapbank(let q, _, _, _, _, _), .fill(let q, _, _, _),
+             .listen(let q, _, _, _, _, _, _), .dictate(let q, _, _, _), .hearpic(let q, _, _, _, _, _),
+             .scenegap(let q, _, _, _, _, _, _, _), .scenesay(let q, _, _, _, _, _, _):
             return q
         case .order:
             return "Складіть речення з слів:"
@@ -54,8 +76,21 @@ enum Question: Codable, Identifiable {
     var why: String? {
         switch self {
         case .mc(_, _, _, let w, _), .fill(_, _, let w, _), .order(_, _, let w, _), .pic(_, _, _, let w, _),
-             .match(_, _, let w), .sort(_, _, _, let w), .gapbank(_, _, _, _, let w, _):
+             .match(_, _, let w), .sort(_, _, _, let w), .gapbank(_, _, _, _, let w, _),
+             .listen(_, _, _, _, _, let w, _), .dictate(_, _, _, let w), .hearpic(_, _, _, _, let w, _),
+             .scenegap(_, _, _, _, _, _, let w, _), .scenesay(_, _, _, _, _, let w, _):
             return w
+        }
+    }
+
+    /// Озвучка завдання (nil — завдання без звуку).
+    var sound: QuestionSound? {
+        switch self {
+        case .listen(_, let s, _, _, _, _, _), .dictate(_, let s, _, _), .hearpic(_, let s, _, _, _, _),
+             .scenegap(_, _, _, let s, _, _, _, _), .scenesay(_, _, let s, _, _, _, _):
+            return s
+        default:
+            return nil
         }
     }
 
@@ -70,11 +105,29 @@ enum Question: Codable, Identifiable {
         case .match(_, let p, _): return p.map(\.right).joined(separator: "|")
         case .sort(_, _, let i, _): return i.map(\.text).joined(separator: "|")
         case .gapbank(_, _, _, let a, _, _): return a.joined(separator: "|")
+        case .listen(_, let s, _, let o, let a, _, _): return s.say + ":" + o.joined(separator: "|") + "#\(a)"
+        case .dictate(_, let s, _, _): return s.say
+        case .hearpic(_, let s, let o, let a, _, _): return s.say + ":" + o.map(\.text).joined(separator: "|") + "#\(a)"
+        case .scenegap(_, let sc, let st, _, let o, let a, _, _): return sc + st + ":" + o.joined(separator: "|") + "#\(a)"
+        case .scenesay(_, let sc, _, let o, let a, _, _): return sc + ":" + o.joined(separator: "|") + "#\(a)"
         }
     }
 
     private enum CodingKeys: String, CodingKey {
         case type, q, options, answer, answers, why, no, words, pairs, buckets, items, bank, sentences
+        case say, audio, audioSlow, reply, scene, sentence
+    }
+
+    private static func decodeSound(_ c: KeyedDecodingContainer<CodingKeys>) throws -> QuestionSound {
+        QuestionSound(say: try c.decode(String.self, forKey: .say),
+                      audio: try c.decodeIfPresent(String.self, forKey: .audio),
+                      audioSlow: try c.decodeIfPresent(Bool.self, forKey: .audioSlow))
+    }
+
+    private static func encodeSound(_ s: QuestionSound, _ c: inout KeyedEncodingContainer<CodingKeys>) throws {
+        try c.encode(s.say, forKey: .say)
+        try c.encodeIfPresent(s.audio, forKey: .audio)
+        try c.encodeIfPresent(s.audioSlow, forKey: .audioSlow)
     }
 
     init(from decoder: Decoder) throws {
@@ -120,6 +173,43 @@ enum Question: Codable, Identifiable {
                             answers: try c.decode([String].self, forKey: .answers),
                             why: why,
                             no: try c.decodeIfPresent(String.self, forKey: .no))
+        case "listen":
+            self = .listen(q: try c.decode(String.self, forKey: .q),
+                           sound: try Self.decodeSound(c),
+                           reply: try c.decodeIfPresent(Bool.self, forKey: .reply) ?? false,
+                           options: try c.decode([String].self, forKey: .options),
+                           answer: try c.decode(Int.self, forKey: .answer),
+                           why: why,
+                           no: try c.decodeIfPresent([String?].self, forKey: .no))
+        case "dictate":
+            self = .dictate(q: try c.decode(String.self, forKey: .q),
+                            sound: try Self.decodeSound(c),
+                            answers: try c.decode([String].self, forKey: .answers),
+                            why: why)
+        case "hearpic":
+            self = .hearpic(q: try c.decode(String.self, forKey: .q),
+                            sound: try Self.decodeSound(c),
+                            options: try c.decode([PicOption].self, forKey: .options),
+                            answer: try c.decode(Int.self, forKey: .answer),
+                            why: why,
+                            no: try c.decodeIfPresent([String?].self, forKey: .no))
+        case "scenegap":
+            self = .scenegap(q: try c.decode(String.self, forKey: .q),
+                             scene: try c.decode(String.self, forKey: .scene),
+                             sentence: try c.decode(String.self, forKey: .sentence),
+                             sound: try Self.decodeSound(c),
+                             options: try c.decode([String].self, forKey: .options),
+                             answer: try c.decode(Int.self, forKey: .answer),
+                             why: why,
+                             no: try c.decodeIfPresent([String?].self, forKey: .no))
+        case "scenesay":
+            self = .scenesay(q: try c.decode(String.self, forKey: .q),
+                             scene: try c.decode(String.self, forKey: .scene),
+                             sound: try Self.decodeSound(c),
+                             options: try c.decode([String].self, forKey: .options),
+                             answer: try c.decode(Int.self, forKey: .answer),
+                             why: why,
+                             no: try c.decodeIfPresent([String?].self, forKey: .no))
         default:
             throw DecodingError.dataCorruptedError(forKey: .type, in: c, debugDescription: "Невідомий тип питання \(type)")
         }
@@ -144,6 +234,20 @@ enum Question: Codable, Identifiable {
             try c.encode(q, forKey: .q); try c.encode(b, forKey: .buckets); try c.encode(i, forKey: .items)
         case .gapbank(let q, let b, let s, let a, _, let no):
             try c.encode(q, forKey: .q); try c.encode(b, forKey: .bank); try c.encode(s, forKey: .sentences); try c.encode(a, forKey: .answers); try c.encodeIfPresent(no, forKey: .no)
+        case .listen(let q, let snd, let reply, let o, let a, _, let no):
+            try c.encode(q, forKey: .q); try Self.encodeSound(snd, &c); try c.encode(reply, forKey: .reply)
+            try c.encode(o, forKey: .options); try c.encode(a, forKey: .answer); try c.encodeIfPresent(no, forKey: .no)
+        case .dictate(let q, let snd, let a, _):
+            try c.encode(q, forKey: .q); try Self.encodeSound(snd, &c); try c.encode(a, forKey: .answers)
+        case .hearpic(let q, let snd, let o, let a, _, let no):
+            try c.encode(q, forKey: .q); try Self.encodeSound(snd, &c)
+            try c.encode(o, forKey: .options); try c.encode(a, forKey: .answer); try c.encodeIfPresent(no, forKey: .no)
+        case .scenegap(let q, let scene, let sentence, let snd, let o, let a, _, let no):
+            try c.encode(q, forKey: .q); try c.encode(scene, forKey: .scene); try c.encode(sentence, forKey: .sentence); try Self.encodeSound(snd, &c)
+            try c.encode(o, forKey: .options); try c.encode(a, forKey: .answer); try c.encodeIfPresent(no, forKey: .no)
+        case .scenesay(let q, let scene, let snd, let o, let a, _, let no):
+            try c.encode(q, forKey: .q); try c.encode(scene, forKey: .scene); try Self.encodeSound(snd, &c)
+            try c.encode(o, forKey: .options); try c.encode(a, forKey: .answer); try c.encodeIfPresent(no, forKey: .no)
         }
     }
 }

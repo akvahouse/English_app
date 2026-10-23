@@ -15,9 +15,11 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const WEB = path.join(ROOT, "web");
 const OUT_DIR = path.join(ROOT, "EnglishNotebook", "Resources");
 const NOTES_DIR = path.join(OUT_DIR, "Notes");
+const AUDIO_DIR = path.join(OUT_DIR, "Audio");
+const WEB_AUDIO = path.join(WEB, "assets", "audio");
 
 // ---------- 1. Виконати JS сайту ----------
-const ORDER = ["helpers", "data", "lesson-chunks", "lesson-beordo", "lesson-negatives", "lesson-questions",
+const ORDER = ["helpers", "data", "lesson-chunks", "lesson-beordo", "lesson-negatives", "lesson-questions", "lesson-questions2", "lesson-visual", "lesson-mistakes",
   "explanations", "art", "interactive", "more-content", "variants", "ticker"];
 
 const elementStub = () => ({ innerHTML: "", textContent: "", classList: { add() {}, remove() {}, toggle() {} }, style: {} });
@@ -168,6 +170,24 @@ function sectionBlocks(html) {
 }
 
 // ---------- 3. Питання ----------
+// Озвучка: як audioKey() на сайті — FNV-1a (32 біт) від UTF-8 тексту → assets/audio/<key>[-slow].mp3.
+// Якщо файлу немає, поле audio не ставимо — додаток говорить системним голосом.
+const audioFiles = new Set();
+function audioKey(text) {
+  let h = 0x811c9dc5;
+  for (const b of new TextEncoder().encode(text)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; }
+  return h.toString(16).padStart(8, "0");
+}
+function sound(say) {
+  const key = audioKey(say);
+  const has = suffix => fs.existsSync(path.join(WEB_AUDIO, key + suffix + ".mp3"));
+  if (!has("")) return { say };
+  audioFiles.add(key + ".mp3");
+  if (has("-slow")) audioFiles.add(key + "-slow.mp3");
+  return { say, audio: key, audioSlow: has("-slow") };
+}
+const noList = q => Array.isArray(q.no) ? q.no.map(x => x ?? null) : null;
+
 function question(q) {
   const why = q.why || q.explain || null;
   switch (q.type) {
@@ -178,6 +198,11 @@ function question(q) {
     case "match": return { type: "match", q: q.q, pairs: q.pairs.map(p => ({ emoji: p.e, left: p.l || null, right: p.r })), why };
     case "sort": return { type: "sort", q: q.q, buckets: q.buckets, items: q.items.map(i => ({ text: i.t, bucket: i.b })), why };
     case "gapbank": return { type: "gapbank", q: q.q, bank: q.bank, sentences: q.sentences, answers: q.answers, why, no: typeof q.no === "string" && q.no ? q.no : null };
+    case "listen": return { type: "listen", q: q.q, ...sound(q.say), reply: q.mode === "reply", options: q.options, answer: q.answer, why, no: noList(q) };
+    case "dictate": return { type: "dictate", q: q.q, ...sound(q.say), answers: [].concat(q.answer), why };
+    case "hearpic": return { type: "hearpic", q: q.q, ...sound(q.say), options: q.options.map(o => ({ emoji: o.e, text: o.t })), answer: q.answer, why, no: noList(q) };
+    case "scenegap": return { type: "scenegap", q: q.q, scene: q.scene, sentence: q.sentence, ...sound(q.say), options: q.options, answer: q.answer, why, no: noList(q) };
+    case "scenesay": return { type: "scenesay", q: q.q, scene: q.scene, ...sound(q.say), options: q.options, answer: q.answer, why, no: noList(q) };
     default: throw new Error("Невідомий тип питання " + q.type);
   }
 }
@@ -218,9 +243,17 @@ fs.writeFileSync(path.join(OUT_DIR, "Content.json"), JSON.stringify(content, nul
 const images = new Set();
 JSON.stringify(content, (k, v) => { if (k === "files") v.forEach(f => images.add(f)); return v; });
 for (const f of images) fs.copyFileSync(path.join(WEB, "assets", f), path.join(NOTES_DIR, f));
+// Аудіо: синхронізуємо теку, а не перестворюємо її — інакше iCloud Drive (тека Documents)
+// плодить «копії конфліктів» «… 2.mp3». Копіюємо лише нові/змінені файли, зайві видаляємо.
+fs.mkdirSync(AUDIO_DIR, { recursive: true });
+for (const f of fs.readdirSync(AUDIO_DIR)) if (!audioFiles.has(f)) fs.rmSync(path.join(AUDIO_DIR, f));
+for (const f of audioFiles) {
+  const src = path.join(WEB_AUDIO, f), dst = path.join(AUDIO_DIR, f);
+  if (!fs.existsSync(dst) || !fs.readFileSync(src).equals(fs.readFileSync(dst))) fs.copyFileSync(src, dst);
+}
 
 const totalQ = Object.values(stats.questions).reduce((a, b) => a + b, 0);
 console.log(`Уроків: ${stats.lessons}, секцій: ${stats.sections}, версій тестів: ${stats.versions}, питань: ${totalQ}`);
 console.log("Питання за типами:", stats.questions);
 console.log("Блоки:", stats.blocks);
-console.log(`Бігучий рядок: ${ticker.length} фраз; картинок скопійовано: ${images.size}`);
+console.log(`Бігучий рядок: ${ticker.length} фраз; картинок скопійовано: ${images.size}; аудіо: ${audioFiles.size}`);

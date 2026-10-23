@@ -24,6 +24,32 @@ struct QuestionView: View {
             SortQuestionView(prompt: q, buckets: buckets, items: items, finish: finish)
         case .gapbank(let q, let bank, let sentences, let answers, _, _):
             GapBankQuestionView(prompt: q, bank: bank, sentences: sentences, answers: answers, finish: finish)
+        case .listen(let q, let sound, _, let options, let answer, _, let no):
+            MCQuestionView(prompt: q, options: options, answer: answer, no: no, finish: finish) { _ in
+                SoundBar(sound: sound)
+            }
+        case .dictate(let q, let sound, let answers, _):
+            FillQuestionView(prompt: q, answers: answers, no: nil, sound: sound, finish: finish)
+        case .hearpic(let q, let sound, let options, let answer, _, let no):
+            PicQuestionView(prompt: q, options: options, answer: answer, no: no, animated: true, finish: finish) {
+                SoundBar(sound: sound)
+            }
+        case .scenegap(let q, let scene, let sentence, let sound, let options, let answer, _, let no):
+            // Після відповіді пропуск заповнюється правильним словом і речення звучить уголос.
+            MCQuestionView(prompt: q, options: options, answer: answer, no: no, finish: finish) { chosen in
+                VStack(spacing: 14) {
+                    SceneStage(scene: scene)
+                    GapSentence(sentence: sentence, filled: chosen == nil ? nil : options[answer], ok: chosen == answer)
+                    if chosen != nil { SoundBar(sound: sound) }
+                }
+            }
+        case .scenesay(let q, let scene, let sound, let options, let answer, _, let no):
+            MCQuestionView(prompt: q, options: options, answer: answer, no: no, finish: finish) { chosen in
+                VStack(spacing: 14) {
+                    SceneStage(scene: scene)
+                    if chosen != nil { SoundBar(sound: sound) }
+                }
+            }
         }
     }
 }
@@ -108,5 +134,33 @@ struct OptionButtonStyle: ButtonStyle {
         configuration.label
             .offset(x: configuration.isPressed ? 4 : 0)
             .animation(Motion.ease(0.18), value: configuration.isPressed)
+    }
+}
+
+/// Речення з пропуском «___» (scenegap): до відповіді — порожня лінія, після — правильне слово.
+struct GapSentence: View {
+    var sentence: String
+    var filled: String?
+    var ok: Bool
+
+    var body: some View {
+        let parts = sentence.components(separatedBy: "___")
+        let before = parts.first ?? sentence
+        let after = parts.count > 1 ? parts[1...].joined(separator: "___") : ""
+        Text("\(before)\(blank)\(after)")
+            .font(.question)
+            .foregroundStyle(Theme.ink)
+            .multilineTextAlignment(.center)
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity)
+            .animation(Motion.ease(0.3), value: filled)
+    }
+
+    private var blank: Text {
+        if let filled {
+            Text(filled).bold().foregroundStyle(ok ? Theme.ok : Theme.accent).underline()
+        } else {
+            Text("\u{2002}\u{2002}\u{2002}\u{2002}").underline(color: Theme.muted)
+        }
     }
 }

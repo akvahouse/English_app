@@ -28,12 +28,7 @@ a.card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(20,30,70,.14
 .bar>i{transition:width .6s var(--ease);background:linear-gradient(90deg,var(--accent),var(--c4),var(--accent));background-size:200% 100%;animation:shine 3s linear infinite}
 .streak{display:inline-block;margin-left:12px;padding:2px 10px;border-radius:99px;background:#fff2df;color:#96621b;font-size:13px;font-weight:700;animation:popin .3s}
 .streak.hot{background:#ffe1d6;color:#c2410c}
-@media (prefers-color-scheme:dark){
-:root:not([data-theme="light"]) .streak{background:#3a2c14;color:#f0b35a}
-:root:not([data-theme="light"]) .streak.hot{background:#47231a;color:#ff9a6c}
-}
-:root[data-theme="dark"] .streak{background:#3a2c14;color:#f0b35a}
-:root[data-theme="dark"] .streak.hot{background:#47231a;color:#ff9a6c}
+@media (prefers-color-scheme:dark){.streak{background:#3a2c14;color:#f0b35a}.streak.hot{background:#47231a;color:#ff9a6c}}
 .sidebar nav a{transition:background .2s,color .2s,transform .2s}
 .sidebar nav a:hover{transform:translateX(4px)}
 .sidebar nav a.active{background:var(--accent-soft);color:var(--accent);font-weight:650}
@@ -159,27 +154,60 @@ a.card:hover .card-art .art{transform:scale(1.06) rotate(-1deg)}
 /* ---------- 5-та картка ---------- */
 .card:nth-child(5) .num{background:#fde8f1;color:#b4235f}
 @media (prefers-color-scheme:dark){
-:root:not([data-theme="light"]) .card:nth-child(5) .num{background:#3b1a2a;color:#f58fb6}
+.card:nth-child(5) .num{background:#3b1a2a;color:#f58fb6}
 }
-:root[data-theme="dark"] .card:nth-child(5) .num{background:#3b1a2a;color:#f58fb6}
 
 /* ---------- 6-та картка ---------- */
 .card:nth-child(6) .num{background:#e3f1ff;color:#1f5fa8}
 @media (prefers-color-scheme:dark){
-:root:not([data-theme="light"]) .card:nth-child(6) .num{background:#173049;color:#7db9f2}
+.card:nth-child(6) .num{background:#173049;color:#7db9f2}
 }
-:root[data-theme="dark"] .card:nth-child(6) .num{background:#173049;color:#7db9f2}
 
 /* ---------- 7-ма картка ---------- */
 .card:nth-child(7) .num{background:#e9f7e1;color:#3b7a1f}
 @media (prefers-color-scheme:dark){
-:root:not([data-theme="light"]) .card:nth-child(7) .num{background:#1f3318;color:#9ad77a}
+.card:nth-child(7) .num{background:#1f3318;color:#9ad77a}
 }
-:root[data-theme="dark"] .card:nth-child(7) .num{background:#1f3318;color:#9ad77a}
 
 /* ---------- 8-ма картка ---------- */
 .card:nth-child(8) .num{background:#fff0d9;color:#a15c00}
 @media (prefers-color-scheme:dark){
-:root:not([data-theme="light"]) .card:nth-child(8) .num{background:#3a2a10;color:#f5b95c}
+.card:nth-child(8) .num{background:#3a2a10;color:#f5b95c}
 }
-:root[data-theme="dark"] .card:nth-child(8) .num{background:#3a2a10;color:#f5b95c}
+
+/* ---------- 9-та картка ---------- */
+.card:nth-child(9) .num{background:#e3f4f8;color:#0a6a80}
+@media (prefers-color-scheme:dark){
+.card:nth-child(9) .num{background:#10303a;color:#6ccde6}
+}
+
+/* ---------- Звукові завдання ---------- */
+.listen-bar{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 16px}
+.snd{display:inline-flex;align-items:center;gap:8px;font-size:16px}
+.tts-warn{margin:0 0 12px}
+
+/* ---------- 10-та і 11-та картки ---------- */
+.card:nth-child(10) .num{background:#efe7fd;color:#5b2ab0}
+.card:nth-child(11) .num{background:#fde7ee;color:#b0214e}
+@media (prefers-color-scheme:dark){
+.card:nth-child(10) .num{background:#2a1a4a;color:#c4a2f5}
+.card:nth-child(11) .num{background:#3a1522;color:#f58aa8}
+}
+.mtable{width:100%;border-collapse:collapse;margin:8px 0 14px}
+.mtable th,.mtable td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+
+/* ---------- Анімовані сцени ---------- */
+.scene{display:inline-flex;align-items:center;justify-content:center;gap:.12em;flex-wrap:wrap;font-size:inherit;line-height:1.1}
+.sc-e{display:inline-block;animation-duration:2.2s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;animation-delay:var(--d,0s)}
+.a-bounce{animation-name:sc-bounce}.a-float{animation-name:floaty}.a-wiggle{animation-name:sc-wiggle}.a-pulse{animation-name:pulse}.a-sway{animation-name:sc-sway}
+@keyframes sc-bounce{0%,100%{transform:translateY(0)}30%{transform:translateY(-12px)}55%{transform:translateY(0)}70%{transform:translateY(-4px)}}
+@keyframes sc-wiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg)}75%{transform:rotate(9deg)}}
+@keyframes sc-sway{0%,100%{transform:translateX(0) rotate(0)}50%{transform:translateX(7px) rotate(4deg)}}
+.stage{display:flex;justify-content:center;align-items:center;min-height:130px;font-size:72px;margin:10px 0 14px;padding:16px;border-radius:20px;background:linear-gradient(135deg,var(--accent-soft),var(--card));border:2px solid var(--line);animation:popin .5s var(--ease)}
+.sentence{font-size:22px;text-align:center;margin:6px 0 16px}
+.blank{display:inline-block;min-width:96px;padding:2px 12px;border-bottom:3px solid var(--accent);text-align:center;font-weight:700;color:var(--accent)}
+.blank.ok{color:var(--ok);border-color:var(--ok)}.blank.fixed{color:var(--bad);border-color:var(--bad)}
+.hearpics .pic-e{font-size:46px}
+@media (prefers-reduced-motion:reduce){.sc-e,.stage{animation:none}}
+.vsc{font-size:34px;width:150px;white-space:nowrap}
+.vtable td{vertical-align:middle}

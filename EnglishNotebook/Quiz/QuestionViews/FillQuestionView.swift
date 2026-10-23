@@ -1,10 +1,12 @@
 import SwiftUI
 
-/// Введення відповіді з клавіатури.
+/// Введення відповіді з клавіатури. Для диктанту (`sound` задано) — кнопки звуку над полем,
+/// а розділові знаки при перевірці не враховуються.
 struct FillQuestionView: View {
     var prompt: String
     var answers: [String]
     var no: String?
+    var sound: QuestionSound? = nil
     var finish: QuestionFinish
 
     @State private var input = ""
@@ -24,8 +26,9 @@ struct FillQuestionView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
             QuestionPrompt(text: prompt)
+            if let sound { SoundBar(sound: sound) }
             let colors = stateColor
-            TextField("Ваша відповідь…", text: $input)
+            TextField(sound == nil ? "Ваша відповідь…" : "Впишіть речення…", text: $input)
                 .font(.option)
                 .foregroundStyle(Theme.ink)
                 .focused($focused)
@@ -50,15 +53,16 @@ struct FillQuestionView: View {
         .onAppear {
             Task { @MainActor in
                 try? await Task.sleep(for: .milliseconds(500))
-                if result == nil { focused = true }
+                if result == nil, sound == nil { focused = true }
             }
         }
     }
 
     private func check() {
         guard result == nil, !isEmpty else { return }
-        let norm = input.normalizedAnswer
-        let ok = answers.contains { $0.normalizedAnswer == norm }
+        let key: (String) -> String = sound == nil ? { $0.normalizedAnswer } : { $0.dictationKey }
+        let norm = key(input)
+        let ok = answers.contains { key($0) == norm }
         focused = false
         withAnimation(Motion.ease(0.3)) { result = ok }
         finish(ok, input, answers.first ?? "", no)

@@ -100,9 +100,30 @@ final class QuizEngine {
         return s
     }
 
-    /// shuffleOptions із сайту: перемішує варіанти mc/pic разом із поясненнями `no` і перераховує `answer`.
+    /// Перестановка варіантів разом із поясненнями `no`; повертає (варіанти, новий answer, нові no).
+    private static func shuffled<T>(_ options: [T], answer: Int, no: [String?]?) -> ([T], Int, [String?]?) {
+        let idx = Array(options.indices).shuffledCopy()
+        return (idx.map { options[$0] },
+                idx.firstIndex(of: answer) ?? answer,
+                no.map { arr in idx.map { k -> String? in k < arr.count ? arr[k] : nil } })
+    }
+
+    /// shuffleOptions із сайту: перемішує варіанти mc/pic/listen/hearpic/scenegap/scenesay
+    /// разом із поясненнями `no` і перераховує `answer`.
     private static func shuffleOptions(_ question: Question) -> Question {
         switch question {
+        case .listen(let q, let sound, let reply, let options, let answer, let why, let no):
+            let (o, a, n) = shuffled(options, answer: answer, no: no)
+            return .listen(q: q, sound: sound, reply: reply, options: o, answer: a, why: why, no: n)
+        case .hearpic(let q, let sound, let options, let answer, let why, let no):
+            let (o, a, n) = shuffled(options, answer: answer, no: no)
+            return .hearpic(q: q, sound: sound, options: o, answer: a, why: why, no: n)
+        case .scenegap(let q, let scene, let sentence, let sound, let options, let answer, let why, let no):
+            let (o, a, n) = shuffled(options, answer: answer, no: no)
+            return .scenegap(q: q, scene: scene, sentence: sentence, sound: sound, options: o, answer: a, why: why, no: n)
+        case .scenesay(let q, let scene, let sound, let options, let answer, let why, let no):
+            let (o, a, n) = shuffled(options, answer: answer, no: no)
+            return .scenesay(q: q, scene: scene, sound: sound, options: o, answer: a, why: why, no: n)
         case .mc(let q, let options, let answer, let why, let no):
             let idx = Array(options.indices).shuffledCopy()
             return .mc(q: q,

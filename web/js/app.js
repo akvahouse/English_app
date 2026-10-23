@@ -19,7 +19,7 @@ function pickVersion(l) {
 }
 // Перемішує варіанти відповіді (mc, pic) разом із поясненнями
 function shuffleOptions(q) {
-  if (q.type !== "mc" && q.type !== "pic") return q;
+  if (!["mc", "pic", "listen", "hearpic", "scenegap", "scenesay"].includes(q.type)) return q;
   const idx = shuffle(q.options.map((_, k) => k));
   return { ...q, options: idx.map(k => q.options[k]), answer: idx.indexOf(q.answer), no: Array.isArray(q.no) ? idx.map(k => q.no[k]) : q.no };
 }
@@ -38,7 +38,7 @@ function home() {
   <div class="section-heading"><h2>Програма навчання</h2><span>${LESSONS.reduce((n,l)=>n+l.versions.reduce((m,v)=>m+v.quiz.length,0),0)} завдань у ${LESSONS.reduce((n,l)=>n+l.versions.length,0)} варіантах тестів</span></div>
   <div class="grid">${LESSONS.map((l, i) => {
     const r = p[l.id];
-    return `<a class="card" style="--i:${i}" href="#/lesson/${l.id}"><div class="card-art">${ART[l.id]}</div><div class="card-meta"><div class="num">0${i+1}</div><span>${l.versions.length} варіантів тесту</span></div><h3>${esc(l.title)}</h3><p><b>${esc(l.subtitle)}</b></p><p>${esc(l.summary)}</p><div class="card-foot"><span>Відкрити урок</span><span class="badge ${r ? "done" : ""}">${r ? Math.round(r.best / r.total * 100) + "% · " + r.best + " / " + r.total : "До вивчення"}</span></div></a>`;
+    return `<a class="card" style="--i:${i}" href="#/lesson/${l.id}"><div class="card-art">${ART[l.id]}</div><div class="card-meta"><div class="num">${String(i + 1).padStart(2, "0")}</div><span>${l.versions.length} варіантів тесту</span></div><h3>${esc(l.title)}</h3><p><b>${esc(l.subtitle)}</b></p><p>${esc(l.summary)}</p><div class="card-foot"><span>Відкрити урок</span><span class="badge ${r ? "done" : ""}">${r ? Math.round(r.best / r.total * 100) + "% · " + r.best + " / " + r.total : "До вивчення"}</span></div></a>`;
   }).join("")}</div>
   <div class="reset-row"><button type="button" class="reset-btn">↺ Скинути результати</button></div>`;
 }
@@ -176,7 +176,7 @@ function route() {
   if (reduceMotion()) document.querySelectorAll("svg.art").forEach(s => s.pauseAnimations && s.pauseAnimations());
 }
 window.addEventListener("hashchange", route);
-document.getElementById("lesson-nav").innerHTML = LESSONS.map((l,i)=>`<a href="#/lesson/${l.id}"><span>0${i+1}</span>${esc(l.short || l.title)}</a>`).join("");
+document.getElementById("lesson-nav").innerHTML = LESSONS.map((l,i)=>`<a href="#/lesson/${l.id}"><span>${String(i + 1).padStart(2, "0")}</span>${esc(l.short || l.title)}</a>`).join("");
 updateOverall();
 route();
 
